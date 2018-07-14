@@ -1,0 +1,43 @@
+{
+  "name": "react-native-maps-navigation",
+  "version": "0.0.1",
+  "description": "A helper and component library for react-native-maps that enables navigation support",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyandi/react-native-maps-navigation.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "react-native-maps",
+    "maps",
+    "navigation",
+    "gps",
+    "ios",
+    "android",
+    "react-component"
+  ],
+  "author": "Andy Schwarz <flyandi@yahoo.com> (http://flyandi.net)",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/flyandi/react-native-maps-navigation/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/flyandi/react-native-maps-navigation/issues"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "homepage": "https://github.com/flyandi/react-native-maps-navigation#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react-native-maps": "^0.21.0"
+  }
+}
