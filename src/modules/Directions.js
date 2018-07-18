@@ -100,11 +100,21 @@ export default class Directions {
 
             const polylines = steps.map(step => step.polyline);
 
+            const boundingBox = [toCoordinate(route.bounds.northeast), toCoordinate(route.bounds.southwest)];
+
+            console.log(boundingBox, GeoLib.getCenter(boundingBox));
+
             return {
                 title: route.summary,
                 markers,
                 steps,
                 polylines,
+                bounds: {
+                    boundingBox,
+                    center: GeoLib.getCenter(boundingBox),
+                    northEast: toCoordinate(route.bounds.northeast),
+                    southWest: toCoordinate(route.bounds.southwest),
+                },
                 initialBearing: steps.length ? steps[0].bearing : 0,
                 duration: leg.duration,
                 distance: leg.distance,

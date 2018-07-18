@@ -46,7 +46,7 @@ export default class MapViewNavigation extends Component {
         map: undefined,
         maxZoom: 21,
         minZoom: 5,
-        animationDuration: 2000,
+        animationDuration: 750,
         navigationViewingAngle: 90,
         navigationZoomLevel: 14,
         onRouteChange: undefined,
@@ -110,6 +110,22 @@ export default class MapViewNavigation extends Component {
     }
 
     /**
+     * getBoundingBoxZoomValue
+     * @param b
+     * @param quantifier
+     * @returns {*}
+     */
+    getBoundingBoxZoomValue(b, quantifier = 1) {
+
+        if(b.length != 2) return {};
+
+        return {
+            latitudeDelta: (b[0].latitude > b[1].latitude ? b[0].latitude - b[1].latitude : b[1].latitude - b[0].latitude) * quantifier,
+            longitudeDelta: (b[0].longitude > b[1].longitude ? b[0].longitude - b[1].longitude : b[1].longitude - b[0].longitude) * quantifier,
+        };
+    }
+
+    /**
      * updatePosition
      * @param coordinate
      * @param duration
@@ -117,7 +133,6 @@ export default class MapViewNavigation extends Component {
     updatePosition(coordinate, duration = 10)
     {
         this.props.map().animateToCoordinate(coordinate, duration);
-
     }
 
     /**
@@ -147,9 +162,11 @@ export default class MapViewNavigation extends Component {
      * @param options
      * @returns {PromiseLike<T> | Promise<T>}
      */
-    prepareRoute(origin, destination, options = false)
+    prepareRoute(origin, destination, options = false, testForRoute = false)
     {
-        this.clearRoute();
+        if(testForRoute && this.state.route) {
+            return Promise.resolve(this.state.route);
+        }
 
         return this.directionsCoder.fetch(origin, destination, options).then(routes => {
 
@@ -180,7 +197,12 @@ export default class MapViewNavigation extends Component {
     {
         return this.prepareRoute(origin, destination, options).then(route => {
 
-            console.log(route);
+            const region = {
+                ...route.bounds.center,
+                ...this.getBoundingBoxZoomValue(route.bounds.boundingBox, 1.2)
+            }
+
+            this.props.map().animateToRegion(region, this.props.animationDuration);
 
             return Promise.resolve(route);
         });
@@ -195,7 +217,7 @@ export default class MapViewNavigation extends Component {
      */
     navigateRoute(origin, destination, options = false)
     {
-        return this.prepareRoute(origin, destination, options).then(route => {
+        return this.prepareRoute(origin, destination, options, true).then(route => {
 
             const region = {
                 ...route.origin.coordinate,
@@ -205,7 +227,7 @@ export default class MapViewNavigation extends Component {
             this.props.map().animateToRegion(region, this.props.animationDuration);
             this.props.map().animateToViewingAngle(this.props.navigationViewingAngle, this.props.animationDuration);
 
-            this.updatePosition(route.origin.coordinate);
+            //this.updatePosition(route.origin.coordinate);
             this.updateBearing(route.initialBearing);
 
             //setTimeout(() => this.simulator.start(route), this.props.animationDuration * 1.5);
