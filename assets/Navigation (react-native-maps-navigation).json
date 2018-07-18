@@ -1,0 +1,2858 @@
+{
+  "metadata": {
+    "name": "Navigation (react-native-maps-navigation)",
+    "lastOpened": 1531598191031,
+    "created": 1531587788956
+  },
+  "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 1,
+          "id": 3,
+          "name": "target, goal, location, spot",
+          "prevSize": 32,
+          "code": 59761,
+          "tempChar": ""
+        },
+        {
+          "order": 2,
+          "id": 2,
+          "name": "location2, map-marker, pin",
+          "prevSize": 32,
+          "code": 59762,
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 1,
+          "name": "location3, map-marker2, pin2",
+          "prevSize": 32,
+          "code": 59763,
+          "tempChar": ""
+        },
+        {
+          "order": 93,
+          "id": 0,
+          "name": "compass, direction, location4",
+          "prevSize": 32,
+          "code": 59764,
+          "tempChar": ""
+        }
+      ],
+      "id": 5,
+      "metadata": {
+        "name": "IcoMoon - Free (subset)",
+        "licenseURL": "https://icomoon.io/#icons-icomoon",
+        "license": "GPL or CC BY 4.0",
+        "designerURL": "http://keyamoon.com",
+        "designer": "Keyamoon",
+        "url": "https://icomoon.io/#icons-icomoon",
+        "iconsHash": 767040192,
+        "importSize": {
+          "width": 32,
+          "height": 32
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 3,
+          "paths": [
+            "M1024 448h-100.924c-27.64-178.24-168.836-319.436-347.076-347.076v-100.924h-128v100.924c-178.24 27.64-319.436 168.836-347.076 347.076h-100.924v128h100.924c27.64 178.24 168.836 319.436 347.076 347.076v100.924h128v-100.924c178.24-27.64 319.436-168.836 347.076-347.076h100.924v-128zM792.822 448h-99.762c-19.284-54.55-62.51-97.778-117.060-117.060v-99.762c107.514 24.49 192.332 109.31 216.822 216.822zM512 576c-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64s-28.654 64-64 64zM448 231.178v99.762c-54.55 19.282-97.778 62.51-117.060 117.060h-99.762c24.49-107.512 109.31-192.332 216.822-216.822zM231.178 576h99.762c19.282 54.55 62.51 97.778 117.060 117.060v99.762c-107.512-24.49-192.332-109.308-216.822-216.822zM576 792.822v-99.762c54.55-19.284 97.778-62.51 117.060-117.060h99.762c-24.49 107.514-109.308 192.332-216.822 216.822z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "target",
+            "goal",
+            "location",
+            "spot"
+          ],
+          "grid": 16
+        },
+        {
+          "id": 2,
+          "paths": [
+            "M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 516c-108.248 0-196-87.752-196-196s87.752-196 196-196 196 87.752 196 196-87.752 196-196 196zM388 320c0-68.483 55.517-124 124-124s124 55.517 124 124c0 68.483-55.517 124-124 124s-124-55.517-124-124z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location",
+            "map-marker",
+            "pin"
+          ],
+          "grid": 16
+        },
+        {
+          "id": 1,
+          "paths": [
+            "M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location",
+            "map-marker",
+            "pin"
+          ],
+          "grid": 16
+        },
+        {
+          "id": 0,
+          "paths": [
+            "M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM96 512c0-229.75 186.25-416 416-416 109.574 0 209.232 42.386 283.534 111.628l-411.534 176.372-176.372 411.534c-69.242-74.302-111.628-173.96-111.628-283.534zM585.166 585.166l-256.082 109.75 109.75-256.082 146.332 146.332zM512 928c-109.574 0-209.234-42.386-283.532-111.628l411.532-176.372 176.372-411.532c69.242 74.298 111.628 173.958 111.628 283.532 0 229.75-186.25 416-416 416z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "compass",
+            "direction",
+            "location"
+          ],
+          "grid": 16
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    },
+    {
+      "selection": [
+        {
+          "order": 1,
+          "id": 26,
+          "name": "navigation",
+          "prevSize": 24,
+          "code": 59765,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 25,
+          "prevSize": 24,
+          "code": 59735,
+          "name": "watch_later",
+          "tempChar": ""
+        },
+        {
+          "order": 2,
+          "id": 24,
+          "prevSize": 24,
+          "code": 59736,
+          "name": "timer_3",
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 23,
+          "prevSize": 24,
+          "code": 59737,
+          "name": "timer_10",
+          "tempChar": ""
+        },
+        {
+          "order": 4,
+          "id": 22,
+          "prevSize": 24,
+          "code": 59738,
+          "name": "av_timer",
+          "tempChar": ""
+        },
+        {
+          "order": 5,
+          "id": 21,
+          "prevSize": 24,
+          "code": 59739,
+          "name": "timer",
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 20,
+          "name": "menu",
+          "prevSize": 24,
+          "code": 59740,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 19,
+          "name": "zoom_out_map",
+          "prevSize": 24,
+          "code": 59741,
+          "tempChar": ""
+        },
+        {
+          "order": 2,
+          "id": 18,
+          "name": "zoom_out",
+          "prevSize": 24,
+          "code": 59742,
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 17,
+          "name": "zoom_in",
+          "prevSize": 24,
+          "code": 59743,
+          "tempChar": ""
+        },
+        {
+          "order": 4,
+          "id": 16,
+          "name": "linear_scale",
+          "prevSize": 24,
+          "code": 59744,
+          "tempChar": ""
+        },
+        {
+          "order": 94,
+          "id": 15,
+          "name": "room, place",
+          "prevSize": 24,
+          "code": 59745,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 14,
+          "name": "zoom_out_map2",
+          "prevSize": 24,
+          "code": 59746,
+          "tempChar": ""
+        },
+        {
+          "order": 2,
+          "id": 13,
+          "name": "location_off",
+          "prevSize": 24,
+          "code": 59747,
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 12,
+          "name": "location_city",
+          "prevSize": 24,
+          "code": 59748,
+          "tempChar": ""
+        },
+        {
+          "order": 4,
+          "id": 11,
+          "name": "location_disabled2",
+          "prevSize": 24,
+          "code": 59749,
+          "tempChar": ""
+        },
+        {
+          "order": 5,
+          "id": 10,
+          "name": "location_searching2",
+          "prevSize": 24,
+          "code": 59750,
+          "tempChar": ""
+        },
+        {
+          "order": 6,
+          "id": 9,
+          "name": "my_location2",
+          "prevSize": 24,
+          "code": 59751,
+          "tempChar": ""
+        },
+        {
+          "order": 7,
+          "id": 8,
+          "name": "edit_location",
+          "prevSize": 24,
+          "code": 59752,
+          "tempChar": ""
+        },
+        {
+          "order": 8,
+          "id": 7,
+          "name": "add_location",
+          "prevSize": 24,
+          "code": 59753,
+          "tempChar": ""
+        },
+        {
+          "order": 9,
+          "id": 6,
+          "name": "map",
+          "prevSize": 24,
+          "code": 59754,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 5,
+          "prevSize": 24,
+          "code": 59755,
+          "name": "directions_transit",
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 4,
+          "name": "directions_walk",
+          "prevSize": 24,
+          "code": 59756,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 3,
+          "name": "directions_bike",
+          "prevSize": 24,
+          "code": 59757,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 2,
+          "name": "card_travel",
+          "prevSize": 24,
+          "code": 59758,
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 1,
+          "prevSize": 24,
+          "code": 59759,
+          "name": "home",
+          "tempChar": ""
+        },
+        {
+          "order": 1,
+          "id": 0,
+          "prevSize": 24,
+          "code": 59760,
+          "name": "directions_car",
+          "tempChar": ""
+        }
+      ],
+      "id": 4,
+      "metadata": {
+        "name": "Material Icons (subset)",
+        "url": "https://www.google.com/design/icons/",
+        "designerURL": "https://www.google.com/design",
+        "designer": "Google",
+        "licenseURL": "https://github.com/google/material-design-icons/blob/master/LICENSE",
+        "license": "Apache License 2.0",
+        "iconsHash": 2132284954,
+        "importSize": {
+          "width": 24,
+          "height": 24
+        }
+      },
+      "height": 1024,
+      "prevSize": 24,
+      "icons": [
+        {
+          "id": 26,
+          "paths": [
+            "M512 86l320 780-30 30-290-128-290 128-30-30z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "navigation"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 25,
+          "paths": [
+            "M692 692l34-56-192-116v-222h-64v256zM512 86c234 0 426 192 426 426s-192 426-426 426-426-192-426-426 192-426 426-426z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "watch_later"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 24,
+          "paths": [
+            "M748 446c-31.882 0-62 15.146-62 46 0 27.366 18.619 31.448 40 40 10 4 22 8 36 10 22 4 40 10 58 16s32 16 44 24 20 20 26 32 10 24 10 42c0 61.841-40.186 88.062-88 104-18 6-40 8-62 8-70.791 0-125.226-29.528-146-78-6-14-10-28-10-44h80c0 40.848 37.077 60 78 60 37.394 0 66-11.786 66-46 0-27.148-17.025-33.61-38-42-10-4-26-8-42-12-37.616-7.523-69.901-20.601-96-38-21.057-14.038-36-38.904-36-72 0-55.126 40.755-89.585 84-104 18-6 36-8 58-8 81.863 0 150 38.271 150 118h-84c0-26.038-16.411-44.603-38-50-8-2-18-6-28-6zM430 506c49.449 18.543 84 50.968 84 116 0 51.199-17.71 87.282-48 110-28.071 24.061-68.907 40-120 40-93.754 0-168-50.495-168-144h86c0 23.009 8.297 45.722 22 56 14.704 11.028 35.068 20 60 20 54.151 0 84-28.151 84-82 0-57.252-34.133-82-92-82h-52v-66h50c41.016 0 70.217-16.541 82-46 4-10 4-20 4-32 0-49.775-24.914-76-76-76-37.446 0-59.461 14.922-72 40-4 8-6 18-6 30h-84c0-68.668 45.9-107.96 96-128 20-6 42-10 66-10 97.425 0 160 46.959 160 144 0 56.969-36.756 90.378-76 110z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "timer_3"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 23,
+          "paths": [
+            "M550 564v-108c0-46.336-4.565-80.274-20-106-10.651-21.301-30.408-30-60-30-12 0-26 2-36 6-38.752 23.251-46 67.987-46 132v106c0 26 0 48 4 66s12 30 18 42c11.183 22.366 28.34 32 60 32 30.847 0 49.232-10.465 60-32 6-12 12-24 16-42s4-40 4-66zM304 470c0-128.235 41.373-218 166-218 51.866 0 95.697 16.753 120 48 30.427 39.121 44 97.117 44 170v82c0 127.815-39.287 220-164 220-124.183 0-166-92.158-166-220v-82zM872 446c-32.637 0-60 13.357-60 46 0 29.093 15.625 31.050 38 40 10 4 24 8 38 10 22 4 38 10 56 16s32 16 44 24 20 20 26 32 10 24 10 42c0 61.841-40.186 88.062-88 104-18 6-38 8-60 8-71.904 0-126.918-28.808-148-78-6-14-10-28-10-44h82c0 42.578 34.153 60 76 60 37.394 0 66-11.786 66-46 0-27.148-17.025-33.61-38-42-25.468-10.187-69.818-18.182-96-28-16-6-28-14-40-22-22.109-14.739-38-37.152-38-72 0-55.126 40.755-89.585 84-104 18-6 36-8 58-8 81.863 0 150 38.271 150 118h-84c0-24.555-15.687-44.922-36-50-8-2-20-6-30-6zM0 330l202-74h12v512h-86v-410l-128 44v-72z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "timer_10"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 22,
+          "paths": [
+            "M256 512c0-24 18-42 42-42s44 18 44 42-20 42-44 42-42-18-42-42zM768 512c0 24-18 42-42 42s-44-18-44-42 20-42 44-42 42 18 42 42zM470 128h42c212 0 384 172 384 384s-172 384-384 384-384-172-384-384c0-126 60-236 154-306v-2l290 290-60 60-232-230c-42 52-66 116-66 188 0 166 132 298 298 298s298-132 298-298c0-150-112-276-256-296v82h-84v-170zM470 726c0-24 18-44 42-44s42 20 42 44-18 42-42 42-42-18-42-42z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "av_timer"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 21,
+          "paths": [
+            "M512 854c166 0 298-134 298-300s-132-298-298-298-298 132-298 298 132 300 298 300zM812 316c52 66 84 148 84 238 0 212-172 384-384 384s-384-172-384-384 172-384 384-384c90 0 174 34 240 86l60-62c22 18 42 38 60 60zM470 598v-256h84v256h-84zM640 42v86h-256v-86h256z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "timer"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 20,
+          "paths": [
+            "M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "menu"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 19,
+          "paths": [
+            "M896 640v256h-256l98-98-124-122 62-62 122 124zM384 896h-256v-256l98 98 122-124 62 62-124 122zM128 384v-256h256l-98 98 124 122-62 62-122-124zM640 128h256v256l-98-98-122 124-62-62 124-122z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "zoom_out_map"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 18,
+          "paths": [
+            "M298 384h214v42h-214v-42zM406 598c106 0 192-86 192-192s-86-192-192-192-192 86-192 192 86 192 192 192zM662 598l212 212-64 64-212-212v-34l-12-12c-48 42-112 66-180 66-154 0-278-122-278-276s124-278 278-278 276 124 276 278c0 68-24 132-66 180l12 12h34z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "zoom_out"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 17,
+          "paths": [
+            "M512 426h-86v86h-42v-86h-86v-42h86v-86h42v86h86v42zM406 598c106 0 192-86 192-192s-86-192-192-192-192 86-192 192 86 192 192 192zM662 598l212 212-64 64-212-212v-34l-12-12c-48 42-112 66-180 66-154 0-278-122-278-276s124-278 278-278 276 124 276 278c0 68-24 132-66 180l12 12h34z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "zoom_in"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 16,
+          "paths": [
+            "M832 406c58 0 106 48 106 106s-48 106-106 106c-44 0-82-26-98-64h-124c-16 38-54 64-98 64s-82-26-98-64h-124c-16 38-54 64-98 64-58 0-106-48-106-106s48-106 106-106c44 0 82 26 98 64h124c16-38 54-64 98-64s82 26 98 64h124c16-38 54-64 98-64z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "linear_scale"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 15,
+          "paths": [
+            "M512 490c58 0 106-48 106-106s-48-106-106-106-106 48-106 106 48 106 106 106zM512 86c166 0 298 132 298 298 0 224-298 554-298 554s-298-330-298-554c0-166 132-298 298-298z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "room",
+            "place"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 14,
+          "paths": [
+            "M896 640v256h-256l98-98-124-122 62-62 122 124zM384 896h-256v-256l98 98 122-124 62 62-124 122zM128 384v-256h256l-98 98 124 122-62 62-122-124zM640 128h256v256l-98-98-122 124-62-62 124-122z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "zoom_out_map"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 13,
+          "paths": [
+            "M500 490c118.353 116.98 236.568 234.098 354 352l-54 54-144-142c-72 106-144 184-144 184s-298-330-298-554c0-22 4-44 8-66l-136-136 54-54 356 356zM512 278c-32 0-58 14-78 36l-138-136c54-56 132-92 216-92 166 0 298 132 298 298 0 72-30 154-72 234l-154-156c22-20 34-46 34-78 0-58-48-106-106-106z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location_off"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 12,
+          "paths": [
+            "M810 640v-86h-84v86h84zM810 810v-84h-84v84h84zM554 298v-84h-84v84h84zM554 470v-86h-84v86h84zM554 640v-86h-84v86h84zM554 810v-84h-84v84h84zM298 470v-86h-84v86h84zM298 640v-86h-84v86h84zM298 810v-84h-84v84h84zM640 470h256v426h-768v-598h256v-84l128-128 128 128v256z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location_city"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 11,
+          "paths": [
+            "M694 748l-418-418c-38 50-62 114-62 182 0 166 132 298 298 298 68 0 132-24 182-62zM128 182l54-54 714 714-54 54-88-88c-56 46-124 78-200 86v88h-84v-88c-178-20-320-162-340-340h-88v-84h88c8-76 40-144 86-200zM894 470h88v84h-88c-6 48-20 96-42 136l-64-64c14-34 22-74 22-114 0-166-132-298-298-298-40 0-80 8-114 22l-64-64c42-22 88-36 136-42v-88h84v88c178 20 320 162 340 340z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location_disabled"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 10,
+          "paths": [
+            "M512 810c166 0 298-132 298-298s-132-298-298-298-298 132-298 298 132 298 298 298zM894 470h88v84h-88c-20 178-162 320-340 340v88h-84v-88c-178-20-320-162-340-340h-88v-84h88c20-178 162-320 340-340v-88h84v88c178 20 320 162 340 340z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "location_searching"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 9,
+          "paths": [
+            "M512 810c166 0 298-132 298-298s-132-298-298-298-298 132-298 298 132 298 298 298zM894 470h88v84h-88c-20 178-162 320-340 340v88h-84v-88c-178-20-320-162-340-340h-88v-84h88c20-178 162-320 340-340v-88h84v88c178 20 320 162 340 340zM512 342c94 0 170 76 170 170s-76 170-170 170-170-76-170-170 76-170 170-170z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "my_location"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 8,
+          "paths": [
+            "M636 322c6-6 6-16 0-22l-40-40c-6-6-16-6-22 0l-30 30 62 62zM446 512l142-142-62-62-142 142v62h62zM512 86c164 0 298 134 298 298 0 224-298 554-298 554s-298-330-298-554c0-164 134-298 298-298z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "edit_location"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 7,
+          "paths": [
+            "M682 426v-84h-128v-128h-84v128h-128v84h128v128h84v-128h128zM512 86c164 0 298 134 298 298 0 224-298 554-298 554s-298-330-298-554c0-164 134-298 298-298z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "add_location"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 6,
+          "paths": [
+            "M640 810v-506l-256-90v506zM874 128c12 0 22 10 22 22v644c0 10-8 18-16 20l-240 82-256-90-228 88-6 2c-12 0-22-10-22-22v-644c0-10 8-18 16-20l240-82 256 90 228-88z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "map"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 5,
+          "paths": [
+            "M768 470v-214h-214v214h214zM704 726c36 0 64-28 64-64s-28-64-64-64-64 28-64 64 28 64 64 64zM470 470v-214h-214v214h214zM320 726c36 0 64-28 64-64s-28-64-64-64-64 28-64 64 28 64 64 64zM512 86c188 0 342 20 342 170v406c0 82-68 148-150 148l64 64v22h-512v-22l64-64c-82 0-150-66-150-148v-406c0-150 154-170 342-170z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "directions_transit"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 4,
+          "paths": [
+            "M418 380l-120 602h90l78-342 88 86v256h86v-320l-90-86 26-128c56 64 140 106 234 106v-84c-82 0-148-44-182-104l-44-68c-18-26-42-42-72-42-12 0-22 4-34 4l-222 94v200h86v-144l76-30zM576 234c-46 0-86-38-86-84s40-86 86-86 86 40 86 86-40 84-86 84z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "directions_walk"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 3,
+          "paths": [
+            "M810 874c82 0 150-66 150-148s-68-150-150-150-148 68-148 150 66 148 148 148zM810 512c120 0 214 94 214 214s-94 212-214 212-212-92-212-212 92-214 212-214zM460 448l94 98v264h-84v-212l-138-120c-18-12-24-34-24-60 0-22 6-42 24-60l120-120c12-18 34-24 60-24s46 6 68 24l82 82c38 38 88 64 152 64v86c-90 0-160-34-216-90l-34-34zM214 874c82 0 148-66 148-148s-66-150-148-150-150 68-150 150 68 148 150 148zM214 512c120 0 212 94 212 214s-92 212-212 212-214-92-214-212 94-214 214-214zM662 234c-46 0-86-38-86-84s40-86 86-86 84 40 84 86-38 84-84 84z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "directions_bike"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 2,
+          "paths": [
+            "M854 598v-256h-128v84h-86v-84h-256v84h-86v-84h-128v256h684zM854 810v-84h-684v84h684zM384 170v86h256v-86h-256zM854 256c48 0 84 38 84 86v468c0 48-36 86-84 86h-684c-48 0-84-38-84-86v-468c0-48 36-86 84-86h128v-86c0-48 38-84 86-84h256c48 0 86 36 86 84v86h128z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "card_travel"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 1,
+          "paths": [
+            "M426 854h-212v-342h-128l426-384 426 384h-128v342h-212v-256h-172v256z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "home"
+          ],
+          "grid": 24
+        },
+        {
+          "id": 0,
+          "paths": [
+            "M214 470h596l-64-192h-468zM746 682c36 0 64-28 64-64s-28-64-64-64-64 28-64 64 28 64 64 64zM278 682c36 0 64-28 64-64s-28-64-64-64-64 28-64 64 28 64 64 64zM808 256l88 256v342c0 24-18 42-42 42h-44c-24 0-42-18-42-42v-44h-512v44c0 24-18 42-42 42h-44c-24 0-42-18-42-42v-342l88-256c8-26 34-42 62-42h468c28 0 54 16 62 42z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "directions_car"
+          ],
+          "grid": 24
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    },
+    {
+      "selection": [
+        {
+          "order": 96,
+          "id": 87,
+          "name": "merge",
+          "prevSize": 32,
+          "code": 59766,
+          "tempChar": ""
+        },
+        {
+          "order": 2,
+          "id": 86,
+          "name": "arrive_left",
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 85,
+          "name": "arrive_right",
+          "prevSize": 32,
+          "code": 59649,
+          "tempChar": ""
+        },
+        {
+          "order": 4,
+          "id": 84,
+          "name": "arrive_straight",
+          "prevSize": 32,
+          "code": 59650,
+          "tempChar": ""
+        },
+        {
+          "order": 5,
+          "id": 83,
+          "name": "arrive",
+          "prevSize": 32,
+          "code": 59651,
+          "tempChar": ""
+        },
+        {
+          "order": 6,
+          "id": 82,
+          "name": "close",
+          "prevSize": 32,
+          "code": 59652,
+          "tempChar": ""
+        },
+        {
+          "order": 7,
+          "id": 81,
+          "name": "continue_left",
+          "prevSize": 32,
+          "code": 59653,
+          "tempChar": ""
+        },
+        {
+          "order": 8,
+          "id": 80,
+          "name": "continue_right",
+          "prevSize": 32,
+          "code": 59654,
+          "tempChar": ""
+        },
+        {
+          "order": 9,
+          "id": 79,
+          "name": "continue_slight_left",
+          "prevSize": 32,
+          "code": 59655,
+          "tempChar": ""
+        },
+        {
+          "order": 10,
+          "id": 78,
+          "name": "continue_slight_right",
+          "prevSize": 32,
+          "code": 59656,
+          "tempChar": ""
+        },
+        {
+          "order": 11,
+          "id": 77,
+          "name": "continue_straight",
+          "prevSize": 32,
+          "code": 59657,
+          "tempChar": ""
+        },
+        {
+          "order": 12,
+          "id": 76,
+          "name": "continue_uturn",
+          "prevSize": 32,
+          "code": 59658,
+          "tempChar": ""
+        },
+        {
+          "order": 13,
+          "id": 75,
+          "name": "continue",
+          "prevSize": 32,
+          "code": 59659,
+          "tempChar": ""
+        },
+        {
+          "order": 14,
+          "id": 74,
+          "name": "depart_left",
+          "prevSize": 32,
+          "code": 59660,
+          "tempChar": ""
+        },
+        {
+          "order": 15,
+          "id": 73,
+          "name": "depart_right",
+          "prevSize": 32,
+          "code": 59661,
+          "tempChar": ""
+        },
+        {
+          "order": 16,
+          "id": 72,
+          "name": "depart_straight",
+          "prevSize": 32,
+          "code": 59662,
+          "tempChar": ""
+        },
+        {
+          "order": 17,
+          "id": 71,
+          "name": "depart",
+          "prevSize": 32,
+          "code": 59663,
+          "tempChar": ""
+        },
+        {
+          "order": 18,
+          "id": 70,
+          "name": "end_of_road_left",
+          "prevSize": 32,
+          "code": 59664,
+          "tempChar": ""
+        },
+        {
+          "order": 19,
+          "id": 69,
+          "name": "end_of_road_right",
+          "prevSize": 32,
+          "code": 59665,
+          "tempChar": ""
+        },
+        {
+          "order": 20,
+          "id": 68,
+          "name": "flag",
+          "prevSize": 32,
+          "code": 59666,
+          "tempChar": ""
+        },
+        {
+          "order": 21,
+          "id": 67,
+          "name": "fork_left",
+          "prevSize": 32,
+          "code": 59667,
+          "tempChar": ""
+        },
+        {
+          "order": 22,
+          "id": 66,
+          "name": "fork_right",
+          "prevSize": 32,
+          "code": 59668,
+          "tempChar": ""
+        },
+        {
+          "order": 23,
+          "id": 65,
+          "name": "fork_slight_left",
+          "prevSize": 32,
+          "code": 59669,
+          "tempChar": ""
+        },
+        {
+          "order": 24,
+          "id": 64,
+          "name": "fork_slight_right",
+          "prevSize": 32,
+          "code": 59670,
+          "tempChar": ""
+        },
+        {
+          "order": 25,
+          "id": 63,
+          "name": "fork_straight",
+          "prevSize": 32,
+          "code": 59671,
+          "tempChar": ""
+        },
+        {
+          "order": 26,
+          "id": 62,
+          "name": "fork",
+          "prevSize": 32,
+          "code": 59672,
+          "tempChar": ""
+        },
+        {
+          "order": 27,
+          "id": 61,
+          "name": "invalid_left",
+          "prevSize": 32,
+          "code": 59673,
+          "tempChar": ""
+        },
+        {
+          "order": 28,
+          "id": 60,
+          "name": "invalid_right",
+          "prevSize": 32,
+          "code": 59674,
+          "tempChar": ""
+        },
+        {
+          "order": 29,
+          "id": 59,
+          "name": "invalid_slight_left",
+          "prevSize": 32,
+          "code": 59675,
+          "tempChar": ""
+        },
+        {
+          "order": 30,
+          "id": 58,
+          "name": "invalid_slight_right",
+          "prevSize": 32,
+          "code": 59676,
+          "tempChar": ""
+        },
+        {
+          "order": 31,
+          "id": 57,
+          "name": "invalid_straight",
+          "prevSize": 32,
+          "code": 59677,
+          "tempChar": ""
+        },
+        {
+          "order": 32,
+          "id": 56,
+          "name": "invalid_uturn",
+          "prevSize": 32,
+          "code": 59678,
+          "tempChar": ""
+        },
+        {
+          "order": 33,
+          "id": 55,
+          "name": "invalid",
+          "prevSize": 32,
+          "code": 59679,
+          "tempChar": ""
+        },
+        {
+          "order": 34,
+          "id": 54,
+          "name": "merge_left",
+          "prevSize": 32,
+          "code": 59680,
+          "tempChar": ""
+        },
+        {
+          "order": 35,
+          "id": 53,
+          "name": "merge_right",
+          "prevSize": 32,
+          "code": 59681,
+          "tempChar": ""
+        },
+        {
+          "order": 36,
+          "id": 52,
+          "name": "merge_slight_left",
+          "prevSize": 32,
+          "code": 59682,
+          "tempChar": ""
+        },
+        {
+          "order": 37,
+          "id": 51,
+          "name": "merge_slight_right",
+          "prevSize": 32,
+          "code": 59683,
+          "tempChar": ""
+        },
+        {
+          "order": 102,
+          "id": 50,
+          "name": "merge_straight",
+          "prevSize": 32,
+          "code": 59684,
+          "tempChar": ""
+        },
+        {
+          "order": 39,
+          "id": 49,
+          "name": "new_name_left",
+          "prevSize": 32,
+          "code": 59685,
+          "tempChar": ""
+        },
+        {
+          "order": 40,
+          "id": 48,
+          "name": "new_name_right",
+          "prevSize": 32,
+          "code": 59686,
+          "tempChar": ""
+        },
+        {
+          "order": 41,
+          "id": 47,
+          "name": "new_name_sharp_left",
+          "prevSize": 32,
+          "code": 59687,
+          "tempChar": ""
+        },
+        {
+          "order": 42,
+          "id": 46,
+          "name": "new_name_sharp_right",
+          "prevSize": 32,
+          "code": 59688,
+          "tempChar": ""
+        },
+        {
+          "order": 43,
+          "id": 45,
+          "name": "new_name_slight_left",
+          "prevSize": 32,
+          "code": 59689,
+          "tempChar": ""
+        },
+        {
+          "order": 44,
+          "id": 44,
+          "name": "new_name_slight_right",
+          "prevSize": 32,
+          "code": 59690,
+          "tempChar": ""
+        },
+        {
+          "order": 45,
+          "id": 43,
+          "name": "new_name_straight",
+          "prevSize": 32,
+          "code": 59691,
+          "tempChar": ""
+        },
+        {
+          "order": 46,
+          "id": 42,
+          "name": "notificaiton_sharp_right",
+          "prevSize": 32,
+          "code": 59692,
+          "tempChar": ""
+        },
+        {
+          "order": 47,
+          "id": 41,
+          "name": "notification_left",
+          "prevSize": 32,
+          "code": 59693,
+          "tempChar": ""
+        },
+        {
+          "order": 48,
+          "id": 40,
+          "name": "notification_right",
+          "prevSize": 32,
+          "code": 59694,
+          "tempChar": ""
+        },
+        {
+          "order": 49,
+          "id": 39,
+          "name": "notification_sharp_left",
+          "prevSize": 32,
+          "code": 59695,
+          "tempChar": ""
+        },
+        {
+          "order": 50,
+          "id": 38,
+          "name": "notification_slight_left",
+          "prevSize": 32,
+          "code": 59696,
+          "tempChar": ""
+        },
+        {
+          "order": 51,
+          "id": 37,
+          "name": "notification_slight_right",
+          "prevSize": 32,
+          "code": 59697,
+          "tempChar": ""
+        },
+        {
+          "order": 52,
+          "id": 36,
+          "name": "notification_straight",
+          "prevSize": 32,
+          "code": 59698,
+          "tempChar": ""
+        },
+        {
+          "order": 53,
+          "id": 35,
+          "name": "off_ramp_left",
+          "prevSize": 32,
+          "code": 59699,
+          "tempChar": ""
+        },
+        {
+          "order": 54,
+          "id": 34,
+          "name": "off_ramp_right",
+          "prevSize": 32,
+          "code": 59700,
+          "tempChar": ""
+        },
+        {
+          "order": 55,
+          "id": 33,
+          "name": "off_ramp_slight_left",
+          "prevSize": 32,
+          "code": 59701,
+          "tempChar": ""
+        },
+        {
+          "order": 56,
+          "id": 32,
+          "name": "off_ramp_slight_right",
+          "prevSize": 32,
+          "code": 59702,
+          "tempChar": ""
+        },
+        {
+          "order": 57,
+          "id": 31,
+          "name": "on_ramp_left",
+          "prevSize": 32,
+          "code": 59703,
+          "tempChar": ""
+        },
+        {
+          "order": 58,
+          "id": 30,
+          "name": "on_ramp_right",
+          "prevSize": 32,
+          "code": 59704,
+          "tempChar": ""
+        },
+        {
+          "order": 59,
+          "id": 29,
+          "name": "on_ramp_sharp_left",
+          "prevSize": 32,
+          "code": 59705,
+          "tempChar": ""
+        },
+        {
+          "order": 60,
+          "id": 28,
+          "name": "on_ramp_sharp_right",
+          "prevSize": 32,
+          "code": 59706,
+          "tempChar": ""
+        },
+        {
+          "order": 61,
+          "id": 27,
+          "name": "on_ramp_slight_left",
+          "prevSize": 32,
+          "code": 59707,
+          "tempChar": ""
+        },
+        {
+          "order": 62,
+          "id": 26,
+          "name": "on_ramp_slight_right",
+          "prevSize": 32,
+          "code": 59708,
+          "tempChar": ""
+        },
+        {
+          "order": 63,
+          "id": 25,
+          "name": "on_ramp_straight",
+          "prevSize": 32,
+          "code": 59709,
+          "tempChar": ""
+        },
+        {
+          "order": 64,
+          "id": 24,
+          "name": "rotary_left",
+          "prevSize": 32,
+          "code": 59710,
+          "tempChar": ""
+        },
+        {
+          "order": 65,
+          "id": 23,
+          "name": "rotary_right",
+          "prevSize": 32,
+          "code": 59711,
+          "tempChar": ""
+        },
+        {
+          "order": 66,
+          "id": 22,
+          "name": "rotary_sharp_left",
+          "prevSize": 32,
+          "code": 59712,
+          "tempChar": ""
+        },
+        {
+          "order": 67,
+          "id": 21,
+          "name": "rotary_sharp_right",
+          "prevSize": 32,
+          "code": 59713,
+          "tempChar": ""
+        },
+        {
+          "order": 68,
+          "id": 20,
+          "name": "rotary_slight_left",
+          "prevSize": 32,
+          "code": 59714,
+          "tempChar": ""
+        },
+        {
+          "order": 69,
+          "id": 19,
+          "name": "rotary_slight_right",
+          "prevSize": 32,
+          "code": 59715,
+          "tempChar": ""
+        },
+        {
+          "order": 70,
+          "id": 18,
+          "name": "rotary_straight",
+          "prevSize": 32,
+          "code": 59716,
+          "tempChar": ""
+        },
+        {
+          "order": 71,
+          "id": 17,
+          "name": "rotary",
+          "prevSize": 32,
+          "code": 59717,
+          "tempChar": ""
+        },
+        {
+          "order": 72,
+          "id": 16,
+          "name": "roundabout_left",
+          "prevSize": 32,
+          "code": 59718,
+          "tempChar": ""
+        },
+        {
+          "order": 73,
+          "id": 15,
+          "name": "roundabout_right",
+          "prevSize": 32,
+          "code": 59719,
+          "tempChar": ""
+        },
+        {
+          "order": 74,
+          "id": 14,
+          "name": "roundabout_sharp_left",
+          "prevSize": 32,
+          "code": 59720,
+          "tempChar": ""
+        },
+        {
+          "order": 75,
+          "id": 13,
+          "name": "roundabout_sharp_right",
+          "prevSize": 32,
+          "code": 59721,
+          "tempChar": ""
+        },
+        {
+          "order": 76,
+          "id": 12,
+          "name": "roundabout_slight_left",
+          "prevSize": 32,
+          "code": 59722,
+          "tempChar": ""
+        },
+        {
+          "order": 77,
+          "id": 11,
+          "name": "roundabout_slight_right",
+          "prevSize": 32,
+          "code": 59723,
+          "tempChar": ""
+        },
+        {
+          "order": 78,
+          "id": 10,
+          "name": "roundabout_straight",
+          "prevSize": 32,
+          "code": 59724,
+          "tempChar": ""
+        },
+        {
+          "order": 79,
+          "id": 9,
+          "name": "roundabout",
+          "prevSize": 32,
+          "code": 59725,
+          "tempChar": ""
+        },
+        {
+          "order": 80,
+          "id": 8,
+          "name": "turn_left",
+          "prevSize": 32,
+          "code": 59726,
+          "tempChar": ""
+        },
+        {
+          "order": 81,
+          "id": 7,
+          "name": "turn_right",
+          "prevSize": 32,
+          "code": 59727,
+          "tempChar": ""
+        },
+        {
+          "order": 82,
+          "id": 6,
+          "name": "turn_sharp_left",
+          "prevSize": 32,
+          "code": 59728,
+          "tempChar": ""
+        },
+        {
+          "order": 83,
+          "id": 5,
+          "name": "turn_sharp_right",
+          "prevSize": 32,
+          "code": 59729,
+          "tempChar": ""
+        },
+        {
+          "order": 84,
+          "id": 4,
+          "name": "turn_slight_left",
+          "prevSize": 32,
+          "code": 59730,
+          "tempChar": ""
+        },
+        {
+          "order": 85,
+          "id": 3,
+          "name": "turn_slight_right",
+          "prevSize": 32,
+          "code": 59731,
+          "tempChar": ""
+        },
+        {
+          "order": 86,
+          "id": 2,
+          "name": "turn_straight",
+          "prevSize": 32,
+          "code": 59732,
+          "tempChar": ""
+        },
+        {
+          "order": 87,
+          "id": 1,
+          "name": "updown",
+          "prevSize": 32,
+          "code": 59733,
+          "tempChar": ""
+        },
+        {
+          "order": 88,
+          "id": 0,
+          "name": "uturn",
+          "prevSize": 32,
+          "code": 59734,
+          "tempChar": ""
+        }
+      ],
+      "id": 2,
+      "metadata": {
+        "name": "Direction Arrows",
+        "importSize": {
+          "width": 20,
+          "height": 20
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 87,
+          "paths": [
+            "M471.040 512h81.92zM563.2 501.76c0 0 0 0 0 0h-102.4zM762.88 414.72l-250.88-322.56-250.88 322.56c-5.12 10.24-5.12 20.48 0 30.72 5.12 5.12 10.24 5.12 20.48 5.12l153.6-66.56c5.12-10.24 20.48-10.24 25.6 0 0 5.12 0 10.24 0 15.36v102.4c-5.12 87.040-51.2 163.84-122.88 204.8l-220.16 138.24c-15.36 5.12-15.36 20.48-10.24 30.72 0 0 0 0 0 0l25.6 46.080c5.12 10.24 25.6 15.36 35.84 10.24 0 0 0 0 0 0l220.16-138.24c107.52-61.44 174.080-168.96 174.080-291.84v-102.4c0-10.24 5.12-20.48 15.36-20.48 5.12 0 10.24 0 15.36 0l153.6 66.56c10.24 5.12 20.48 0 25.6-10.24-5.12-5.12-5.12-15.36-10.24-20.48z",
+            "M471.040 512h81.92zM563.2 501.76c0 0 0 0 0 0h-102.4zM281.6 445.44l153.6-66.56c10.24-5.12 20.48-5.12 25.6 5.12 0 5.12 0 10.24 0 15.36v0 102.4c0 122.88 66.56 235.52 174.080 291.84l220.16 138.24c10.24 5.12 25.6 5.12 35.84-10.24 0 0 0 0 0 0l25.6-40.96c5.12-10.24 5.12-25.6-10.24-35.84 0 0 0 0 0 0l-220.16-138.24c-71.68-40.96-122.88-117.76-122.88-204.8v-102.4c0-10.24 5.12-20.48 15.36-20.48 5.12 0 10.24 0 15.36 0l153.6 66.56c10.24 5.12 20.48 0 25.6-10.24 0-5.12 0-15.36-5.12-20.48l-256-322.56-250.88 322.56c-10.24 10.24-5.12 20.48 0 30.72 5.12 5.12 15.36 5.12 20.48 0z"
+          ],
+          "attrs": [
+            {},
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge"
+          ]
+        },
+        {
+          "id": 86,
+          "paths": [
+            "M153.6 614.4c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM665.75 565.078c113.213 1.987 204.227 94.23 204.227 207.73 0 0.288-0.001 0.576-0.002 0.864l0-0.044h0.425v70.541c-0 0-0 0-0 0.001 0 14.487 11.744 26.231 26.231 26.231 0 0 0-0 0.001-0l49.937 0c0 0 0 0 0.001 0 14.487 0 26.231-11.744 26.231-26.231 0-0-0-0-0-0.001l0 0v-76.169h-0.709c-2.641-167.911-138.352-303.262-306.154-305.32l-0.196-0.002-0.563-0.094 0.006 1.028h-50.784v-0.465c-1.176 0.269-2.527 0.423-3.914 0.423-10.111 0-18.308-8.197-18.308-18.308 0-3.672 1.081-7.092 2.943-9.959l-0.043 0.071 68.8-151.134c0.617-1.83 0.973-3.937 0.973-6.128 0-10.932-8.862-19.793-19.793-19.793-5.035 0-9.632 1.88-13.125 4.977l0.021-0.018-324.753 251.068 324.753 251.069c3.473 3.078 8.068 4.958 13.103 4.958 10.932 0 19.794-8.862 19.794-19.794 0-2.19-0.356-4.297-1.012-6.266l0.040 0.14-68.8-151.134c-1.819-2.795-2.9-6.215-2.9-9.888 0-10.111 8.197-18.308 18.308-18.308 1.387 0 2.738 0.154 4.037 0.446l-0.122-0.023v0.465h51.2z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "arrive_left"
+          ]
+        },
+        {
+          "id": 85,
+          "paths": [
+            "M768 512c0-56.554 45.846-102.4 102.4-102.4s102.4 45.846 102.4 102.4c0 56.554-45.846 102.4-102.4 102.4v0c-56.554 0-102.4-45.846-102.4-102.4v0zM358.4 566.012h51.2v-0.465c1.176-0.269 2.527-0.423 3.914-0.423 10.111 0 18.308 8.197 18.308 18.308 0 3.672-1.081 7.092-2.943 9.959l0.043-0.071-68.8 151.134c-0.616 1.83-0.972 3.936-0.972 6.126 0 10.932 8.862 19.794 19.794 19.794 5.035 0 9.631-1.88 13.124-4.976l-0.021 0.018 324.753-251.068-324.753-251.069c-3.473-3.079-8.069-4.959-13.104-4.959-10.932 0-19.793 8.862-19.793 19.793 0 2.191 0.356 4.298 1.013 6.268l-0.040-0.14 68.8 151.135c1.818 2.795 2.9 6.215 2.9 9.888 0 10.111-8.197 18.308-18.308 18.308-1.387 0-2.738-0.154-4.036-0.446l0.122 0.023v0.465h-50.781l0.006-1.028-0.563 0.094c-167.999 2.059-303.711 137.41-306.35 305.072l-0.003 0.25h-0.709v76.169c-0 0-0 0-0 0.001 0 14.487 11.744 26.231 26.231 26.231 0 0 0-0 0.001-0l49.937 0c0 0 0 0 0.001 0 14.487 0 26.231-11.744 26.231-26.231 0-0-0-0-0-0.001l0 0v-70.541h0.425c-0.001-0.243-0.002-0.531-0.002-0.82 0-113.5 91.014-205.743 204.041-207.728l0.186-0.003z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "arrive_right"
+          ]
+        },
+        {
+          "id": 84,
+          "paths": [
+            "M512 256c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM763.537 683.578l-251.068-324.753-251.069 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.134-68.8c2.785-1.82 6.196-2.902 9.86-2.902 10.050 0 18.198 8.147 18.198 18.198 0 1.275-0.131 2.519-0.38 3.719l0.020-0.118h-0.394v281.603c-0 0-0 0.001-0 0.001 0 14.136 11.46 25.596 25.596 25.596 0 0 0.001-0 0.001-0l51.206 0c0 0 0.001 0 0.001 0 14.136 0 25.596-11.46 25.596-25.596 0-0-0-0.001-0-0.001l0 0v-281.178h0.469c-0.269-1.176-0.423-2.527-0.423-3.914 0-10.111 8.197-18.308 18.308-18.308 3.672 0 7.092 1.081 9.959 2.943l-0.071-0.043 151.134 68.8c1.829 0.616 3.936 0.972 6.126 0.972 10.932 0 19.794-8.862 19.794-19.794 0-5.035-1.88-9.63-4.975-13.123l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "arrive_straight"
+          ]
+        },
+        {
+          "id": 83,
+          "paths": [
+            "M512 256c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM763.537 683.578l-251.068-324.753-251.069 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.134-68.8c2.785-1.82 6.196-2.902 9.86-2.902 10.050 0 18.198 8.147 18.198 18.198 0 1.275-0.131 2.519-0.38 3.719l0.020-0.118h-0.394v281.603c-0 0-0 0.001-0 0.001 0 14.136 11.46 25.596 25.596 25.596 0 0 0.001-0 0.001-0l51.206 0c0 0 0.001 0 0.001 0 14.136 0 25.596-11.46 25.596-25.596 0-0-0-0.001-0-0.001l0 0v-281.178h0.469c-0.269-1.176-0.423-2.527-0.423-3.914 0-10.111 8.197-18.308 18.308-18.308 3.672 0 7.092 1.081 9.959 2.943l-0.071-0.043 151.134 68.8c1.829 0.616 3.936 0.972 6.126 0.972 10.932 0 19.794-8.862 19.794-19.794 0-5.035-1.88-9.63-4.975-13.123l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "arrive"
+          ]
+        },
+        {
+          "id": 82,
+          "paths": [
+            "M888.602 207.798l-286.204 286.204c-4.605 4.606-7.454 10.969-7.454 17.997s2.848 13.391 7.454 17.997l286.204 286.204c4.605 4.606 7.454 10.969 7.454 17.997s-2.848 13.391-7.454 17.997l-36.403 36.403c-4.606 4.605-10.969 7.454-17.997 7.454s-13.391-2.848-17.997-7.454l-286.204-286.204c-4.606-4.605-10.969-7.454-17.997-7.454s-13.391 2.848-17.997 7.454l-286.21 286.21c-4.606 4.605-10.969 7.454-17.997 7.454s-13.391-2.848-17.997-7.454l-36.403-36.403c-4.605-4.606-7.454-10.969-7.454-17.997s2.848-13.391 7.454-17.997l286.204-286.204c4.605-4.606 7.454-10.969 7.454-17.997s-2.848-13.391-7.454-17.997l-286.207-286.21c-4.605-4.606-7.454-10.969-7.454-17.997s2.848-13.391 7.454-17.997l36.403-36.403c4.606-4.605 10.969-7.454 17.997-7.454s13.391 2.848 17.997 7.454l286.207 286.201c4.606 4.605 10.969 7.454 17.997 7.454s13.391-2.848 17.997-7.454l286.204-286.204c4.606-4.605 10.969-7.454 17.997-7.454s13.391 2.848 17.997 7.454l36.403 36.403c4.608 4.606 7.458 10.971 7.458 18.001 0 7.028-2.848 13.39-7.453 17.996l0-0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "close"
+          ]
+        },
+        {
+          "id": 81,
+          "paths": [
+            "M512 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.159l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406h-0v-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.5-91.014-205.743-204.041-207.728l-0.186-0.003h-102.338c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_left"
+          ]
+        },
+        {
+          "id": 80,
+          "paths": [
+            "M511.425 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.1-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.973-3.938-0.973-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.125 4.977l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_right"
+          ]
+        },
+        {
+          "id": 79,
+          "paths": [
+            "M767.278 719.002v177.194c-0.001 14.030-11.374 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.985 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.541 120.506 273.791 0 8.052-0.256 16.043-0.761 23.967l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_slight_left"
+          ]
+        },
+        {
+          "id": 78,
+          "paths": [
+            "M376.522 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.985-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_slight_right"
+          ]
+        },
+        {
+          "id": 77,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_straight"
+          ]
+        },
+        {
+          "id": 76,
+          "paths": [
+            "M870.865 409.6v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0-98.969-80.231-179.2-179.2-179.2s-179.2 80.231-179.2 179.2v0 204.8h-0.468c-0.269 1.176-0.423 2.527-0.423 3.914 0 10.111 8.197 18.308 18.308 18.308 3.672 0 7.092-1.081 9.959-2.943l-0.071 0.043 151.134-68.8c1.83-0.616 3.936-0.972 6.126-0.972 10.932 0 19.794 8.862 19.794 19.794 0 5.035-1.88 9.631-4.976 13.124l0.018-0.021-251.068 324.753-251.072-324.753c-3.078-3.473-4.958-8.068-4.958-13.103 0-10.932 8.862-19.794 19.794-19.794 2.19 0 4.297 0.356 6.266 1.012l-0.14-0.040 151.134 68.8c2.796 1.819 6.216 2.901 9.889 2.901 10.112 0 18.309-8.197 18.309-18.309 0-1.387-0.154-2.737-0.446-4.036l0.023 0.122h0.465v-204.8c0-155.523 126.077-281.6 281.6-281.6s281.6 126.077 281.6 281.6v0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue_uturn"
+          ]
+        },
+        {
+          "id": 75,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "continue"
+          ]
+        },
+        {
+          "id": 74,
+          "paths": [
+            "M768 972.8c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM512.15 411.478c113.213 1.987 204.227 94.23 204.227 207.73 0 0.288-0.001 0.576-0.002 0.864l0-0.044h0.425v70.541c-0 0-0 0-0 0.001 0 14.487 11.744 26.231 26.231 26.231 0 0 0-0 0.001-0l49.937 0c0 0 0 0 0.001 0 14.487 0 26.231-11.744 26.231-26.231 0-0-0-0-0-0.001l0 0v-76.169h-0.709c-2.641-167.911-138.352-303.262-306.154-305.32l-0.196-0.002-0.563-0.094 0.004 1.028h-50.781v-0.465c-1.176 0.269-2.527 0.423-3.914 0.423-10.111 0-18.308-8.197-18.308-18.308 0-3.672 1.081-7.092 2.943-9.959l-0.043 0.071 68.8-151.135c0.617-1.83 0.973-3.937 0.973-6.128 0-10.932-8.862-19.793-19.793-19.793-5.035 0-9.632 1.88-13.125 4.977l0.021-0.018-324.753 251.069 324.753 251.069c3.473 3.078 8.068 4.958 13.103 4.958 10.932 0 19.794-8.862 19.794-19.794 0-2.19-0.356-4.297-1.012-6.266l0.040 0.14-68.8-151.135c-1.818-2.795-2.9-6.215-2.9-9.888 0-10.111 8.197-18.308 18.308-18.308 1.387 0 2.738 0.154 4.036 0.446l-0.122-0.023v0.465h51.2z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "depart_left"
+          ]
+        },
+        {
+          "id": 73,
+          "paths": [
+            "M153.6 870.4c0-56.554 45.846-102.4 102.4-102.4s102.4 45.846 102.4 102.4c0 56.554-45.846 102.4-102.4 102.4v0c-56.554 0-102.4-45.846-102.4-102.4v0zM512 412.412h51.2v-0.465c1.176-0.269 2.527-0.423 3.914-0.423 10.111 0 18.308 8.197 18.308 18.308 0 3.672-1.081 7.092-2.943 9.959l0.043-0.071-68.8 151.134c-0.616 1.83-0.972 3.936-0.972 6.126 0 10.932 8.862 19.794 19.794 19.794 5.035 0 9.631-1.88 13.124-4.976l-0.021 0.018 324.753-251.068-324.753-251.069c-3.473-3.079-8.069-4.959-13.104-4.959-10.932 0-19.793 8.862-19.793 19.793 0 2.191 0.356 4.298 1.013 6.268l-0.040-0.14 68.8 151.134c1.819 2.795 2.9 6.215 2.9 9.888 0 10.111-8.197 18.308-18.308 18.308-1.387 0-2.738-0.154-4.037-0.446l0.122 0.023v0.465h-50.781l0.006-1.028-0.563 0.094c-167.999 2.059-303.711 137.41-306.35 305.072l-0.003 0.25h-0.709v76.169c-0 0-0 0-0 0.001 0 14.487 11.744 26.231 26.231 26.231 0 0 0-0 0.001-0l49.937 0c0 0 0 0 0.001 0 14.487 0 26.231-11.744 26.231-26.231 0-0-0-0-0-0.001l0 0v-70.541h0.425c-0.001-0.243-0.002-0.531-0.002-0.82 0-113.5 91.014-205.743 204.041-207.728l0.186-0.003z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "depart_right"
+          ]
+        },
+        {
+          "id": 72,
+          "paths": [
+            "M512 972.8c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM763.537 375.953l-251.068-324.753-251.069 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.135-68.8c2.786-1.821 6.198-2.904 9.862-2.904 10.050 0 18.198 8.147 18.198 18.198 0 1.275-0.131 2.52-0.381 3.721l0.021-0.118h-0.396v281.603c-0 0-0 0.001-0 0.001 0 14.136 11.46 25.596 25.596 25.596 0 0 0.001-0 0.001-0l51.206 0c0 0 0.001 0 0.001 0 14.136 0 25.596-11.46 25.596-25.596 0-0-0-0.001-0-0.001l0 0v-281.178h0.469c-0.269-1.176-0.423-2.527-0.423-3.914 0-10.111 8.197-18.308 18.308-18.308 3.672 0 7.092 1.081 9.959 2.943l-0.071-0.043 151.134 68.8c1.83 0.616 3.936 0.972 6.126 0.972 10.932 0 19.794-8.862 19.794-19.794 0-5.035-1.88-9.631-4.976-13.124l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "depart_straight"
+          ]
+        },
+        {
+          "id": 71,
+          "paths": [
+            "M511.064 972.8c-56.554 0-102.4-45.846-102.4-102.4s45.846-102.4 102.4-102.4c56.554 0 102.4 45.846 102.4 102.4v0c0 56.554-45.846 102.4-102.4 102.4v0zM762.601 375.953l-251.069-324.753-251.068 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.134-68.8c2.786-1.821 6.198-2.904 9.862-2.904 10.050 0 18.198 8.147 18.198 18.198 0 1.275-0.131 2.52-0.381 3.721l0.021-0.118h-0.396v281.603c-0 0-0 0.001-0 0.001 0 14.136 11.46 25.596 25.596 25.596 0 0 0.001-0 0.001-0l51.206 0c0 0 0.001 0 0.001 0 14.136 0 25.596-11.46 25.596-25.596 0-0-0-0.001-0-0.001l0 0v-281.178h0.469c-0.269-1.176-0.423-2.527-0.423-3.914 0-10.111 8.197-18.308 18.308-18.308 3.672 0 7.092 1.081 9.959 2.943l-0.071-0.043 151.134 68.8c1.83 0.616 3.936 0.972 6.126 0.972 10.932 0 19.794-8.862 19.794-19.794 0-5.035-1.88-9.631-4.976-13.124l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "depart"
+          ]
+        },
+        {
+          "id": 70,
+          "paths": [
+            "M844.981 317.44c8.379 0.009 15.169 6.799 15.179 15.178l0 0.001v51.562c-0.009 8.379-6.799 15.169-15.178 15.179l-476.342 0v-81.92h476.341zM844.981 307.2h-486.581v102.4h486.581c0 0 0 0 0.001 0 14.038 0 25.418-11.38 25.418-25.418 0-0-0-0-0-0.001l-0 0v-51.562c0-0 0-0 0-0.001 0-14.038-11.38-25.418-25.418-25.418-0 0-0 0-0.001 0l0 0zM512 306.263h-101.763c-1.176 0.269-2.527 0.423-3.914 0.423-10.111 0-18.308-8.197-18.308-18.308 0-3.672 1.081-7.092 2.943-9.959l-0.043 0.071 68.8-151.134c0.617-1.83 0.973-3.938 0.973-6.128 0-10.932-8.862-19.793-19.793-19.793-5.035 0-9.631 1.88-13.125 4.977l0.021-0.018-324.966 252.006 324.966 250.135c3.472 3.078 8.068 4.958 13.103 4.958 10.932 0 19.793-8.862 19.793-19.793 0-2.191-0.356-4.298-1.013-6.268l0.040 0.14-68.8-151.134c-1.819-2.796-2.9-6.216-2.9-9.889 0-10.112 8.197-18.309 18.309-18.309 1.386 0 2.737 0.154 4.035 0.446l-0.122-0.023h102.338c113.213 1.987 204.227 94.23 204.227 207.73 0 0.288-0.001 0.576-0.002 0.864l0-0.044v278.981c0 14.032 11.375 25.406 25.406 25.406h51.531c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.025-0-0.037l0 0.002-0.1-76.962h0.159v-201.988c0-0.205 0.001-0.447 0.001-0.69 0-170.083-136.848-308.203-306.444-310.258l-0.194-0.002-0.563-0.094z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "end_of_road_left"
+          ]
+        },
+        {
+          "id": 69,
+          "paths": [
+            "M655.36 317.44v81.92h-527.299c-8.513-0.010-15.411-6.908-15.421-15.419l-0-0.001v-51.079c0.010-8.513 6.908-15.411 15.42-15.42l527.3-0zM665.6 307.2h-537.539c-14.172 0-25.661 11.489-25.661 25.66l-0 0v51.079c0 14.172 11.489 25.66 25.661 25.66h537.539v-102.4zM512 408.663h101.763c1.176-0.269 2.526-0.423 3.913-0.423 10.112 0 18.309 8.197 18.309 18.309 0 3.673-1.082 7.093-2.943 9.96l0.043-0.071-68.8 151.134c-0.617 1.83-0.973 3.937-0.973 6.128 0 10.932 8.862 19.793 19.793 19.793 5.035 0 9.632-1.88 13.125-4.977l-0.021 0.018 324.965-250.134-324.966-252.006c-3.473-3.079-8.069-4.959-13.104-4.959-10.932 0-19.793 8.862-19.793 19.793 0 2.191 0.356 4.298 1.013 6.268l-0.040-0.14 68.8 151.134c1.818 2.795 2.9 6.215 2.9 9.888 0 10.111-8.197 18.308-18.308 18.308-1.387 0-2.738-0.154-4.036-0.446l0.122 0.023-102.325 0.001c-169.789 2.058-306.638 140.178-306.638 310.26 0 0.242 0 0.485 0.001 0.727l-0-0.037v201.988h0.159l-0.102 76.962c-0 0.010-0 0.023-0 0.035 0 14.029 11.373 25.402 25.402 25.402 0.001 0 0.002-0 0.003-0l51.531 0c14.032 0 25.406-11.375 25.406-25.406v0-278.981c-0.001-0.243-0.002-0.531-0.002-0.82 0-113.5 91.014-205.743 204.041-207.728l0.186-0.003h0.575z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "end_of_road_right"
+          ]
+        },
+        {
+          "id": 68,
+          "paths": [
+            "M179.2 921.6v0c-14.138 0-25.6-11.462-25.6-25.6v0-716.8c0-14.138 11.462-25.6 25.6-25.6v0 0c14.138 0 25.6 11.462 25.6 25.6v0 716.8c0 14.138-11.462 25.6-25.6 25.6v0zM682.666 358.4l187.734-204.8h-563.2v409.6h563.2z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "flag"
+          ]
+        },
+        {
+          "id": 67,
+          "paths": [
+            "M908.089 336.733c0.002-0 0.005-0 0.008-0 4.697 0 8.909 2.076 11.769 5.361l0.016 0.019 33.229 38.328c2.368 2.72 3.811 6.299 3.811 10.215 0 4.769-2.141 9.038-5.514 11.898l-0.023 0.019-105.495 89.009c-54.931 50.763-89.212 123.178-89.212 203.6 0 5.728 0.174 11.416 0.517 17.058l-0.038-0.775 0.241 184.714c0 0.006 0 0.014 0 0.021 0 8.373-6.788 15.161-15.161 15.161-0 0-0.001-0-0.001-0l-51.531 0c-8.372-0.010-15.157-6.794-15.167-15.165l-0-0.001-0.030-177.983c-0.487-6.993-0.765-15.155-0.765-23.382 0-104.737 44.983-198.967 116.683-264.426l0.279-0.251 106.342-89.741c2.693-2.283 6.207-3.673 10.045-3.677l0.001-0zM908.093 326.493c-0.006-0-0.013-0-0.020-0-6.356 0-12.175 2.304-16.665 6.123l0.037-0.030-106.344 89.74c-74.181 68.111-120.508 165.541-120.508 273.793 0 8.051 0.256 16.042 0.761 23.965l-0.055-1.082v177.194c0.001 14.031 11.376 25.404 25.406 25.404h51.531c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.024-0-0.036l0 0.002-0.241-184.713c-0.308-4.802-0.483-10.412-0.483-16.063 0-77.426 32.935-147.16 85.56-195.955l0.172-0.157 105.339-88.877c5.626-4.77 9.174-11.842 9.174-19.744 0-6.487-2.391-12.416-6.341-16.953l0.027 0.031-33.229-38.328c-4.753-5.472-11.722-8.912-19.494-8.912-0.013 0-0.026 0-0.039 0l0.002-0zM460.84 306.263h-101.763c-1.176 0.269-2.527 0.423-3.914 0.423-10.111 0-18.308-8.197-18.308-18.308 0-3.672 1.081-7.092 2.943-9.959l-0.043 0.071 68.8-151.134c0.617-1.83 0.973-3.938 0.973-6.129 0-10.932-8.862-19.793-19.793-19.793-5.036 0-9.632 1.88-13.125 4.977l0.021-0.018-324.965 252.006 324.966 250.135c3.472 3.078 8.068 4.958 13.103 4.958 10.932 0 19.793-8.862 19.793-19.793 0-2.191-0.356-4.298-1.013-6.268l0.040 0.14-68.8-151.134c-1.819-2.796-2.9-6.216-2.9-9.889 0-10.112 8.197-18.309 18.309-18.309 1.386 0 2.737 0.154 4.035 0.446l-0.122-0.023h102.337c113.213 1.987 204.227 94.23 204.227 207.73 0 0.288-0.001 0.576-0.002 0.864l0-0.044v278.981c0 14.032 11.375 25.406 25.406 25.406 0 0 0-0 0.001-0l51.531 0c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.025-0-0.037l0 0.002-0.1-76.962h0.159v-201.988c0-0.205 0.001-0.447 0.001-0.69 0-170.083-136.848-308.203-306.444-310.258l-0.194-0.002-0.563-0.094z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork_left"
+          ]
+        },
+        {
+          "id": 66,
+          "paths": [
+            "M116.422 336.733c3.838 0.004 7.35 1.394 10.065 3.696l-0.023-0.019 106.189 89.609c72.076 65.811 117.118 160.178 117.118 265.065 0 8.415-0.29 16.763-0.86 25.033l0.062-1.116v177.197c-0.011 8.37-6.794 15.152-15.163 15.161l-51.534 0c-0.001 0-0.002 0-0.003 0-8.374 0-15.162-6.788-15.162-15.162 0-0.008 0-0.016 0-0.024l-0 0.001 0.194-183.748c0.332-5.080 0.521-11.014 0.521-16.992 0-80.571-34.337-153.122-89.176-203.818l-0.185-0.169-105.337-88.876c-3.396-2.879-5.536-7.149-5.536-11.918 0-3.915 1.443-7.494 3.826-10.233l-0.016 0.019 33.229-38.328c2.876-3.303 7.088-5.38 11.785-5.38 0.003 0 0.006 0 0.009 0l-0-0zM116.423 326.493c-0.011-0-0.024-0-0.037-0-7.772 0-14.741 3.44-19.467 8.88l-0.027 0.032-33.229 38.328c-3.922 4.506-6.313 10.434-6.313 16.921 0 7.902 3.547 14.975 9.137 19.714l0.037 0.031 105.337 88.876c52.796 48.953 85.731 118.687 85.731 196.113 0 5.651-0.175 11.261-0.521 16.825l0.038-0.762-0.239 184.712c-0 0.010-0 0.022-0 0.034 0 14.030 11.374 25.404 25.404 25.404 0 0 0-0 0.001-0l51.533 0c14.030-0 25.403-11.373 25.403-25.403l-0-0v-177.196c0.45-6.843 0.706-14.835 0.706-22.886 0-108.25-46.327-205.68-120.236-273.546l-0.27-0.244-106.342-89.741c-4.453-3.788-10.271-6.093-16.628-6.093-0.007 0-0.014 0-0.022 0l0.001-0zM563.625 408.663h101.763c1.176-0.269 2.526-0.423 3.913-0.423 10.112 0 18.309 8.197 18.309 18.309 0 3.673-1.082 7.093-2.943 9.96l0.043-0.071-68.8 151.134c-0.617 1.83-0.973 3.937-0.973 6.128 0 10.932 8.862 19.793 19.793 19.793 5.035 0 9.632-1.88 13.125-4.977l-0.021 0.018 324.965-250.134-324.966-252.006c-3.473-3.079-8.069-4.959-13.104-4.959-10.932 0-19.793 8.862-19.793 19.793 0 2.191 0.356 4.298 1.013 6.268l-0.040-0.14 68.8 151.134c1.818 2.795 2.9 6.215 2.9 9.888 0 10.111-8.197 18.308-18.308 18.308-1.387 0-2.738-0.154-4.036-0.446l0.122 0.023-102.325 0.001c-169.789 2.058-306.638 140.178-306.638 310.26 0 0.242 0 0.485 0.001 0.727l-0-0.037v201.988h0.159l-0.102 76.962c-0 0.010-0 0.023-0 0.035 0 14.029 11.373 25.402 25.402 25.402 0.001 0 0.003-0 0.004-0l51.531 0c14.032 0 25.406-11.375 25.406-25.406v0-278.981c-0.001-0.243-0.002-0.531-0.002-0.82 0-113.5 91.014-205.743 204.041-207.728l0.186-0.003h0.575z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork_right"
+          ]
+        },
+        {
+          "id": 65,
+          "paths": [
+            "M806.711 336.733c0.002-0 0.005-0 0.008-0 4.697 0 8.91 2.076 11.77 5.361l0.016 0.019 33.229 38.328c2.368 2.72 3.811 6.299 3.811 10.215 0 4.769-2.141 9.038-5.514 11.898l-0.023 0.019-105.495 89.009c-54.931 50.763-89.212 123.178-89.212 203.6 0 5.728 0.174 11.416 0.517 17.058l-0.038-0.775 0.241 184.714c0 0.006 0 0.014 0 0.021 0 8.374-6.788 15.162-15.162 15.162-0 0-0-0-0.001-0l-51.532 0c-8.372-0.010-15.157-6.794-15.167-15.165l-0-0.001-0.030-177.984c-0.487-6.994-0.765-15.156-0.765-23.384 0-104.736 44.982-198.965 116.681-264.424l0.279-0.251 106.342-89.741c2.692-2.284 6.205-3.673 10.043-3.677l0.001-0zM806.713 326.493c-0.006-0-0.013-0-0.021-0-6.356 0-12.174 2.304-16.664 6.123l0.037-0.030-106.342 89.741c-74.179 68.11-120.506 165.54-120.506 273.791 0 8.051 0.256 16.043 0.761 23.967l-0.055-1.082v177.194c0.001 14.031 11.375 25.404 25.406 25.404l51.531 0c14.030-0 25.403-11.374 25.403-25.403 0-0.012-0-0.023-0-0.035l0 0.002-0.241-184.713c-0.308-4.802-0.483-10.412-0.483-16.063 0-77.426 32.935-147.16 85.56-195.955l0.172-0.157 105.34-88.877c5.626-4.77 9.173-11.843 9.173-19.744 0-6.487-2.391-12.416-6.34-16.953l0.027 0.031-33.229-38.328c-4.753-5.472-11.722-8.912-19.494-8.912-0.013 0-0.026 0-0.039 0l0.002-0zM545.081 422.324l-125.825-106.181c-5.733-3.168-9.55-9.177-9.55-16.078 0-8.271 5.484-15.261 13.014-17.532l0.13-0.034 150.985-69.128c5.783-3.525 9.585-9.797 9.585-16.958 0-10.931-8.862-19.793-19.793-19.793-0.064 0-0.129 0-0.193 0.001l0.010-0-409.844-23.022 80.919 402.432c1.342 9.744 9.614 17.169 19.62 17.169 8.151 0 15.152-4.927 18.187-11.965l0.049-0.128 47.011-159.263c1.326-8.921 8.933-15.688 18.12-15.688 5.985 0 11.3 2.872 14.64 7.313l0.034 0.047 125.349 105.759c52.796 48.953 85.731 118.686 85.731 196.112 0 5.65-0.175 11.26-0.521 16.823l0.038-0.762-0.241 184.713c-0 0.011-0 0.024-0 0.037 0 14.029 11.373 25.402 25.402 25.402 0.001 0 0.002-0 0.003-0l51.534 0c14.030-0.002 25.403-11.376 25.403-25.406 0-0-0-0-0-0.001l-0 0v-177.192c0.45-6.842 0.706-14.834 0.706-22.886 0-108.25-46.327-205.68-120.236-273.546l-0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork_slight_left"
+          ]
+        },
+        {
+          "id": 64,
+          "paths": [
+            "M218.555 336.733c3.838 0.004 7.352 1.393 10.066 3.696l-0.023-0.019 106.189 89.609c72.074 65.81 117.116 160.177 117.116 265.064 0 8.416-0.29 16.764-0.861 25.035l0.062-1.117v177.197c-0.011 8.37-6.794 15.151-15.163 15.161l-51.536 0c-0 0-0.001 0-0.001 0-8.373 0-15.161-6.788-15.161-15.161 0-0.008 0-0.015 0-0.023l-0 0.001 0.194-183.749c0.332-5.080 0.521-11.014 0.521-16.992 0-80.571-34.337-153.122-89.176-203.818l-0.185-0.169-105.339-88.876c-3.396-2.879-5.538-7.148-5.538-11.918 0-3.916 1.443-7.495 3.827-10.233l-0.016 0.019 33.229-38.328c2.876-3.303 7.088-5.38 11.785-5.38 0.003 0 0.006 0 0.009 0l-0-0zM218.554 326.493c-0.011-0-0.024-0-0.037-0-7.772 0-14.741 3.44-19.467 8.88l-0.027 0.032-33.229 38.328c-3.922 4.506-6.314 10.434-6.314 16.921 0 7.902 3.548 14.975 9.137 19.713l0.037 0.031 105.339 88.876c52.796 48.953 85.731 118.687 85.731 196.113 0 5.651-0.175 11.261-0.521 16.825l0.038-0.762-0.241 184.713c-0 0.010-0 0.023-0 0.035 0 14.029 11.373 25.402 25.402 25.402 0.001 0 0.002-0 0.003-0l51.535 0c14.030-0 25.403-11.373 25.403-25.403l-0-0v-177.196c0.45-6.842 0.706-14.834 0.706-22.886 0-108.25-46.327-205.68-120.236-273.546l-0.27-0.245-106.342-89.741c-4.453-3.788-10.271-6.093-16.628-6.093-0.007 0-0.014 0-0.022 0l0.001-0zM359.122 719.002v177.194c0.001 14.030 11.373 25.403 25.403 25.404l51.534 0c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.025-0-0.037l0 0.002-0.241-184.713c-0.308-4.801-0.483-10.41-0.483-16.061 0-77.426 32.935-147.16 85.56-195.955l0.171-0.157 125.347-105.759c3.374-4.488 8.689-7.36 14.674-7.36 9.187 0 16.793 6.767 18.107 15.588l0.012 0.1 47.012 159.263c3.082 7.17 10.085 12.099 18.238 12.099 10.009 0 18.283-7.428 19.61-17.072l0.012-0.103 80.919-402.432-409.844 23.022c-0.054-0.001-0.119-0.001-0.183-0.001-10.931 0-19.793 8.862-19.793 19.793 0 7.161 3.802 13.433 9.498 16.908l0.087 0.049 150.984 69.128c7.66 2.305 13.144 9.295 13.144 17.565 0 6.901-3.818 12.91-9.456 16.030l-0.094 0.048-125.822 106.182c-74.179 68.11-120.506 165.54-120.506 273.791 0 8.052 0.256 16.044 0.761 23.968l-0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork_slight_right"
+          ]
+        },
+        {
+          "id": 63,
+          "paths": [
+            "M909.111 337.8c0.003-0 0.006-0 0.009-0 4.697 0 8.909 2.076 11.769 5.361l0.016 0.019 33.229 38.328c2.368 2.72 3.811 6.299 3.811 10.215 0 4.769-2.141 9.038-5.514 11.898l-0.023 0.019-105.495 89.007c-54.931 50.763-89.212 123.178-89.212 203.6 0 5.728 0.174 11.416 0.517 17.058l-0.038-0.775 0.241 184.714c0 0.006 0 0.014 0 0.021 0 8.374-6.788 15.162-15.162 15.162-0 0-0-0-0.001-0l-51.532 0c-8.372-0.010-15.157-6.794-15.167-15.165l-0-0.001-0.030-177.982c-0.487-6.994-0.765-15.156-0.765-23.384 0-104.736 44.982-198.965 116.681-264.424l0.279-0.251 106.342-89.741c2.692-2.284 6.205-3.673 10.043-3.677l0.001-0zM909.113 327.56c-0.006-0-0.013-0-0.021-0-6.356 0-12.174 2.304-16.664 6.123l0.037-0.030-106.342 89.741c-74.179 68.11-120.506 165.54-120.506 273.791 0 8.050 0.256 16.041 0.761 23.964l-0.055-1.081v177.194c0 14.032 11.375 25.406 25.406 25.406h51.531c14.030-0 25.403-11.374 25.403-25.403 0-0.012-0-0.023-0-0.035l0 0.002-0.241-184.713c-0.308-4.802-0.483-10.412-0.483-16.063 0-77.426 32.935-147.16 85.56-195.955l0.172-0.157 105.337-88.876c5.627-4.77 9.175-11.843 9.175-19.745 0-6.487-2.391-12.416-6.34-16.953l0.027 0.031-33.229-38.328c-4.753-5.472-11.722-8.912-19.494-8.912-0.013 0-0.026 0-0.039 0l0.002-0zM114.889 336.733c3.838 0.004 7.352 1.393 10.066 3.696l-0.023-0.019 106.189 89.609c72.074 65.81 117.116 160.177 117.116 265.064 0 8.416-0.29 16.764-0.861 25.035l0.062-1.117v177.197c-0.011 8.37-6.794 15.151-15.163 15.161l-51.535 0c-0 0-0 0-0.001 0-8.374 0-15.162-6.788-15.162-15.162 0-0.008 0-0.015 0-0.023l-0 0.001 0.194-183.749c0.332-5.080 0.521-11.014 0.521-16.992 0-80.571-34.337-153.122-89.176-203.818l-0.185-0.169-105.337-88.876c-3.396-2.879-5.536-7.148-5.536-11.917 0-3.916 1.443-7.495 3.827-10.234l-0.016 0.019 33.229-38.328c2.876-3.303 7.088-5.38 11.785-5.38 0.003 0 0.006 0 0.009 0l-0-0zM114.892 326.493c-0.011-0-0.024-0-0.037-0-7.772 0-14.741 3.44-19.467 8.88l-0.027 0.032-33.229 38.328c-3.923 4.506-6.314 10.435-6.314 16.922 0 7.901 3.547 14.974 9.136 19.713l0.037 0.031 105.337 88.876c52.796 48.953 85.731 118.687 85.731 196.113 0 5.651-0.175 11.261-0.521 16.825l0.038-0.762-0.241 184.713c-0 0.010-0 0.022-0 0.034 0 14.030 11.373 25.403 25.403 25.403 0.001 0 0.001-0 0.002-0l51.534 0c14.030-0 25.403-11.373 25.403-25.403l-0-0v-177.196c0.45-6.842 0.706-14.834 0.706-22.886 0-108.25-46.327-205.68-120.236-273.546l-0.27-0.245-106.342-89.741c-4.453-3.788-10.271-6.093-16.628-6.093-0.007 0-0.014 0-0.022 0l0.001-0zM763.54 427.152l-251.071-324.752-251.069 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.135-68.8c2.795-1.819 6.216-2.9 9.888-2.9 10.111 0 18.307 8.196 18.307 18.307 0 1.387-0.154 2.738-0.447 4.037l0.023-0.122v486.222c-0 0-0 0.001-0 0.001 0 14.236 11.541 25.777 25.777 25.777 0 0 0-0 0.001-0l50.842 0c0 0 0.001 0 0.001 0 14.236 0 25.777-11.541 25.777-25.777 0-0-0-0.001-0-0.001l0 0v-486.222c-0.269-1.177-0.424-2.529-0.424-3.916 0-10.11 8.196-18.307 18.307-18.307 3.673 0 7.094 1.082 9.96 2.944l-0.071-0.043 151.134 68.8c1.831 0.617 3.939 0.973 6.13 0.973 10.932 0 19.794-8.862 19.794-19.794 0-5.035-1.88-9.632-4.977-13.125l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork_straight"
+          ]
+        },
+        {
+          "id": 62,
+          "paths": [
+            "M972.8 153.6l-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-52.918 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.984 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.182c27.145 23.916 50.175 51.658 68.458 82.541l0.864 1.577c19.147-32.461 42.177-60.202 68.949-83.796l0.373-0.322 125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.984-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "fork"
+          ]
+        },
+        {
+          "id": 61,
+          "paths": [
+            "M512 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.159l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406h-0v-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.5-91.014-205.743-204.041-207.728l-0.186-0.003h-102.338c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_left"
+          ]
+        },
+        {
+          "id": 60,
+          "paths": [
+            "M511.425 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.1-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.973-3.938-0.973-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.125 4.977l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_right"
+          ]
+        },
+        {
+          "id": 59,
+          "paths": [
+            "M767.278 719.002v177.194c-0.001 14.030-11.374 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.985 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.541 120.506 273.791 0 8.052-0.256 16.043-0.761 23.967l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_slight_left"
+          ]
+        },
+        {
+          "id": 58,
+          "paths": [
+            "M376.522 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.985-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_slight_right"
+          ]
+        },
+        {
+          "id": 57,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_straight"
+          ]
+        },
+        {
+          "id": 56,
+          "paths": [
+            "M870.865 409.6v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0-98.969-80.231-179.2-179.2-179.2s-179.2 80.231-179.2 179.2v0 204.8h-0.468c-0.269 1.176-0.423 2.527-0.423 3.914 0 10.111 8.197 18.308 18.308 18.308 3.672 0 7.092-1.081 9.959-2.943l-0.071 0.043 151.134-68.8c1.83-0.616 3.936-0.972 6.126-0.972 10.932 0 19.794 8.862 19.794 19.794 0 5.035-1.88 9.631-4.976 13.124l0.018-0.021-251.068 324.753-251.072-324.753c-3.078-3.473-4.958-8.068-4.958-13.103 0-10.932 8.862-19.794 19.794-19.794 2.19 0 4.297 0.356 6.266 1.012l-0.14-0.040 151.134 68.8c2.796 1.819 6.216 2.901 9.889 2.901 10.112 0 18.309-8.197 18.309-18.309 0-1.387-0.154-2.737-0.446-4.036l0.023 0.122h0.465v-204.8c0-155.523 126.077-281.6 281.6-281.6s281.6 126.077 281.6 281.6v0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid_uturn"
+          ]
+        },
+        {
+          "id": 55,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "invalid"
+          ]
+        },
+        {
+          "id": 54,
+          "paths": [
+            "M399.36 368.64v527.489c-0.009 8.408-6.823 15.221-15.23 15.231l-51.46 0c-8.408-0.010-15.221-6.823-15.23-15.23l-0-0.001v-527.489h81.92zM409.6 358.4h-102.4v537.729c-0 0-0 0-0 0.001 0 14.067 11.404 25.47 25.47 25.47h51.459c14.067 0 25.47-11.404 25.47-25.47 0-0-0-0-0-0.001l0 0v-537.729zM408.663 512v-101.763c-0.269-1.176-0.423-2.526-0.423-3.913 0-10.112 8.197-18.309 18.309-18.309 3.673 0 7.093 1.082 9.96 2.943l-0.071-0.043 151.134 68.8c1.83 0.617 3.937 0.973 6.128 0.973 10.932 0 19.793-8.862 19.793-19.793 0-5.035-1.88-9.632-4.977-13.125l0.018 0.021-250.134-324.965-252.006 324.966c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.135-68.801c2.795-1.818 6.215-2.9 9.888-2.9 10.111 0 18.308 8.197 18.308 18.308 0 1.387-0.154 2.738-0.446 4.036l0.023-0.122v101.763h-0.094l0.094 0.563c2.058 169.789 140.178 306.638 310.26 306.638 0.242 0 0.485-0 0.727-0.001l-0.037 0 278.95-0.057c0.010 0 0.023 0 0.035 0 14.029 0 25.402-11.373 25.402-25.402 0-0.001-0-0.002-0-0.003l0 0v-51.531c0-14.032-11.375-25.406-25.406-25.406v-0h-278.981c-0.243 0.001-0.531 0.002-0.82 0.002-113.5 0-205.743-91.014-207.728-204.041l-0.003-0.186v-0.575z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge_left"
+          ]
+        },
+        {
+          "id": 53,
+          "paths": [
+            "M706.56 368.64v527.32c-0.009 8.502-6.898 15.391-15.399 15.401l-51.121 0c-8.502-0.010-15.391-6.899-15.4-15.4l-0-0.001v-527.32h81.92zM716.8 358.4h-102.4v537.56c0 14.161 11.48 25.64 25.64 25.64v0h51.119c0 0 0 0 0.001 0 14.161 0 25.64-11.48 25.64-25.64l-0-0v-537.56zM717.737 512v-101.763c-0.269-1.176-0.423-2.527-0.423-3.914 0-10.111 8.197-18.308 18.308-18.308 3.672 0 7.092 1.081 9.959 2.943l-0.071-0.043 151.134 68.8c1.83 0.617 3.938 0.973 6.128 0.973 10.932 0 19.793-8.862 19.793-19.793 0-5.035-1.88-9.631-4.977-13.125l0.018 0.021-252.006-324.966-250.135 324.966c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.134-68.8c2.796-1.819 6.216-2.9 9.889-2.9 10.112 0 18.309 8.197 18.309 18.309 0 1.386-0.154 2.737-0.446 4.035l0.023-0.122v102.338c-1.988 113.212-94.23 204.226-207.73 204.226-0.288 0-0.576-0.001-0.864-0.002l0.045 0h-278.981c-14.032 0-25.406 11.375-25.406 25.406v-0 51.531c-0 0-0 0-0 0.001 0 14.029 11.373 25.402 25.402 25.402 0.012 0 0.025-0 0.037-0l76.96-0.1v0.159h201.988c0.205 0 0.447 0.001 0.69 0.001 170.083 0 308.203-136.848 310.258-306.444l0.002-0.194 0.094-0.563z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge_right"
+          ]
+        },
+        {
+          "id": 52,
+          "paths": [
+            "M503.073 471.040v424.712c-0.010 8.616-6.992 15.598-15.607 15.608l-50.704 0c-8.616-0.010-15.598-6.993-15.608-15.608l-0-0.001v-424.711h81.92zM513.315 460.8h-102.4v434.952c-0 0-0 0-0 0.001 0 14.275 11.572 25.848 25.848 25.848h50.703c14.275-0 25.848-11.573 25.848-25.848l0-0v-434.952zM231.27 407.525l151.135-68.8c2.795-1.818 6.215-2.9 9.888-2.9 10.111 0 18.308 8.197 18.308 18.308 0 1.387-0.154 2.738-0.446 4.036l0.023-0.122h0.051v100.628c0.843 125.281 69.719 234.285 171.498 292l1.677 0.875 220.717 137.487c3.865 2.444 8.57 3.894 13.613 3.894 9.175 0 17.228-4.8 21.787-12.025l0.063-0.106 26.919-43.197c2.444-3.866 3.895-8.572 3.895-13.616 0-9.176-4.8-17.231-12.027-21.79l-0.106-0.063-220.408-137.308c-73.14-39.925-122.567-115.186-125.34-202.224l-0.009-0.375 0.084-104.247c-0.262-1.161-0.412-2.494-0.412-3.862 0-10.101 8.189-18.29 18.29-18.29 3.672 0 7.091 1.082 9.956 2.944l-0.071-0.043 151.134 68.8c1.831 0.617 3.939 0.973 6.13 0.973 10.932 0 19.793-8.862 19.793-19.793 0-5.037-1.882-9.635-4.981-13.129l0.018 0.021-251.071-324.753-251.069 324.753c-3.078 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.19 0 4.298-0.356 6.267-1.013l-0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge_slight_left"
+          ]
+        },
+        {
+          "id": 51,
+          "paths": [
+            "M603.761 471.040v424.712c-0.010 8.616-6.992 15.598-15.607 15.609l-50.704 0c-8.616-0.010-15.598-6.993-15.608-15.608l-0-0.001v-424.712h81.92zM614.002 460.8h-102.4v434.952c-0 0-0 0-0 0.001 0 14.275 11.572 25.848 25.848 25.848h50.703c14.275-0 25.848-11.573 25.848-25.848l0-0v-434.952zM814.607 375.6l-251.069-324.753-251.072 324.753c-3.079 3.473-4.959 8.069-4.959 13.104 0 10.932 8.862 19.793 19.793 19.793 2.191 0 4.298-0.356 6.268-1.013l-0.14 0.040 151.135-68.801c2.794-1.819 6.213-2.901 9.885-2.901 10.101 0 18.29 8.189 18.29 18.29 0 1.368-0.15 2.701-0.435 3.984l0.023-0.122 0.084 104.249c-2.783 87.413-52.21 162.674-124.106 201.976l-1.244 0.623-220.409 137.31c-7.333 4.622-12.133 12.677-12.133 21.853 0 5.044 1.451 9.75 3.958 13.722l-0.063-0.106 26.919 43.196c4.621 7.332 12.675 12.132 21.85 12.132 5.043 0 9.748-1.45 13.719-3.957l-0.106 0.063 220.714-137.486c103.455-58.589 172.331-167.593 173.174-292.755l0.001-0.12v-100.628h0.051c-0.269-1.177-0.424-2.528-0.424-3.915 0-10.111 8.197-18.308 18.308-18.308 3.673 0 7.094 1.082 9.96 2.944l-0.071-0.043 151.134 68.8c1.83 0.617 3.938 0.973 6.129 0.973 10.932 0 19.793-8.862 19.793-19.793 0-5.035-1.88-9.632-4.977-13.125l0.018 0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge_slight_right"
+          ]
+        },
+        {
+          "id": 50,
+          "paths": [],
+          "attrs": [],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "merge_straight"
+          ]
+        },
+        {
+          "id": 49,
+          "paths": [
+            "M512 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.159l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406h-0v-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.5-91.014-205.743-204.041-207.728l-0.186-0.003h-102.338c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_left"
+          ]
+        },
+        {
+          "id": 48,
+          "paths": [
+            "M511.425 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.1-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.973-3.938-0.973-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.125 4.977l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_right"
+          ]
+        },
+        {
+          "id": 47,
+          "paths": [
+            "M793.483 921.6c-14.076 0-25.487-11.411-25.487-25.487v0-639.913l-14.325-0.325c-3.573-0.345-7.725-0.542-11.922-0.542-37.522 0-71.372 15.72-95.324 40.933l-0.053 0.057-276.237 236.178c-5.138 3.201-8.507 8.82-8.507 15.225 0 8.038 5.305 14.838 12.605 17.088l0.127 0.034 149.953 71.337c5.643 3.552 9.338 9.748 9.338 16.806 0 10.931-8.862 19.793-19.793 19.793-0.166 0-0.332-0.002-0.498-0.006l0.025 0-410.138 17.003 86.819-401.203c1.471-9.606 9.675-16.879 19.578-16.879 8.254 0 15.327 5.051 18.298 12.231l0.048 0.131 44.672 159.934c1.207 9.047 8.875 15.953 18.156 15.953 5.89 0 11.13-2.781 14.479-7.102l0.031-0.042 0.194 0.229 276.076-235.985c41.061-39.614 97.023-64.020 158.686-64.020 5.142 0 10.244 0.17 15.301 0.504l-0.687-0.036 13.525 0.102c0.992-0.036 2.157-0.056 3.327-0.056 27.401 0 52.197 11.157 70.092 29.175l0.006 0.006c17.689 19.123 28.54 44.797 28.54 73.006 0 0.622-0.005 1.243-0.016 1.862l0.001-0.093 0.024 638.612c0 0 0 0.001 0 0.001 0 14.076-11.411 25.487-25.487 25.487h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_sharp_left"
+          ]
+        },
+        {
+          "id": 46,
+          "paths": [
+            "M179.092 921.6c-14.076 0-25.487-11.411-25.487-25.487 0-0 0-0.001 0-0.001l-0 0 0.024-638.612c-0.009-0.526-0.015-1.147-0.015-1.769 0-28.209 10.85-53.883 28.605-73.077l-0.065 0.071c17.9-18.024 42.696-29.181 70.097-29.181 1.17 0 2.335 0.020 3.496 0.061l-0.168-0.005 13.525-0.102c4.37-0.298 9.472-0.467 14.614-0.467 61.663 0 117.625 24.406 158.754 64.086l-0.068-0.066 276.076 235.985 0.194-0.228c3.38 4.363 8.62 7.144 14.51 7.144 9.281 0 16.949-6.906 18.145-15.86l0.010-0.094 44.672-159.934c3.019-7.311 10.093-12.363 18.346-12.363 9.903 0 18.108 7.273 19.565 16.768l0.014 0.11 86.819 401.203-410.137-17.003c-0.141 0.004-0.307 0.006-0.473 0.006-10.931 0-19.793-8.862-19.793-19.793 0-7.059 3.695-13.254 9.256-16.758l0.082-0.048 149.953-71.337c7.427-2.284 12.732-9.083 12.732-17.121 0-6.406-3.369-12.024-8.431-15.181l-0.076-0.044-276.238-236.176c-24.005-25.27-57.856-40.99-95.378-40.99-4.198 0-8.349 0.197-12.446 0.581l0.524-0.040-14.325 0.325v639.913c-0.001 14.075-11.412 25.485-25.487 25.485h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_sharp_right"
+          ]
+        },
+        {
+          "id": 45,
+          "paths": [
+            "M767.278 719.002v177.194c-0.001 14.030-11.374 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.985 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.541 120.506 273.791 0 8.052-0.256 16.043-0.761 23.967l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_slight_left"
+          ]
+        },
+        {
+          "id": 44,
+          "paths": [
+            "M376.522 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.985-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_slight_right"
+          ]
+        },
+        {
+          "id": 43,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "new_name_straight"
+          ]
+        },
+        {
+          "id": 42,
+          "paths": [
+            "M179.092 921.366c-14.076 0-25.487-11.411-25.487-25.487 0-0 0-0.001 0-0.001l-0 0 0.024-638.612c-0.009-0.526-0.015-1.147-0.015-1.769 0-28.209 10.85-53.883 28.605-73.077l-0.065 0.071c17.9-18.024 42.696-29.181 70.097-29.181 1.17 0 2.335 0.020 3.496 0.061l-0.168-0.005 13.525-0.102c4.37-0.298 9.472-0.467 14.614-0.467 61.663 0 117.625 24.406 158.754 64.086l-0.068-0.066 276.076 235.985 0.194-0.228c3.38 4.363 8.62 7.144 14.51 7.144 9.281 0 16.949-6.906 18.145-15.86l0.010-0.094 44.672-159.934c3.019-7.311 10.093-12.363 18.346-12.363 9.903 0 18.108 7.273 19.565 16.768l0.014 0.11 86.819 401.203-410.137-17.003c-0.141 0.004-0.307 0.006-0.473 0.006-10.931 0-19.793-8.862-19.793-19.793 0-7.059 3.695-13.254 9.256-16.758l0.082-0.048 149.953-71.337c7.427-2.284 12.732-9.083 12.732-17.121 0-6.406-3.369-12.024-8.431-15.181l-0.076-0.044-276.238-236.177c-24.005-25.27-57.856-40.99-95.378-40.99-4.198 0-8.349 0.197-12.446 0.581l0.524-0.040-14.325 0.325v639.913c0 14.076-11.411 25.487-25.487 25.487v0h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notificaiton_sharp_right"
+          ]
+        },
+        {
+          "id": 41,
+          "paths": [
+            "M512 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.159l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406h-0v-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.5-91.014-205.743-204.041-207.728l-0.186-0.003h-102.338c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_left"
+          ]
+        },
+        {
+          "id": 40,
+          "paths": [
+            "M511.425 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.1-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.973-3.938-0.973-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.125 4.977l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_right"
+          ]
+        },
+        {
+          "id": 39,
+          "paths": [
+            "M793.483 921.366c-14.076-0-25.487-11.411-25.487-25.487v0-639.913l-14.325-0.324c-3.573-0.345-7.725-0.542-11.922-0.542-37.522 0-71.372 15.72-95.324 40.933l-0.053 0.057-276.238 236.177c-5.138 3.201-8.507 8.82-8.507 15.225 0 8.038 5.305 14.838 12.605 17.088l0.127 0.034 149.953 71.337c5.643 3.552 9.338 9.748 9.338 16.806 0 10.931-8.862 19.793-19.793 19.793-0.166 0-0.332-0.002-0.498-0.006l0.025 0-410.138 17.003 86.819-401.203c1.471-9.606 9.675-16.879 19.578-16.879 8.254 0 15.327 5.051 18.298 12.231l0.048 0.131 44.672 159.934c1.207 9.047 8.875 15.953 18.156 15.953 5.89 0 11.13-2.781 14.479-7.102l0.031-0.042 0.194 0.229 276.076-235.985c41.060-39.612 97.022-64.018 158.683-64.018 5.143 0 10.246 0.17 15.304 0.504l-0.687-0.036 13.525 0.102c0.992-0.036 2.157-0.056 3.327-0.056 27.401 0 52.197 11.157 70.092 29.175l0.006 0.006c17.689 19.123 28.54 44.797 28.54 73.006 0 0.622-0.005 1.243-0.016 1.862l0.001-0.093 0.024 638.609c0 0 0 0.001 0 0.001 0 14.076-11.411 25.487-25.487 25.487h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_sharp_left"
+          ]
+        },
+        {
+          "id": 38,
+          "paths": [
+            "M767.278 719.002v177.194c-0.001 14.030-11.374 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.985 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.541 120.506 273.791 0 8.052-0.256 16.043-0.761 23.967l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_slight_left"
+          ]
+        },
+        {
+          "id": 37,
+          "paths": [
+            "M376.522 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.985-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_slight_right"
+          ]
+        },
+        {
+          "id": 36,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "notification_straight"
+          ]
+        },
+        {
+          "id": 35,
+          "paths": [
+            "M742.548 112.64c8.397 0.010 15.202 6.815 15.212 15.212l0 0.001v768.295c-0.009 8.398-6.814 15.203-15.211 15.213l-51.498 0c-8.397-0.010-15.202-6.815-15.212-15.212l-0-0.001v-768.295c0.009-8.398 6.814-15.203 15.211-15.213l51.498-0zM742.548 102.4h-51.497c-14.057 0-25.452 11.395-25.452 25.452 0 0 0 0 0 0.001l-0-0v768.295c-0 0-0 0-0 0.001 0 14.057 11.395 25.452 25.451 25.452l51.497 0c14.057-0 25.452-11.395 25.452-25.452 0-0-0-0-0-0.001l0 0v-768.295c0-0 0-0 0-0.001 0-14.057-11.395-25.452-25.451-25.452l-0-0zM460.84 306.263h-101.763c-1.176 0.269-2.527 0.423-3.914 0.423-10.111 0-18.308-8.197-18.308-18.308 0-3.672 1.081-7.092 2.943-9.959l-0.043 0.071 68.8-151.134c0.617-1.83 0.973-3.938 0.973-6.129 0-10.932-8.862-19.793-19.793-19.793-5.036 0-9.632 1.88-13.125 4.977l0.021-0.018-324.965 252.006 324.966 250.135c3.472 3.078 8.068 4.958 13.103 4.958 10.932 0 19.793-8.862 19.793-19.793 0-2.191-0.356-4.298-1.013-6.268l0.040 0.14-68.8-151.134c-1.819-2.796-2.9-6.216-2.9-9.889 0-10.112 8.197-18.309 18.309-18.309 1.386 0 2.737 0.154 4.035 0.446l-0.122-0.023h102.337c113.213 1.987 204.227 94.23 204.227 207.73 0 0.288-0.001 0.576-0.002 0.864l0-0.044v278.981c0 14.032 11.375 25.406 25.406 25.406 0 0 0-0 0.001-0l51.531 0c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.025-0-0.037l0 0.002-0.1-76.962h0.159v-201.988c0-0.205 0.001-0.447 0.001-0.69 0-170.083-136.848-308.203-306.444-310.258l-0.194-0.002-0.563-0.094z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "off_ramp_left"
+          ]
+        },
+        {
+          "id": 34,
+          "paths": [
+            "M332.948 112.64c8.397 0.010 15.202 6.815 15.212 15.212l0 0.001v768.295c-0.009 8.398-6.814 15.203-15.211 15.213l-51.498 0c-8.397-0.010-15.202-6.815-15.212-15.212l-0-0.001v-768.295c0.009-8.398 6.814-15.203 15.211-15.213l51.498-0zM332.948 102.4h-51.497c-14.057 0-25.452 11.395-25.452 25.452 0 0 0 0 0 0.001l-0-0v768.295c-0 0-0 0-0 0.001 0 14.057 11.395 25.452 25.451 25.452l51.497 0c14.057-0 25.452-11.395 25.452-25.452 0-0-0-0-0-0.001l0 0v-768.295c0-0 0-0 0-0.001 0-14.057-11.395-25.452-25.451-25.452l-0-0zM563.625 408.663h101.763c1.176-0.269 2.526-0.423 3.913-0.423 10.112 0 18.309 8.197 18.309 18.309 0 3.673-1.082 7.093-2.943 9.96l0.043-0.071-68.8 151.134c-0.617 1.83-0.973 3.937-0.973 6.128 0 10.932 8.862 19.793 19.793 19.793 5.035 0 9.632-1.88 13.125-4.977l-0.021 0.018 324.965-250.134-324.966-252.006c-3.473-3.079-8.069-4.959-13.104-4.959-10.932 0-19.793 8.862-19.793 19.793 0 2.191 0.356 4.298 1.013 6.268l-0.040-0.14 68.8 151.134c1.818 2.795 2.9 6.215 2.9 9.888 0 10.111-8.197 18.308-18.308 18.308-1.387 0-2.738-0.154-4.036-0.446l0.122 0.023-102.325 0.001c-169.789 2.058-306.638 140.178-306.638 310.26 0 0.242 0 0.485 0.001 0.727l-0-0.037v201.988h0.159l-0.102 76.962c-0 0.010-0 0.023-0 0.035 0 14.029 11.373 25.402 25.402 25.402 0.001 0 0.003-0 0.004-0l51.531 0c14.032 0 25.406-11.375 25.406-25.406v0-278.981c-0.001-0.243-0.002-0.531-0.002-0.82 0-113.5 91.014-205.743 204.041-207.728l0.186-0.003h0.575z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "off_ramp_right"
+          ]
+        },
+        {
+          "id": 33,
+          "paths": [
+            "M742.548 112.64c8.397 0.010 15.202 6.815 15.212 15.212l0 0.001v768.295c-0.009 8.398-6.814 15.203-15.211 15.213l-51.498 0c-8.397-0.010-15.202-6.815-15.212-15.212l-0-0.001v-768.295c0.009-8.398 6.814-15.203 15.211-15.213l51.498-0zM742.548 102.4h-51.497c-14.057 0-25.452 11.395-25.452 25.452 0 0 0 0 0 0.001l-0-0v768.295c-0 0-0 0-0 0.001 0 14.057 11.395 25.452 25.451 25.452l51.497 0c14.057-0 25.452-11.395 25.452-25.452 0-0-0-0-0-0.001l0 0v-768.295c0-0 0-0 0-0.001 0-14.057-11.395-25.452-25.451-25.452l-0-0zM647.478 422.325l-125.822-106.182c-5.733-3.168-9.55-9.177-9.55-16.078 0-8.271 5.484-15.261 13.014-17.532l0.13-0.034 150.984-69.128c5.783-3.525 9.585-9.797 9.585-16.958 0-10.931-8.862-19.793-19.793-19.793-0.064 0-0.129 0-0.193 0.001l0.010-0-409.844-23.022 80.919 402.432c1.342 9.744 9.614 17.169 19.62 17.169 8.151 0 15.152-4.927 18.187-11.965l0.049-0.128 47.011-159.263c1.326-8.921 8.933-15.688 18.12-15.688 5.985 0 11.3 2.872 14.64 7.313l0.034 0.047 125.347 105.759c52.796 48.953 85.731 118.686 85.731 196.112 0 5.65-0.175 11.26-0.521 16.823l0.038-0.762-0.241 184.713c-0 0.011-0 0.024-0 0.037 0 14.029 11.373 25.402 25.402 25.402 0.002 0 0.004-0 0.005-0l51.534 0c14.030-0.002 25.403-11.376 25.403-25.406 0-0-0-0-0-0.001l-0 0v-177.192c0.45-6.842 0.706-14.834 0.706-22.886 0-108.25-46.327-205.68-120.236-273.546l-0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "off_ramp_slight_left"
+          ]
+        },
+        {
+          "id": 32,
+          "paths": [
+            "M435.348 112.64c8.397 0.010 15.202 6.815 15.212 15.212l0 0.001v768.295c-0.009 8.398-6.814 15.203-15.211 15.213l-51.498 0c-8.397-0.010-15.202-6.815-15.212-15.212l-0-0.001v-768.295c0.009-8.398 6.814-15.203 15.211-15.213l51.498-0zM435.348 102.4h-51.497c-14.057 0-25.452 11.395-25.452 25.452 0 0 0 0 0 0.001l-0-0v768.295c-0 0-0 0-0 0.001 0 14.057 11.395 25.452 25.451 25.452l51.497 0c14.057-0 25.452-11.395 25.452-25.452 0-0-0-0-0-0.001l0 0v-768.295c0-0 0-0 0-0.001 0-14.057-11.395-25.452-25.451-25.452l-0-0zM359.122 719.002v177.194c0.001 14.030 11.373 25.403 25.403 25.404l51.534 0c0 0 0 0 0.001 0 14.029 0 25.402-11.373 25.402-25.402 0-0.012-0-0.025-0-0.037l0 0.002-0.241-184.713c-0.308-4.801-0.483-10.41-0.483-16.061 0-77.426 32.935-147.16 85.56-195.955l0.171-0.157 125.347-105.759c3.374-4.488 8.689-7.36 14.674-7.36 9.187 0 16.793 6.767 18.107 15.588l0.012 0.1 47.012 159.263c3.082 7.17 10.085 12.099 18.238 12.099 10.009 0 18.283-7.428 19.61-17.072l0.012-0.103 80.919-402.432-409.844 23.022c-0.054-0.001-0.119-0.001-0.183-0.001-10.931 0-19.793 8.862-19.793 19.793 0 7.161 3.802 13.433 9.498 16.908l0.087 0.049 150.984 69.128c7.66 2.305 13.144 9.295 13.144 17.565 0 6.901-3.818 12.91-9.456 16.030l-0.094 0.048-125.822 106.182c-74.179 68.11-120.506 165.54-120.506 273.791 0 8.052 0.256 16.044 0.761 23.968l-0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "off_ramp_slight_right"
+          ]
+        },
+        {
+          "id": 31,
+          "paths": [
+            "M460.84 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.16l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406v0-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.501-91.014-205.744-204.041-207.728l-0.186-0.003h-102.337c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_left"
+          ]
+        },
+        {
+          "id": 30,
+          "paths": [
+            "M563.050 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.099-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.972-3.937-0.972-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.124 4.976l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_right"
+          ]
+        },
+        {
+          "id": 29,
+          "paths": [
+            "M793.483 921.6c-14.076 0-25.487-11.411-25.487-25.487v0-639.913l-14.325-0.325c-3.573-0.345-7.725-0.542-11.922-0.542-37.522 0-71.372 15.72-95.324 40.933l-0.053 0.057-276.237 236.178c-5.138 3.201-8.507 8.82-8.507 15.225 0 8.038 5.305 14.838 12.605 17.088l0.127 0.034 149.953 71.337c5.643 3.552 9.338 9.748 9.338 16.806 0 10.931-8.862 19.793-19.793 19.793-0.166 0-0.332-0.002-0.498-0.006l0.025 0-410.138 17.003 86.819-401.203c1.471-9.606 9.675-16.879 19.578-16.879 8.254 0 15.327 5.051 18.298 12.231l0.048 0.131 44.672 159.934c1.207 9.047 8.875 15.953 18.156 15.953 5.89 0 11.13-2.781 14.479-7.102l0.031-0.042 0.194 0.229 276.076-235.985c41.061-39.614 97.023-64.020 158.686-64.020 5.142 0 10.244 0.17 15.301 0.504l-0.687-0.036 13.525 0.102c0.992-0.036 2.157-0.056 3.327-0.056 27.401 0 52.197 11.157 70.092 29.175l0.006 0.006c17.689 19.123 28.54 44.797 28.54 73.006 0 0.622-0.005 1.243-0.016 1.862l0.001-0.093 0.024 638.612c0 0 0 0.001 0 0.001 0 14.076-11.411 25.487-25.487 25.487h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_sharp_left"
+          ]
+        },
+        {
+          "id": 28,
+          "paths": [
+            "M179.092 921.366c-14.076 0-25.487-11.411-25.487-25.487 0-0 0-0.001 0-0.001l-0 0 0.024-638.612c-0.009-0.526-0.015-1.147-0.015-1.769 0-28.209 10.85-53.883 28.605-73.077l-0.065 0.071c17.9-18.024 42.696-29.181 70.097-29.181 1.17 0 2.335 0.020 3.496 0.061l-0.168-0.005 13.525-0.102c4.37-0.298 9.472-0.467 14.614-0.467 61.663 0 117.625 24.406 158.754 64.086l-0.068-0.066 276.076 235.985 0.194-0.228c3.38 4.363 8.62 7.144 14.51 7.144 9.281 0 16.949-6.906 18.145-15.86l0.010-0.094 44.672-159.934c3.019-7.311 10.093-12.363 18.346-12.363 9.903 0 18.108 7.273 19.565 16.768l0.014 0.11 86.819 401.203-410.137-17.003c-0.141 0.004-0.307 0.006-0.473 0.006-10.931 0-19.793-8.862-19.793-19.793 0-7.059 3.695-13.254 9.256-16.758l0.082-0.048 149.953-71.337c7.427-2.284 12.732-9.083 12.732-17.121 0-6.406-3.369-12.024-8.431-15.181l-0.076-0.044-276.238-236.177c-24.005-25.27-57.856-40.99-95.378-40.99-4.198 0-8.349 0.197-12.446 0.581l0.524-0.040-14.325 0.325v639.913c0 14.076-11.411 25.487-25.487 25.487v0h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_sharp_right"
+          ]
+        },
+        {
+          "id": 27,
+          "paths": [
+            "M664.878 719.002v177.194c-0.001 14.030-11.373 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.984 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.54 120.506 273.791 0 8.052-0.256 16.044-0.761 23.969l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_slight_left"
+          ]
+        },
+        {
+          "id": 26,
+          "paths": [
+            "M478.922 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.984-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_slight_right"
+          ]
+        },
+        {
+          "id": 25,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "on_ramp_straight"
+          ]
+        },
+        {
+          "id": 24,
+          "paths": [
+            "M665.6 317.44c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM665.6 675.84c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM665.6 307.2c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM665.6 665.6c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM810.425 367.2c-8.354-8.36-17.421-16.006-27.101-22.84l-0.649-0.435c-32.711-22.287-73.099-35.585-116.592-35.585-56.494 0-107.748 22.437-145.337 58.887l0.053-0.051c-31.267 31.080-52.473 72.252-58.32 118.218l-0.105 1.007h-206.375c-0.588 0.134-1.263 0.211-1.956 0.211-5.056 0-9.154-4.098-9.154-9.154 0-1.837 0.541-3.547 1.472-4.98l-0.022 0.036 34.4-75.566c0.308-0.915 0.486-1.968 0.486-3.063 0-5.466-4.431-9.897-9.897-9.897-2.517 0-4.815 0.94-6.562 2.488l0.010-0.009-162.378 125.534 162.378 125.534c1.736 1.539 4.034 2.479 6.552 2.479 5.466 0 9.897-4.431 9.897-9.897 0-1.095-0.178-2.148-0.506-3.133l0.020 0.070-34.4-75.566c-0.91-1.398-1.45-3.108-1.45-4.945 0-5.056 4.098-9.154 9.154-9.154 0.693 0 1.368 0.077 2.017 0.223l-0.061-0.012h256v-25.6c-0-0.123-0.001-0.268-0.001-0.413 0-42.292 17.203-80.566 44.994-108.206l0.007-0.007c28.165-27.276 66.605-44.087 108.971-44.087 32.6 0 62.874 9.954 87.951 26.988l-0.547-0.351c7.762 5.456 14.574 11.197 20.85 17.475l0 0c27.799 27.795 44.994 66.195 44.994 108.612 0 84.824-68.764 153.588-153.588 153.588-0.011 0-0.022-0-0.034-0l-25.598 0v204.8h51.2v-155.175c101.557-13.171 179.2-99.124 179.2-203.211 0-56.552-22.919-107.751-59.975-144.814l0 0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_left"
+          ]
+        },
+        {
+          "id": 23,
+          "paths": [
+            "M358.4 317.44c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM358.4 675.84c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84l-0 0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM358.4 307.2c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM358.4 665.6c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM759.694 386.466c-1.736-1.539-4.034-2.479-6.552-2.479-5.466 0-9.897 4.431-9.897 9.897 0 1.095 0.178 2.148 0.506 3.133l-0.020-0.070 34.4 75.566c0.909 1.398 1.45 3.108 1.45 4.944 0 5.056-4.099 9.155-9.155 9.155-0.693 0-1.369-0.077-2.018-0.223l0.061 0.012h-256.469v25.6c0 0.001 0 0.002 0 0.003 0 84.829-68.768 153.597-153.597 153.597-0.001 0-0.002-0-0.003-0l-25.6 0v204.8h51.2v-155.175c92.835-12.076 165.549-84.79 177.515-176.593l0.11-1.032h206.844c0.588-0.135 1.264-0.212 1.957-0.212 5.056 0 9.155 4.099 9.155 9.155 0 1.836-0.541 3.546-1.471 4.98l0.022-0.036-34.4 75.566c-0.308 0.915-0.486 1.968-0.486 3.063 0 5.466 4.431 9.897 9.897 9.897 2.517 0 4.815-0.94 6.562-2.488l-0.010 0.009 162.375-125.534z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_right"
+          ]
+        },
+        {
+          "id": 22,
+          "paths": [
+            "M562.893 266.24c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM562.893 624.64c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM562.893 256c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM562.893 614.4c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM707.743 316c-8.361-8.359-17.435-16.005-27.124-22.839l-0.651-0.436c-32.712-22.278-73.097-35.57-116.586-35.57-56.494 0-107.748 22.431-145.344 58.872l0.054-0.052c-37.071 37.068-60 88.278-60 144.843 0 47.508 16.174 91.238 43.316 125.985l-0.341-0.453-156.967 156.967c-1.653 2.546-4.483 4.206-7.7 4.206-4.362 0-8.012-3.053-8.929-7.138l-0.012-0.061-29.111-77.759c-1.673-3.235-4.993-5.408-8.821-5.408-5.25 0-9.545 4.087-9.877 9.254l-0.001 0.029-26.049 203.585 203.585-26.050c5.195-0.333 9.283-4.629 9.283-9.879 0-3.828-2.173-7.148-5.353-8.795l-0.055-0.026-77.759-29.11c-4.148-0.929-7.202-4.58-7.202-8.943 0-3.221 1.664-6.054 4.179-7.685l0.017-0.041 174.274-174.37 17.325-18.074-17.675-17.725c-27.758-27.786-44.925-66.157-44.925-108.538 0-42.418 17.197-80.82 45-108.613l0-0c28.163-27.278 66.603-44.091 108.97-44.091 32.601 0 62.876 9.955 87.952 26.991l-0.547-0.351c7.772 5.457 14.592 11.198 20.876 17.476l-0.001-0.001c27.789 27.795 44.977 66.19 44.977 108.6 0 84.831-68.769 153.6-153.6 153.6-0.009 0-0.018-0-0.027-0l-25.599 0v204.8h51.2v-155.175c101.559-13.18 179.199-99.137 179.199-203.228 0-56.542-22.909-107.733-59.951-144.798l0.001 0.001z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_sharp_left"
+          ]
+        },
+        {
+          "id": 21,
+          "paths": [
+            "M459.375 266.24c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM459.375 624.64c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM459.375 256c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM459.375 614.4c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM842.914 666.815c-0.332-5.195-4.627-9.283-9.877-9.283-3.828 0-7.148 2.173-8.794 5.353l-0.026 0.055-29.108 77.759c-0.93 4.148-4.581 7.202-8.945 7.202-3.222 0-6.055-1.664-7.686-4.179l-0.031-0.026-192.372-192.372-18.1 18.1c-27.641 27.782-65.902 44.975-108.178 44.975-0.148 0-0.296-0-0.445-0.001l0.023 0h-25.6v204.8h51.2v-155.175c38.234-4.817 72.316-19.638 100.411-41.73l-0.435 0.33 157.344 157.325c2.521 1.654 4.163 4.467 4.163 7.663 0 4.356-3.050 8-7.13 8.914l-0.061 0.011-77.757 29.112c-3.236 1.672-5.411 4.993-5.411 8.822 0 5.251 4.089 9.547 9.257 9.877l0.029 0.001 203.582 26.049z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_sharp_right"
+          ]
+        },
+        {
+          "id": 20,
+          "paths": [
+            "M561.906 368.64c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM561.906 727.040c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM561.906 358.4c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM561.906 716.8c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM706.731 418.4c-8.354-8.36-17.421-16.006-27.101-22.84l-0.649-0.435c-32.784-22.443-73.302-35.839-116.948-35.839-47.441 0-91.185 15.827-126.241 42.489l0.514-0.375-156.066-155.904c-2.468-1.654-4.070-4.432-4.070-7.584 0-4.345 3.045-7.979 7.117-8.884l0.061-0.011 77.756-29.111c3.236-1.672 5.411-4.993 5.411-8.822 0-5.251-4.089-9.547-9.257-9.877l-0.029-0.001-203.585-26.050 26.053 203.584c0.332 5.195 4.627 9.283 9.877 9.283 3.828 0 7.148-2.173 8.794-5.353l0.026-0.055 29.11-77.759c0.929-4.148 4.58-7.202 8.943-7.202 3.221 0 6.054 1.664 7.685 4.179l0.031 0.026 191.069 190.815 18.074-18.1c28.158-27.285 66.597-44.104 108.964-44.104 32.604 0 62.882 9.96 87.957 27.004l-0.546-0.35c7.762 5.456 14.574 11.197 20.85 17.475l0 0c27.8 27.795 44.994 66.196 44.994 108.613 0 84.824-68.764 153.588-153.588 153.588-0.011 0-0.022-0-0.033-0l-25.598 0v204.8h51.2v-155.175c101.557-13.171 179.2-99.124 179.2-203.211 0-56.552-22.919-107.751-59.975-144.814l0 0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_slight_left"
+          ]
+        },
+        {
+          "id": 19,
+          "paths": [
+            "M459.33 368.64c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM459.33 727.040c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM459.33 358.4c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM459.33 716.8c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM668.286 176.705c-5.195 0.332-9.283 4.627-9.283 9.877 0 3.828 2.173 7.148 5.353 8.794l0.055 0.026 77.759 29.112c4.149 0.928 7.203 4.579 7.203 8.943 0 3.221-1.664 6.054-4.179 7.685l-0.033 0.025-195.333 195.333 18.1 18.1c27.799 27.795 44.994 66.195 44.994 108.612 0 84.824-68.764 153.588-153.588 153.588-0.002 0-0.005-0-0.007-0l-25.6 0v203.734h51.2v-154.108c101.561-13.191 179.2-99.153 179.2-203.249 0-47.526-16.184-91.272-43.34-126.028l0.34 0.452 160.234-160.232c1.653-2.551 4.486-4.215 7.707-4.215 4.364 0 8.015 3.054 8.932 7.141l0.012 0.061 29.107 77.759c1.673 3.235 4.993 5.408 8.821 5.408 5.251 0 9.547-4.089 9.878-9.256l0.001-0.029 26.050-203.581z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_slight_right"
+          ]
+        },
+        {
+          "id": 18,
+          "paths": [
+            "M512 419.84c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM512 778.24c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM512 409.6c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM512 768c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM656.925 469.675c-31.103-31.305-72.309-52.537-118.317-58.395l-1.008-0.105v-154.962c-0.135-0.588-0.212-1.264-0.212-1.957 0-5.056 4.099-9.155 9.155-9.155 1.836 0 3.546 0.541 4.98 1.471l-0.036-0.022 75.566 34.4c0.915 0.309 1.969 0.487 3.065 0.487 5.466 0 9.896-4.431 9.896-9.896 0-2.518-0.94-4.816-2.489-6.563l0.009 0.010-125.534-162.375-125.534 162.375c-1.539 1.736-2.479 4.034-2.479 6.552 0 5.466 4.431 9.897 9.897 9.897 1.095 0 2.148-0.178 3.133-0.506l-0.070 0.020 75.571-34.4c1.397-0.907 3.105-1.447 4.939-1.447 5.056 0 9.154 4.098 9.154 9.154 0 0.693-0.077 1.367-0.223 2.016l0.012-0.061v204.588h25.6c84.831 0 153.6 68.769 153.6 153.6s-68.769 153.6-153.6 153.6v0h-25.6v153.6h51.2v-103.975c101.559-13.18 179.2-99.137 179.2-203.228 0-56.505-22.879-107.666-59.878-144.725l0.003 0.003z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary_straight"
+          ]
+        },
+        {
+          "id": 17,
+          "paths": [
+            "M281.6 512.102c-0.134 0.588-0.211 1.263-0.211 1.956 0 5.056 4.098 9.154 9.154 9.154 1.837 0 3.547-0.541 4.98-1.472l-0.036 0.022 75.566-34.4c0.915-0.308 1.968-0.486 3.063-0.486 5.466 0 9.897 4.431 9.897 9.897 0 2.517-0.94 4.815-2.488 6.562l0.009-0.010-125.534 162.378-125.534-162.38c-1.539-1.736-2.479-4.034-2.479-6.552 0-5.466 4.431-9.897 9.897-9.897 1.095 0 2.148 0.178 3.133 0.506l-0.070-0.020 75.571 34.4c1.397 0.908 3.105 1.448 4.94 1.448 5.055 0 9.153-4.098 9.153-9.153 0-0.692-0.077-1.365-0.222-2.013l0.012-0.041c0.196-103.704 56.226-194.276 139.623-243.279l1.327-0.721 25.6 44.3c-69.326 40.711-115.173 114.831-115.35 199.674l-0 0.026v0.102zM627.275 312.453c69.187 40.743 114.93 114.781 115.125 199.519l0 0.028h51.2c-0.23-103.585-56.128-194.064-139.355-243.13l-1.32-0.72-0.074-0.003c-3.73-1.213-6.379-4.659-6.379-8.723 0-3.522 1.989-6.58 4.906-8.11l0.050-0.024 67.573-48.243c2.016-1.819 3.278-4.441 3.278-7.358 0-5.467-4.431-9.898-9.898-9.898-0.695 0-1.374 0.072-2.028 0.208l0.064-0.011-203.39 27.528 77.856 189.906c1.356 3.956 5.044 6.749 9.383 6.749 4.74 0 8.701-3.331 9.671-7.78l0.012-0.065 7.993-82.644c-0.006-0.122-0.009-0.265-0.009-0.408 0-5.074 4.114-9.188 9.188-9.188 2.371 0 4.532 0.898 6.161 2.372l-0.008-0.007zM652.64 756.019c1.62-1.48 3.787-2.387 6.165-2.387 5.056 0 9.154 4.098 9.154 9.154 0 0.151-0.004 0.3-0.011 0.449l0.001-0.021 7.992 82.643c0.982 4.513 4.943 7.844 9.682 7.844 4.339 0 8.026-2.792 9.362-6.678l0.021-0.070 77.858-189.904-203.389-27.528c-0.591-0.125-1.269-0.197-1.965-0.197-5.466 0-9.897 4.431-9.897 9.897 0 2.917 1.262 5.539 3.27 7.351l0.009 0.008 67.575 48.243c2.966 1.555 4.954 4.612 4.954 8.134 0 4.064-2.648 7.509-6.313 8.705l-0.065 0.018 0.185-0.13c-33.149 19.059-72.887 30.301-115.251 30.301s-82.103-11.242-116.395-30.905l1.144 0.604-25.651 44.3c40.419 23.733 89.023 37.75 140.9 37.75s100.481-14.017 142.231-38.47l-1.331 0.72z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "rotary"
+          ]
+        },
+        {
+          "id": 16,
+          "paths": [
+            "M665.6 317.44c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM665.6 675.84c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM665.6 307.2c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM665.6 665.6c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM810.425 367.2c-8.354-8.36-17.421-16.006-27.101-22.84l-0.649-0.435c-32.711-22.287-73.099-35.585-116.592-35.585-56.494 0-107.748 22.437-145.337 58.887l0.053-0.051c-31.267 31.081-52.473 72.252-58.32 118.219l-0.105 1.007h-206.375c-0.588 0.134-1.263 0.211-1.956 0.211-5.056 0-9.154-4.098-9.154-9.154 0-1.837 0.541-3.547 1.472-4.98l-0.022 0.036 34.4-75.566c0.308-0.915 0.486-1.968 0.486-3.063 0-5.466-4.431-9.897-9.897-9.897-2.517 0-4.815 0.94-6.562 2.488l0.010-0.009-162.378 125.534 162.378 125.534c1.736 1.539 4.034 2.479 6.552 2.479 5.466 0 9.897-4.431 9.897-9.897 0-1.095-0.178-2.148-0.506-3.133l0.020 0.070-34.4-75.566c-0.91-1.398-1.45-3.108-1.45-4.945 0-5.056 4.098-9.154 9.154-9.154 0.693 0 1.368 0.077 2.017 0.223l-0.061-0.012h256v-25.6c-0-0.123-0.001-0.268-0.001-0.413 0-42.292 17.203-80.566 44.994-108.206l0.007-0.007c28.165-27.276 66.605-44.087 108.971-44.087 32.6 0 62.874 9.954 87.951 26.988l-0.547-0.351c7.762 5.456 14.574 11.197 20.85 17.475l0 0c27.799 27.795 44.994 66.195 44.994 108.612 0 84.824-68.764 153.588-153.588 153.588-0.011 0-0.022-0-0.034-0l-25.598 0v204.8h51.2v-155.175c101.558-13.171 179.2-99.124 179.2-203.211 0-56.552-22.919-107.751-59.976-144.815l0 0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_left"
+          ]
+        },
+        {
+          "id": 15,
+          "paths": [
+            "M358.4 317.44c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM358.4 675.84c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84l-0 0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM358.4 307.2c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM358.4 665.6c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM759.694 386.466c-1.736-1.539-4.034-2.479-6.552-2.479-5.466 0-9.897 4.431-9.897 9.897 0 1.095 0.178 2.148 0.506 3.133l-0.020-0.070 34.4 75.566c0.909 1.398 1.45 3.108 1.45 4.944 0 5.056-4.099 9.155-9.155 9.155-0.693 0-1.369-0.077-2.018-0.223l0.061 0.012h-256.469v25.6c0 0.001 0 0.002 0 0.003 0 84.829-68.768 153.597-153.597 153.597-0.001 0-0.002-0-0.003-0l-25.6 0v204.8h51.2v-155.175c92.835-12.076 165.549-84.79 177.515-176.593l0.11-1.032h206.844c0.588-0.135 1.264-0.212 1.957-0.212 5.056 0 9.155 4.099 9.155 9.155 0 1.836-0.541 3.546-1.471 4.98l0.022-0.036-34.4 75.566c-0.308 0.915-0.486 1.968-0.486 3.063 0 5.466 4.431 9.897 9.897 9.897 2.517 0 4.815-0.94 6.562-2.488l-0.010 0.009 162.375-125.534z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_right"
+          ]
+        },
+        {
+          "id": 14,
+          "paths": [
+            "M562.893 266.24c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM562.893 624.64c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM562.893 256c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM562.893 614.4c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM707.743 316c-8.361-8.359-17.435-16.005-27.124-22.839l-0.651-0.436c-32.712-22.278-73.097-35.57-116.586-35.57-56.494 0-107.748 22.431-145.344 58.872l0.054-0.052c-37.071 37.068-60 88.278-60 144.843 0 47.508 16.174 91.238 43.316 125.985l-0.341-0.453-156.967 156.968c-1.653 2.546-4.483 4.206-7.7 4.206-4.362 0-8.012-3.053-8.929-7.138l-0.012-0.061-29.111-77.759c-1.673-3.235-4.993-5.408-8.821-5.408-5.25 0-9.545 4.087-9.877 9.254l-0.001 0.029-26.049 203.585 203.585-26.050c5.195-0.333 9.283-4.629 9.283-9.879 0-3.828-2.173-7.148-5.353-8.795l-0.055-0.026-77.759-29.11c-4.148-0.929-7.202-4.58-7.202-8.943 0-3.221 1.664-6.054 4.179-7.685l0.017-0.041 174.274-174.37 17.325-18.074-17.675-17.725c-27.758-27.786-44.925-66.157-44.925-108.538 0-42.418 17.197-80.82 45-108.613l0-0c28.163-27.278 66.603-44.091 108.97-44.091 32.601 0 62.876 9.955 87.952 26.991l-0.547-0.351c7.772 5.457 14.592 11.198 20.876 17.476l-0.001-0.001c27.789 27.795 44.977 66.19 44.977 108.6 0 84.831-68.769 153.6-153.6 153.6-0.009 0-0.018-0-0.027-0l-25.599 0v204.8h51.2v-155.175c101.559-13.18 179.2-99.137 179.2-203.228 0-56.542-22.909-107.733-59.951-144.798l0.001 0.001z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_sharp_left"
+          ]
+        },
+        {
+          "id": 13,
+          "paths": [
+            "M459.375 266.24c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM459.375 624.64c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.105 90.444 73.396 163.735 163.83 163.84l0.010 0zM459.375 256c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM459.375 614.4c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM842.914 666.815c-0.332-5.195-4.627-9.283-9.877-9.283-3.828 0-7.148 2.173-8.794 5.353l-0.026 0.055-29.108 77.759c-0.93 4.148-4.581 7.202-8.945 7.202-3.222 0-6.055-1.664-7.686-4.179l-0.031-0.026-192.372-192.372-18.1 18.1c-27.641 27.782-65.902 44.975-108.178 44.975-0.148 0-0.296-0-0.445-0.001l0.023 0h-25.6v204.8h51.2v-155.175c38.234-4.817 72.316-19.638 100.411-41.73l-0.435 0.33 157.344 157.325c2.521 1.654 4.163 4.467 4.163 7.663 0 4.356-3.050 8-7.13 8.914l-0.061 0.011-77.757 29.112c-3.236 1.672-5.411 4.993-5.411 8.822 0 5.251 4.089 9.547 9.257 9.877l0.029 0.001 203.582 26.049z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_sharp_right"
+          ]
+        },
+        {
+          "id": 12,
+          "paths": [
+            "M561.906 368.64c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM561.906 727.040c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM561.906 358.4c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM561.906 716.8c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM280.357 245.666c-2.549-1.653-4.212-4.485-4.212-7.705 0-4.363 3.052-8.013 7.138-8.931l0.061-0.012 77.758-29.112c3.235-1.672 5.409-4.993 5.409-8.821 0-5.25-4.089-9.546-9.256-9.877l-0.029-0.001-203.583-26.051 26.051 203.584c0.332 5.196 4.628 9.285 9.878 9.285 3.828 0 7.149-2.173 8.795-5.354l0.026-0.055 29.109-77.758c0.929-4.148 4.579-7.202 8.944-7.202 3.221 0 6.054 1.664 7.686 4.179l0.022 0.036zM587.506 766.427c101.557-13.171 179.2-99.124 179.2-203.211 0-56.552-22.919-107.751-59.975-144.814l0 0c-8.354-8.36-17.421-16.006-27.101-22.84l-0.649-0.435c-32.784-22.443-73.302-35.839-116.948-35.839-47.441 0-91.185 15.827-126.241 42.489l0.514-0.375-192.151-191.949-36.198 36.25 227.277 226.975 18.074-18.1c28.158-27.285 66.597-44.104 108.964-44.104 32.604 0 62.882 9.96 87.957 27.004l-0.546-0.35c7.762 5.456 14.574 11.197 20.85 17.475l0 0c27.798 27.795 44.991 66.194 44.991 108.61 0 84.824-68.764 153.588-153.588 153.588-0.011 0-0.021-0-0.032-0l-25.598 0v204.8h51.2v-155.175z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_slight_left"
+          ]
+        },
+        {
+          "id": 11,
+          "paths": [
+            "M459.33 368.64c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.125-107.402 87.158-194.435 194.548-194.56l0.012-0zM459.33 727.040c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM459.33 358.4c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM459.33 716.8c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM668.286 176.705c-5.195 0.332-9.283 4.627-9.283 9.877 0 3.828 2.173 7.148 5.353 8.794l0.055 0.026 77.759 29.112c4.149 0.928 7.203 4.579 7.203 8.943 0 3.221-1.664 6.054-4.179 7.685l-0.033 0.025-195.333 195.333 18.1 18.1c27.799 27.795 44.994 66.195 44.994 108.612 0 84.824-68.764 153.588-153.588 153.588-0.002 0-0.005-0-0.007-0l-25.6 0v203.734h51.2v-154.108c101.561-13.191 179.2-99.153 179.2-203.249 0-47.526-16.184-91.272-43.34-126.028l0.34 0.452 160.234-160.232c1.653-2.551 4.486-4.215 7.707-4.215 4.364 0 8.015 3.054 8.932 7.141l0.012 0.061 29.107 77.759c1.673 3.235 4.993 5.408 8.821 5.408 5.251 0 9.547-4.089 9.878-9.256l0.001-0.029 26.050-203.581z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_slight_right"
+          ]
+        },
+        {
+          "id": 10,
+          "paths": [
+            "M512 419.84c107.453 0 194.56 87.107 194.56 194.56s-87.107 194.56-194.56 194.56c-107.453 0-194.56-87.107-194.56-194.56v0c0.124-107.403 87.158-194.436 194.548-194.56l0.012-0zM512 778.24c90.486 0 163.84-73.354 163.84-163.84s-73.354-163.84-163.84-163.84c-90.486 0-163.84 73.354-163.84 163.84v0c0.106 90.444 73.396 163.734 163.83 163.84l0.010 0zM512 409.6c-113.108 0-204.8 91.692-204.8 204.8s91.692 204.8 204.8 204.8c113.108 0 204.8-91.692 204.8-204.8v0c-0.133-113.054-91.746-204.667-204.787-204.8l-0.013-0zM512 768c-84.831 0-153.6-68.769-153.6-153.6s68.769-153.6 153.6-153.6c84.831 0 153.6 68.769 153.6 153.6v0c-0.095 84.792-68.807 153.504-153.591 153.6l-0.009 0zM656.925 469.675c-31.103-31.305-72.309-52.537-118.317-58.395l-1.008-0.105v-154.962c-0.135-0.588-0.212-1.264-0.212-1.957 0-5.056 4.099-9.155 9.155-9.155 1.836 0 3.546 0.541 4.98 1.471l-0.036-0.022 75.566 34.4c0.915 0.309 1.969 0.487 3.065 0.487 5.466 0 9.896-4.431 9.896-9.896 0-2.518-0.94-4.816-2.489-6.563l0.009 0.010-125.534-162.375-125.534 162.375c-1.539 1.736-2.479 4.034-2.479 6.552 0 5.466 4.431 9.897 9.897 9.897 1.095 0 2.148-0.178 3.133-0.506l-0.070 0.020 75.571-34.4c1.397-0.907 3.105-1.447 4.939-1.447 5.056 0 9.154 4.098 9.154 9.154 0 0.693-0.077 1.367-0.223 2.016l0.012-0.061v204.588h25.6c84.831 0 153.6 68.769 153.6 153.6s-68.769 153.6-153.6 153.6v0h-25.6v153.6h51.2v-103.975c101.559-13.18 179.2-99.137 179.2-203.228 0-56.505-22.879-107.666-59.878-144.725l0.003 0.003z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout_straight"
+          ]
+        },
+        {
+          "id": 9,
+          "paths": [
+            "M281.6 512.102c-0.134 0.588-0.211 1.263-0.211 1.956 0 5.056 4.098 9.154 9.154 9.154 1.837 0 3.547-0.541 4.98-1.472l-0.036 0.022 75.566-34.4c0.915-0.308 1.968-0.486 3.063-0.486 5.466 0 9.897 4.431 9.897 9.897 0 2.517-0.94 4.815-2.488 6.562l0.009-0.010-125.534 162.378-125.534-162.38c-1.539-1.736-2.479-4.034-2.479-6.552 0-5.466 4.431-9.897 9.897-9.897 1.095 0 2.148 0.178 3.133 0.506l-0.070-0.020 75.571 34.4c1.397 0.908 3.105 1.448 4.94 1.448 5.055 0 9.153-4.098 9.153-9.153 0-0.692-0.077-1.366-0.222-2.014l0.012-0.041c0.196-103.704 56.226-194.277 139.623-243.28l1.327-0.721 25.6 44.3c-69.326 40.711-115.173 114.832-115.35 199.675l-0 0.025v0.102zM627.275 312.453c69.187 40.743 114.93 114.781 115.125 199.519l0 0.028h51.2c-0.23-103.585-56.128-194.064-139.355-243.13l-1.32-0.72-0.074-0.003c-3.73-1.213-6.379-4.659-6.379-8.723 0-3.522 1.989-6.58 4.906-8.11l0.050-0.024 67.573-48.243c2.016-1.819 3.278-4.441 3.278-7.358 0-5.467-4.431-9.898-9.898-9.898-0.695 0-1.374 0.072-2.028 0.208l0.064-0.011-203.39 27.528 77.856 189.906c1.356 3.956 5.044 6.749 9.383 6.749 4.74 0 8.701-3.331 9.671-7.78l0.012-0.065 7.993-82.644c-0.006-0.122-0.009-0.265-0.009-0.408 0-5.074 4.114-9.188 9.188-9.188 2.371 0 4.532 0.898 6.161 2.372l-0.008-0.007zM652.64 756.019c1.62-1.48 3.787-2.387 6.165-2.387 5.056 0 9.154 4.098 9.154 9.154 0 0.151-0.004 0.3-0.011 0.449l0.001-0.021 7.992 82.643c0.982 4.513 4.943 7.844 9.682 7.844 4.339 0 8.026-2.792 9.362-6.678l0.021-0.070 77.858-189.904-203.389-27.528c-0.591-0.125-1.269-0.197-1.965-0.197-5.466 0-9.897 4.431-9.897 9.897 0 2.917 1.262 5.539 3.27 7.351l0.009 0.008 67.575 48.243c2.966 1.555 4.954 4.612 4.954 8.134 0 4.064-2.648 7.509-6.313 8.705l-0.065 0.018 0.185-0.13c-33.149 19.059-72.887 30.301-115.251 30.301s-82.103-11.242-116.395-30.905l1.144 0.604-25.651 44.3c40.419 23.733 89.023 37.75 140.9 37.75s100.481-14.017 142.231-38.47l-1.331 0.72z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "roundabout"
+          ]
+        },
+        {
+          "id": 8,
+          "paths": [
+            "M512 306.169l0.563 0.094c169.789 2.058 306.638 140.178 306.638 310.26 0 0.242-0 0.485-0.001 0.727l0-0.037v201.988h-0.159l0.102 76.962c0 0.010 0 0.023 0 0.035 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.531 0c-14.032 0-25.406-11.375-25.406-25.406h-0v-278.981c0.001-0.243 0.002-0.531 0.002-0.82 0-113.5-91.014-205.743-204.041-207.728l-0.186-0.003h-102.338c-1.176-0.269-2.526-0.423-3.913-0.423-10.112 0-18.309 8.197-18.309 18.309 0 3.673 1.082 7.093 2.943 9.96l-0.043-0.071 68.8 151.134c0.617 1.83 0.973 3.937 0.973 6.128 0 10.932-8.862 19.793-19.793 19.793-5.035 0-9.632-1.88-13.125-4.977l0.021 0.018-324.965-250.134 324.966-252.006c3.473-3.079 8.069-4.959 13.104-4.959 10.932 0 19.793 8.862 19.793 19.793 0 2.191-0.356 4.298-1.013 6.268l0.040-0.14-68.801 151.135c-1.818 2.795-2.9 6.215-2.9 9.888 0 10.111 8.197 18.308 18.308 18.308 1.387 0 2.738-0.154 4.036-0.446l-0.122 0.023h101.763z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_left"
+          ]
+        },
+        {
+          "id": 7,
+          "paths": [
+            "M511.425 408.663c-113.213 1.987-204.227 94.23-204.227 207.73 0 0.288 0.001 0.576 0.002 0.864l-0-0.044v278.981c0 14.032-11.375 25.406-25.406 25.406v0h-51.531c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.1-76.962h-0.159v-201.988c-0-0.205-0.001-0.447-0.001-0.69 0-170.083 136.848-308.203 306.444-310.258l0.194-0.002 0.563-0.094v0.094h101.763c1.176 0.269 2.527 0.423 3.914 0.423 10.111 0 18.308-8.197 18.308-18.308 0-3.672-1.081-7.092-2.943-9.959l0.043 0.071-68.8-151.134c-0.617-1.83-0.973-3.938-0.973-6.128 0-10.932 8.862-19.793 19.793-19.793 5.035 0 9.631 1.88 13.125 4.977l-0.021-0.018 324.966 252.006-324.966 250.135c-3.473 3.079-8.069 4.959-13.104 4.959-10.932 0-19.793-8.862-19.793-19.793 0-2.191 0.356-4.298 1.013-6.268l-0.040 0.14 68.8-151.134c1.819-2.796 2.9-6.216 2.9-9.889 0-10.112-8.197-18.309-18.309-18.309-1.386 0-2.737 0.154-4.035 0.446l0.122-0.023h-102.337z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_right"
+          ]
+        },
+        {
+          "id": 6,
+          "paths": [
+            "M793.483 921.366c-14.076-0-25.487-11.411-25.487-25.487v0-639.913l-14.325-0.324c-3.573-0.345-7.725-0.542-11.922-0.542-37.522 0-71.372 15.72-95.324 40.933l-0.053 0.057-276.238 236.177c-5.138 3.201-8.507 8.82-8.507 15.225 0 8.038 5.305 14.838 12.605 17.088l0.127 0.034 149.953 71.337c5.643 3.552 9.338 9.748 9.338 16.806 0 10.931-8.862 19.793-19.793 19.793-0.166 0-0.332-0.002-0.498-0.006l0.025 0-410.138 17.003 86.819-401.203c1.471-9.606 9.675-16.879 19.578-16.879 8.254 0 15.327 5.051 18.298 12.231l0.048 0.131 44.672 159.934c1.207 9.047 8.875 15.953 18.156 15.953 5.89 0 11.13-2.781 14.479-7.102l0.031-0.042 0.194 0.229 276.076-235.985c41.060-39.612 97.022-64.018 158.683-64.018 5.143 0 10.246 0.17 15.304 0.504l-0.687-0.036 13.525 0.102c0.992-0.036 2.157-0.056 3.327-0.056 27.401 0 52.197 11.157 70.092 29.175l0.006 0.006c17.689 19.123 28.54 44.797 28.54 73.006 0 0.622-0.005 1.243-0.016 1.862l0.001-0.093 0.024 638.609c0 0 0 0.001 0 0.001 0 14.076-11.411 25.487-25.487 25.487h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_sharp_left"
+          ]
+        },
+        {
+          "id": 5,
+          "paths": [
+            "M179.092 921.366c-14.076 0-25.487-11.411-25.487-25.487 0-0 0-0.001 0-0.001l-0 0 0.024-638.612c-0.009-0.526-0.015-1.147-0.015-1.769 0-28.209 10.85-53.883 28.605-73.077l-0.065 0.071c17.9-18.024 42.696-29.181 70.097-29.181 1.17 0 2.335 0.020 3.496 0.061l-0.168-0.005 13.525-0.102c4.37-0.298 9.472-0.467 14.614-0.467 61.663 0 117.625 24.406 158.754 64.086l-0.068-0.066 276.076 235.985 0.194-0.228c3.38 4.363 8.62 7.144 14.51 7.144 9.281 0 16.949-6.906 18.145-15.86l0.010-0.094 44.672-159.934c3.019-7.311 10.093-12.363 18.346-12.363 9.903 0 18.108 7.273 19.565 16.768l0.014 0.11 86.819 401.203-410.137-17.003c-0.141 0.004-0.307 0.006-0.473 0.006-10.931 0-19.793-8.862-19.793-19.793 0-7.059 3.695-13.254 9.256-16.758l0.082-0.048 149.953-71.337c7.427-2.284 12.732-9.083 12.732-17.121 0-6.406-3.369-12.024-8.431-15.181l-0.076-0.044-276.238-236.177c-24.005-25.27-57.856-40.99-95.378-40.99-4.198 0-8.349 0.197-12.446 0.581l0.524-0.040-14.325 0.325v639.913c0 14.076-11.411 25.487-25.487 25.487v0h-51.425z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_sharp_right"
+          ]
+        },
+        {
+          "id": 4,
+          "paths": [
+            "M767.278 719.002v177.194c-0.001 14.030-11.374 25.403-25.403 25.404l-51.534 0c-0 0-0 0-0.001 0-14.029 0-25.402-11.373-25.402-25.402 0-0.012 0-0.025 0-0.037l-0 0.002 0.241-184.713c0.308-4.801 0.483-10.41 0.483-16.061 0-77.426-32.935-147.16-85.56-195.955l-0.171-0.157-125.349-105.761c-3.374-4.488-8.689-7.36-14.674-7.36-9.187 0-16.793 6.767-18.107 15.588l-0.012 0.1-47.012 159.263c-3.083 7.167-10.084 12.095-18.236 12.095-10.007 0-18.279-7.425-19.609-17.066l-0.012-0.103-80.919-402.432 409.844 23.022c0.054-0.001 0.119-0.001 0.183-0.001 10.931 0 19.793 8.862 19.793 19.793 0 7.161-3.802 13.433-9.498 16.908l-0.087 0.049-150.985 69.128c-7.66 2.305-13.144 9.295-13.144 17.565 0 6.901 3.818 12.91 9.456 16.030l0.094 0.048 125.822 106.181c74.179 68.11 120.506 165.541 120.506 273.791 0 8.052-0.256 16.043-0.761 23.967l0.055-1.082z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_slight_left"
+          ]
+        },
+        {
+          "id": 3,
+          "paths": [
+            "M376.522 422.325l125.822-106.182c5.733-3.168 9.55-9.177 9.55-16.078 0-8.271-5.484-15.261-13.014-17.532l-0.13-0.034-150.985-69.128c-5.783-3.525-9.585-9.797-9.585-16.958 0-10.931 8.862-19.793 19.793-19.793 0.064 0 0.129 0 0.193 0.001l-0.010-0 409.844-23.022-80.919 402.432c-1.342 9.744-9.614 17.169-19.62 17.169-8.151 0-15.152-4.927-18.187-11.965l-0.049-0.128-47.011-159.263c-1.326-8.921-8.933-15.688-18.12-15.688-5.985 0-11.3 2.872-14.64 7.313l-0.034 0.047-125.349 105.759c-52.796 48.953-85.731 118.686-85.731 196.112 0 5.65 0.175 11.26 0.521 16.823l-0.038-0.762 0.241 184.713c0 0.011 0 0.024 0 0.037 0 14.029-11.373 25.402-25.402 25.402-0.001 0-0.002-0-0.003-0l-51.534 0c-14.030-0.002-25.403-11.376-25.403-25.406 0-0 0-0 0-0.001l0 0v-177.192c-0.45-6.842-0.706-14.834-0.706-22.886 0-108.25 46.327-205.68 120.236-273.546l0.27-0.245z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_slight_right"
+          ]
+        },
+        {
+          "id": 2,
+          "paths": [
+            "M742.575 459.078l-151.135-68.8c-2.795-1.819-6.216-2.9-9.889-2.9-10.11 0-18.307 8.196-18.307 18.307 0 1.387 0.154 2.739 0.447 4.038l-0.023-0.122v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0 0-0.001 0-0.001 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0.269-1.177 0.424-2.528 0.424-3.915 0-10.111-8.196-18.307-18.307-18.307-3.673 0-7.093 1.082-9.959 2.944l0.071-0.043-151.137 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.104 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.267-1.013l0.14 0.040z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "turn_straight"
+          ]
+        },
+        {
+          "id": 1,
+          "paths": [
+            "M763.537 648.047l-251.068 324.753-251.069-324.753c-3.079-3.473-4.959-8.069-4.959-13.104 0-10.932 8.862-19.793 19.793-19.793 2.191 0 4.298 0.356 6.268 1.013l-0.14-0.040 151.134 68.8c2.795 1.819 6.215 2.9 9.888 2.9 10.111 0 18.308-8.197 18.308-18.308 0-1.387-0.154-2.738-0.446-4.037l0.023 0.122v-306.775c0.269-1.176 0.423-2.527 0.423-3.914 0-10.111-8.197-18.308-18.308-18.308-3.672 0-7.092 1.081-9.959 2.943l0.071-0.043-151.135 68.8c-1.83 0.617-3.937 0.973-6.128 0.973-10.932 0-19.793-8.862-19.793-19.793 0-5.035 1.88-9.632 4.977-13.125l-0.018 0.021 251.069-324.753 251.069 324.753c3.078 3.473 4.958 8.068 4.958 13.103 0 10.932-8.862 19.794-19.794 19.794-2.19 0-4.297-0.356-6.266-1.012l0.14 0.040-151.135-68.8c-2.795-1.818-6.215-2.9-9.888-2.9-10.111 0-18.308 8.197-18.308 18.308 0 1.387 0.154 2.738 0.446 4.036l-0.023-0.122v306.775c-0.269 1.176-0.423 2.527-0.423 3.914 0 10.111 8.197 18.308 18.308 18.308 3.672 0 7.092-1.081 9.959-2.943l-0.071 0.043 151.134-68.8c1.83-0.616 3.937-0.972 6.127-0.972 10.932 0 19.794 8.862 19.794 19.794 0 5.035-1.88 9.631-4.976 13.124l0.018-0.021z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "updown"
+          ]
+        },
+        {
+          "id": 0,
+          "paths": [
+            "M870.4 409.6v486.222c0 0 0 0.001 0 0.001 0 14.236-11.541 25.777-25.777 25.777-0 0-0.001-0-0.001-0l-50.842 0c-0.001 0-0.002 0-0.003 0-14.236 0-25.777-11.541-25.777-25.777 0-0 0-0.001 0-0.001l-0 0v-486.222c0-98.969-80.231-179.2-179.2-179.2s-179.2 80.231-179.2 179.2v0 204.8h-0.465c-0.269 1.176-0.423 2.527-0.423 3.914 0 10.111 8.197 18.308 18.308 18.308 3.672 0 7.092-1.081 9.959-2.943l-0.071 0.043 151.134-68.8c1.83-0.616 3.936-0.972 6.126-0.972 10.932 0 19.794 8.862 19.794 19.794 0 5.035-1.88 9.631-4.976 13.124l0.018-0.021-251.068 324.753-251.072-324.753c-3.078-3.473-4.958-8.068-4.958-13.103 0-10.932 8.862-19.794 19.794-19.794 2.19 0 4.297 0.356 6.266 1.012l-0.14-0.040 151.134 68.8c2.796 1.819 6.216 2.901 9.889 2.901 10.112 0 18.309-8.197 18.309-18.309 0-1.387-0.154-2.737-0.446-4.036l0.023 0.122h0.465v-204.8c0-155.523 126.077-281.6 281.6-281.6s281.6 126.077 281.6 281.6v0z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "uturn"
+          ]
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    }
+  ],
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "Navigation",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "showMetadata": false,
+      "showMetrics": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "Navigation",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  },
+  "uid": -1
+}

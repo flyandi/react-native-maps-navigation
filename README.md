@@ -1,6 +1,6 @@
 # react-native-maps-navigation
 
-Placeholder initial
+WARNING: THIS MODULE IS UNDER HEAVY DEVELOPMENT AND NOT READY FOR PRIME TIME.
 
 ## Installation
 
@@ -10,5 +10,8 @@ Placeholder initial
 yarn add react-native-maps-navigation
 ```
 
+Make sure you link the module before building:
 
-
+```bash
+react-native link react-native-maps-navigation
+```
