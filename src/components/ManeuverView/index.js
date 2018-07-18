@@ -3,30 +3,29 @@
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
 import _ from 'lodash';
 import Styles from './styles';
 import ManeuverArrow from '../ManeuverArrow';
 import ManeuverLabel from '../ManeuverLabel';
-import DurationDistanceLabel from '../DurationDistanceLabel';
+
 
 /**
  * @component
  */
-export default class DirectionListViewItem extends Component {
+export default class ManeuverView extends Component {
 
     /**
      * propTypes
      * @type {}
      */
     static propTypes = {
-        instructions: PropTypes.string,
-        distance: PropTypes.object,
-        duration: PropTypes.object,
-        maneuver: PropTypes.object,
+        step: PropTypes.any.isRequired,
         fontFamily: PropTypes.string,
         fontFamilyBold: PropTypes.string,
         fontSize: PropTypes.number,
+        arrowSize: PropTypes.number,
+        arrowColor: PropTypes.string,
     }
 
     /**
@@ -34,13 +33,12 @@ export default class DirectionListViewItem extends Component {
      * @type {}
      */
     static defaultProps = {
-        instructions: '',
+        step: undefined,
         fontFamily: undefined,
         fontFamilyBold: undefined,
-        distance: undefined,
-        duration: undefined,
-        maneuver: undefined,
-        fontSize: undefined,
+        fontSize: 20,
+        arrowSize: 50,
+        arrowColor: '#545455',
     }
 
 
@@ -51,7 +49,9 @@ export default class DirectionListViewItem extends Component {
     constructor(props)
     {
         super(props);
+
     }
+
 
     /**
      * render
@@ -59,23 +59,28 @@ export default class DirectionListViewItem extends Component {
      */
     render()
     {
-        const styles = Styles(this.props);
+            const styles = Styles(this.props);
+
+        const step = this.props.step;
+
+        if(!step) return null;
+
+        const maneuver = step.maneuver;
 
         return (
-            <View style={styles.directionDetailSection}>
-                <View style={styles.directionDetailIconContainer}>
+            <View style={styles.maneuverView}>
+                <View style={styles.maneuverViewArrow}>
                     <ManeuverArrow
-                        {...this.props}
-                        size={24}
+                        size={this.props.arrowSize}
+                        color={this.props.arrowColor}
+                        maneuver={maneuver}
                     />
                 </View>
-                <View style={styles.directionDetailContent}>
+                <View style={styles.maneuverViewDirection}>
                     <ManeuverLabel
                         {...this.props}
-                    />
-                    <DurationDistanceLabel
-                        {...this.props}
-                        style={{marginTop: 4}}
+                        instructions={step.instructions}
+                        fontSize={this.props.fontSize}
                     />
                 </View>
             </View>

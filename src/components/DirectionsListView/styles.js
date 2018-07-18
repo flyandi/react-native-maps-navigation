@@ -113,25 +113,9 @@ export default props => StyleSheet.create({
         alignItems: 'center'
     },
 
-    directionDetailIconText: {
-        marginLeft: 20,
-        width: 50,
-        flex: 0,
-        fontSize: 24,
-        fontFamily: 'Navigation'
-    },
-
     directionDetailContent: {
         flexDirection: 'column',
         flex: 1,
     },
-
-    directionDetailText: {
-        flexDirection: 'row',
-    },
-
-    directionDetailDistanceDuration: {
-        marginTop: 3,
-    }
 
 });

@@ -9,35 +9,82 @@
       "selection": [
         {
           "order": 1,
+          "id": 0,
+          "prevSize": 16,
+          "code": 59767,
+          "name": "circle-full",
+          "tempChar": ""
+        }
+      ],
+      "id": 6,
+      "metadata": {
+        "name": "Eighty Shades (subset)",
+        "url": "http://dribbble.com/shots/928458-80-Shades-of-White-Icons",
+        "designer": "Victor Erixon",
+        "designerURL": "http://victorerixon.com/",
+        "license": "Custom",
+        "licenseURL": "http://dribbble.com/shots/928458-80-Shades-of-White-Icons",
+        "iconsHash": 2091231952,
+        "importSize": {
+          "width": 16,
+          "height": 16
+        }
+      },
+      "height": 1024,
+      "prevSize": 16,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M512 1024c-282.75 0-512-229.25-512-512s229.25-512 512-512 512 229.25 512 512-229.25 512-512 512zM512 128c-212.062 0-384 171.938-384 384s171.938 384 384 384 384-171.938 384-384-171.938-384-384-384zM512 768c-141.376 0-256-114.624-256-256s114.624-256 256-256 256 114.624 256 256-114.624 256-256 256z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "circle-full"
+          ],
+          "grid": 16
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    },
+    {
+      "selection": [
+        {
+          "order": 1,
           "id": 3,
           "name": "target, goal, location, spot",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59761,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 2,
           "id": 2,
           "name": "location2, map-marker, pin",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59762,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 3,
           "id": 1,
           "name": "location3, map-marker2, pin2",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59763,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 93,
           "id": 0,
           "name": "compass, direction, location4",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59764,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 5,
@@ -138,7 +185,7 @@
           "name": "navigation",
           "prevSize": 24,
           "code": 59765,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -146,7 +193,7 @@
           "prevSize": 24,
           "code": 59735,
           "name": "watch_later",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 2,
@@ -154,7 +201,7 @@
           "prevSize": 24,
           "code": 59736,
           "name": "timer_3",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 3,
@@ -162,7 +209,7 @@
           "prevSize": 24,
           "code": 59737,
           "name": "timer_10",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 4,
@@ -170,7 +217,7 @@
           "prevSize": 24,
           "code": 59738,
           "name": "av_timer",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 5,
@@ -178,7 +225,7 @@
           "prevSize": 24,
           "code": 59739,
           "name": "timer",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -186,7 +233,7 @@
           "name": "menu",
           "prevSize": 24,
           "code": 59740,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -194,7 +241,7 @@
           "name": "zoom_out_map",
           "prevSize": 24,
           "code": 59741,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 2,
@@ -202,7 +249,7 @@
           "name": "zoom_out",
           "prevSize": 24,
           "code": 59742,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 3,
@@ -210,7 +257,7 @@
           "name": "zoom_in",
           "prevSize": 24,
           "code": 59743,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 4,
@@ -218,7 +265,7 @@
           "name": "linear_scale",
           "prevSize": 24,
           "code": 59744,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 94,
@@ -226,7 +273,7 @@
           "name": "room, place",
           "prevSize": 24,
           "code": 59745,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -234,7 +281,7 @@
           "name": "zoom_out_map2",
           "prevSize": 24,
           "code": 59746,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 2,
@@ -242,7 +289,7 @@
           "name": "location_off",
           "prevSize": 24,
           "code": 59747,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 3,
@@ -250,7 +297,7 @@
           "name": "location_city",
           "prevSize": 24,
           "code": 59748,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 4,
@@ -258,7 +305,7 @@
           "name": "location_disabled2",
           "prevSize": 24,
           "code": 59749,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 5,
@@ -266,7 +313,7 @@
           "name": "location_searching2",
           "prevSize": 24,
           "code": 59750,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 6,
@@ -274,7 +321,7 @@
           "name": "my_location2",
           "prevSize": 24,
           "code": 59751,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 7,
@@ -282,7 +329,7 @@
           "name": "edit_location",
           "prevSize": 24,
           "code": 59752,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 8,
@@ -290,7 +337,7 @@
           "name": "add_location",
           "prevSize": 24,
           "code": 59753,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 9,
@@ -298,7 +345,7 @@
           "name": "map",
           "prevSize": 24,
           "code": 59754,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -306,7 +353,7 @@
           "prevSize": 24,
           "code": 59755,
           "name": "directions_transit",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -314,7 +361,7 @@
           "name": "directions_walk",
           "prevSize": 24,
           "code": 59756,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -322,7 +369,7 @@
           "name": "directions_bike",
           "prevSize": 24,
           "code": 59757,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -330,7 +377,7 @@
           "name": "card_travel",
           "prevSize": 24,
           "code": 59758,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -338,7 +385,7 @@
           "prevSize": 24,
           "code": 59759,
           "name": "home",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 1,
@@ -346,7 +393,7 @@
           "prevSize": 24,
           "code": 59760,
           "name": "directions_car",
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 4,
@@ -779,12 +826,12 @@
     {
       "selection": [
         {
-          "order": 96,
+          "order": 103,
           "id": 87,
           "name": "merge",
           "prevSize": 32,
           "code": 59766,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 2,
@@ -792,7 +839,7 @@
           "name": "arrive_left",
           "prevSize": 32,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 3,
@@ -800,7 +847,7 @@
           "name": "arrive_right",
           "prevSize": 32,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 4,
@@ -808,7 +855,7 @@
           "name": "arrive_straight",
           "prevSize": 32,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 5,
@@ -816,7 +863,7 @@
           "name": "arrive",
           "prevSize": 32,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 6,
@@ -824,7 +871,7 @@
           "name": "close",
           "prevSize": 32,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 7,
@@ -832,7 +879,7 @@
           "name": "continue_left",
           "prevSize": 32,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 8,
@@ -840,7 +887,7 @@
           "name": "continue_right",
           "prevSize": 32,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 9,
@@ -848,7 +895,7 @@
           "name": "continue_slight_left",
           "prevSize": 32,
           "code": 59655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 10,
@@ -856,7 +903,7 @@
           "name": "continue_slight_right",
           "prevSize": 32,
           "code": 59656,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 11,
@@ -864,7 +911,7 @@
           "name": "continue_straight",
           "prevSize": 32,
           "code": 59657,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 12,
@@ -872,7 +919,7 @@
           "name": "continue_uturn",
           "prevSize": 32,
           "code": 59658,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 13,
@@ -880,7 +927,7 @@
           "name": "continue",
           "prevSize": 32,
           "code": 59659,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 14,
@@ -888,7 +935,7 @@
           "name": "depart_left",
           "prevSize": 32,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 15,
@@ -896,7 +943,7 @@
           "name": "depart_right",
           "prevSize": 32,
           "code": 59661,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 16,
@@ -904,7 +951,7 @@
           "name": "depart_straight",
           "prevSize": 32,
           "code": 59662,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 17,
@@ -912,7 +959,7 @@
           "name": "depart",
           "prevSize": 32,
           "code": 59663,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 18,
@@ -920,7 +967,7 @@
           "name": "end_of_road_left",
           "prevSize": 32,
           "code": 59664,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 19,
@@ -928,7 +975,7 @@
           "name": "end_of_road_right",
           "prevSize": 32,
           "code": 59665,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 20,
@@ -936,7 +983,7 @@
           "name": "flag",
           "prevSize": 32,
           "code": 59666,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 21,
@@ -944,7 +991,7 @@
           "name": "fork_left",
           "prevSize": 32,
           "code": 59667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 22,
@@ -952,7 +999,7 @@
           "name": "fork_right",
           "prevSize": 32,
           "code": 59668,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 23,
@@ -960,7 +1007,7 @@
           "name": "fork_slight_left",
           "prevSize": 32,
           "code": 59669,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 24,
@@ -968,7 +1015,7 @@
           "name": "fork_slight_right",
           "prevSize": 32,
           "code": 59670,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 25,
@@ -976,7 +1023,7 @@
           "name": "fork_straight",
           "prevSize": 32,
           "code": 59671,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 26,
@@ -984,7 +1031,7 @@
           "name": "fork",
           "prevSize": 32,
           "code": 59672,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 27,
@@ -992,7 +1039,7 @@
           "name": "invalid_left",
           "prevSize": 32,
           "code": 59673,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 28,
@@ -1000,7 +1047,7 @@
           "name": "invalid_right",
           "prevSize": 32,
           "code": 59674,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 29,
@@ -1008,7 +1055,7 @@
           "name": "invalid_slight_left",
           "prevSize": 32,
           "code": 59675,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 30,
@@ -1016,7 +1063,7 @@
           "name": "invalid_slight_right",
           "prevSize": 32,
           "code": 59676,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 31,
@@ -1024,7 +1071,7 @@
           "name": "invalid_straight",
           "prevSize": 32,
           "code": 59677,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 32,
@@ -1032,7 +1079,7 @@
           "name": "invalid_uturn",
           "prevSize": 32,
           "code": 59678,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 33,
@@ -1040,7 +1087,7 @@
           "name": "invalid",
           "prevSize": 32,
           "code": 59679,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 34,
@@ -1048,7 +1095,7 @@
           "name": "merge_left",
           "prevSize": 32,
           "code": 59680,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 35,
@@ -1056,7 +1103,7 @@
           "name": "merge_right",
           "prevSize": 32,
           "code": 59681,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 36,
@@ -1064,7 +1111,7 @@
           "name": "merge_slight_left",
           "prevSize": 32,
           "code": 59682,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 37,
@@ -1072,7 +1119,7 @@
           "name": "merge_slight_right",
           "prevSize": 32,
           "code": 59683,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 102,
@@ -1080,7 +1127,7 @@
           "name": "merge_straight",
           "prevSize": 32,
           "code": 59684,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 39,
@@ -1088,7 +1135,7 @@
           "name": "new_name_left",
           "prevSize": 32,
           "code": 59685,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 40,
@@ -1096,7 +1143,7 @@
           "name": "new_name_right",
           "prevSize": 32,
           "code": 59686,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 41,
@@ -1104,7 +1151,7 @@
           "name": "new_name_sharp_left",
           "prevSize": 32,
           "code": 59687,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 42,
@@ -1112,7 +1159,7 @@
           "name": "new_name_sharp_right",
           "prevSize": 32,
           "code": 59688,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 43,
@@ -1120,7 +1167,7 @@
           "name": "new_name_slight_left",
           "prevSize": 32,
           "code": 59689,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 44,
@@ -1128,7 +1175,7 @@
           "name": "new_name_slight_right",
           "prevSize": 32,
           "code": 59690,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 45,
@@ -1136,7 +1183,7 @@
           "name": "new_name_straight",
           "prevSize": 32,
           "code": 59691,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 46,
@@ -1144,7 +1191,7 @@
           "name": "notificaiton_sharp_right",
           "prevSize": 32,
           "code": 59692,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 47,
@@ -1152,7 +1199,7 @@
           "name": "notification_left",
           "prevSize": 32,
           "code": 59693,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 48,
@@ -1160,7 +1207,7 @@
           "name": "notification_right",
           "prevSize": 32,
           "code": 59694,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 49,
@@ -1168,7 +1215,7 @@
           "name": "notification_sharp_left",
           "prevSize": 32,
           "code": 59695,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 50,
@@ -1176,7 +1223,7 @@
           "name": "notification_slight_left",
           "prevSize": 32,
           "code": 59696,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 51,
@@ -1184,7 +1231,7 @@
           "name": "notification_slight_right",
           "prevSize": 32,
           "code": 59697,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 52,
@@ -1192,7 +1239,7 @@
           "name": "notification_straight",
           "prevSize": 32,
           "code": 59698,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 53,
@@ -1200,7 +1247,7 @@
           "name": "off_ramp_left",
           "prevSize": 32,
           "code": 59699,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 54,
@@ -1208,7 +1255,7 @@
           "name": "off_ramp_right",
           "prevSize": 32,
           "code": 59700,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 55,
@@ -1216,7 +1263,7 @@
           "name": "off_ramp_slight_left",
           "prevSize": 32,
           "code": 59701,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 56,
@@ -1224,7 +1271,7 @@
           "name": "off_ramp_slight_right",
           "prevSize": 32,
           "code": 59702,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 57,
@@ -1232,7 +1279,7 @@
           "name": "on_ramp_left",
           "prevSize": 32,
           "code": 59703,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 58,
@@ -1240,7 +1287,7 @@
           "name": "on_ramp_right",
           "prevSize": 32,
           "code": 59704,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 59,
@@ -1248,7 +1295,7 @@
           "name": "on_ramp_sharp_left",
           "prevSize": 32,
           "code": 59705,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 60,
@@ -1256,7 +1303,7 @@
           "name": "on_ramp_sharp_right",
           "prevSize": 32,
           "code": 59706,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 61,
@@ -1264,7 +1311,7 @@
           "name": "on_ramp_slight_left",
           "prevSize": 32,
           "code": 59707,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 62,
@@ -1272,7 +1319,7 @@
           "name": "on_ramp_slight_right",
           "prevSize": 32,
           "code": 59708,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 63,
@@ -1280,7 +1327,7 @@
           "name": "on_ramp_straight",
           "prevSize": 32,
           "code": 59709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 64,
@@ -1288,7 +1335,7 @@
           "name": "rotary_left",
           "prevSize": 32,
           "code": 59710,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 65,
@@ -1296,7 +1343,7 @@
           "name": "rotary_right",
           "prevSize": 32,
           "code": 59711,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 66,
@@ -1304,7 +1351,7 @@
           "name": "rotary_sharp_left",
           "prevSize": 32,
           "code": 59712,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 67,
@@ -1312,7 +1359,7 @@
           "name": "rotary_sharp_right",
           "prevSize": 32,
           "code": 59713,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 68,
@@ -1320,7 +1367,7 @@
           "name": "rotary_slight_left",
           "prevSize": 32,
           "code": 59714,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 69,
@@ -1328,7 +1375,7 @@
           "name": "rotary_slight_right",
           "prevSize": 32,
           "code": 59715,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 70,
@@ -1336,7 +1383,7 @@
           "name": "rotary_straight",
           "prevSize": 32,
           "code": 59716,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 71,
@@ -1344,7 +1391,7 @@
           "name": "rotary",
           "prevSize": 32,
           "code": 59717,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 72,
@@ -1352,7 +1399,7 @@
           "name": "roundabout_left",
           "prevSize": 32,
           "code": 59718,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 73,
@@ -1360,7 +1407,7 @@
           "name": "roundabout_right",
           "prevSize": 32,
           "code": 59719,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 74,
@@ -1368,7 +1415,7 @@
           "name": "roundabout_sharp_left",
           "prevSize": 32,
           "code": 59720,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 75,
@@ -1376,7 +1423,7 @@
           "name": "roundabout_sharp_right",
           "prevSize": 32,
           "code": 59721,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 76,
@@ -1384,7 +1431,7 @@
           "name": "roundabout_slight_left",
           "prevSize": 32,
           "code": 59722,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 77,
@@ -1392,7 +1439,7 @@
           "name": "roundabout_slight_right",
           "prevSize": 32,
           "code": 59723,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 78,
@@ -1400,7 +1447,7 @@
           "name": "roundabout_straight",
           "prevSize": 32,
           "code": 59724,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 79,
@@ -1408,7 +1455,7 @@
           "name": "roundabout",
           "prevSize": 32,
           "code": 59725,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 80,
@@ -1416,7 +1463,7 @@
           "name": "turn_left",
           "prevSize": 32,
           "code": 59726,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 81,
@@ -1424,7 +1471,7 @@
           "name": "turn_right",
           "prevSize": 32,
           "code": 59727,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 82,
@@ -1432,7 +1479,7 @@
           "name": "turn_sharp_left",
           "prevSize": 32,
           "code": 59728,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 83,
@@ -1440,7 +1487,7 @@
           "name": "turn_sharp_right",
           "prevSize": 32,
           "code": 59729,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 84,
@@ -1448,7 +1495,7 @@
           "name": "turn_slight_left",
           "prevSize": 32,
           "code": 59730,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 85,
@@ -1456,7 +1503,7 @@
           "name": "turn_slight_right",
           "prevSize": 32,
           "code": 59731,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 86,
@@ -1464,7 +1511,7 @@
           "name": "turn_straight",
           "prevSize": 32,
           "code": 59732,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 87,
@@ -1472,7 +1519,7 @@
           "name": "updown",
           "prevSize": 32,
           "code": 59733,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 88,
@@ -1480,7 +1527,7 @@
           "name": "uturn",
           "prevSize": 32,
           "code": 59734,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 2,

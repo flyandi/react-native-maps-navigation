@@ -51,7 +51,7 @@ export default {
     location2: '\ue972',
     location3: '\ue973',
     compassDirection: '\ue974',
-
+    compassDot: '\ue977',
 
     /**
      * @arrows
