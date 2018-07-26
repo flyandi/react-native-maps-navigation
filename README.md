@@ -1,6 +1,9 @@
 # react-native-maps-navigation
 
-WARNING: THIS MODULE IS UNDER HEAVY DEVELOPMENT AND NOT READY FOR PRIME TIME.``
+![alt text](https://github.com/flyandi/react-native-maps-navigation/raw/master/docs/preview.gif "react-native-maps-navigation")
+
+
+```WARNING: THIS MODULE IS UNDER HEAVY DEVELOPMENT AND NOT READY FOR PRIME TIME.```
 
 ## Installation
 
