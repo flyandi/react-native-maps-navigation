@@ -71,8 +71,6 @@ export default class Directions {
 
         return json.routes.map(route => {
 
-            console.log(route);
-
             if (!route.legs.length) return null;
 
             const leg = route.legs[0]; // only support primary leg - waypoint support is later
@@ -101,8 +99,6 @@ export default class Directions {
             const polylines = steps.map(step => step.polyline);
 
             const boundingBox = [toCoordinate(route.bounds.northeast), toCoordinate(route.bounds.southwest)];
-
-            console.log(boundingBox, GeoLib.getCenter(boundingBox));
 
             return {
                 title: route.summary,

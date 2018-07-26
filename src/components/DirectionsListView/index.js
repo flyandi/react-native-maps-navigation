@@ -61,8 +61,6 @@ export default class DirectionsListView extends Component {
 
         const styles = Styles(this.props);
 
-        console.log(this.props.route);
-
         return (
             <ScrollView>
 

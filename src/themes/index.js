@@ -29,9 +29,17 @@ export const defaultThemeSettings = {
 
         [MarkerTypes.POSITION_DOT]: {
             icon: NavigationIcons.compassDot,
+            color: '#387bc1',
             fontSize: 30,
-            color: '#387bc1'
-        }
+        },
+
+        [MarkerTypes.POSITION_ARROW]: {
+            icon: NavigationIcons.navigate,
+            size: 100,
+            fontSize: 80,
+            color: '#ffffff',
+            backgroundColor: '#387bc1'
+        },
     },
 
     Polylines: {

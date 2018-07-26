@@ -2,7 +2,7 @@
  * @imports
  */
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import { Marker } from 'react-native-maps';
 import connectTheme from '../../themes'
 import Styles from './styles';
@@ -20,11 +20,15 @@ export default class PositionMarker extends Component {
      * @type {}
      */
     static propTypes = {
-        instructions: PropTypes.string,
-        fontFamily: PropTypes.string,
-        fontFamilyBold: PropTypes.string,
+        coordinate: PropTypes.object,
+        size: PropTypes.number,
         fontSize: PropTypes.number,
         type: PropTypes.any,
+        color: PropTypes.string,
+        angle: PropTypes.number,
+        backgroundColor: PropTypes.string,
+        borderColor: PropTypes.string,
+        borderWidth: PropTypes.number,
     }
 
     /**
@@ -32,11 +36,15 @@ export default class PositionMarker extends Component {
      * @type {}
      */
     static defaultProps = {
-        instructions: '',
-        fontFamily: undefined,
-        fontFamilyBold: undefined,
-        fontSize: 15,
+        coordinate: undefined,
+        size: 40,
+        fontSize: 30,
         type: POSITION_DOT,
+        color: '#252525',
+        angle: 60,
+        borderWidth: 0,
+        borderColor: undefined,
+        backgroundColor: '#252525'
     }
 
 
@@ -44,26 +52,62 @@ export default class PositionMarker extends Component {
      * constructor
      * @param props
      */
-    constructor(props) {
+    constructor(props)
+    {
         super(props);
 
         this.theme = connectTheme(props.theme).Markers[this.props.type];
     }
 
-
     /**
+     * render
      * @render
      * @returns {*}
      */
-    render() {
+    render()
+    {
+        const styles = Styles(Object.assign({}, this.props, this.theme));
 
-        const styles = Styles(this.theme);
+        if(!this.props.coordinate) return null;
+
+        return this.props.type === POSITION_ARROW ? this.renderArrow(styles) : this.renderDot(styles);
+    }
+
+    /**
+     * renderArrow
+     * @param styles
+     * @returns {*}
+     */
+    renderArrow(styles)
+    {
+        return (
+            <Marker
+                coordinate={this.props.coordinate}
+                flat={false}
+            >
+                <View style={styles.positionMarkerArrow}>
+                    <Text style={styles.positionMarkerText}>{this.theme.icon}</Text>
+                </View>
+            </Marker>
+        )
+    }
+
+
+    /**
+     * renderDot
+     * @param styles
+     * @returns {*}
+     */
+    renderDot(styles) {
 
         return (
             <Marker
                 coordinate={this.props.coordinate}
+                flat={false}
             >
-                <Text style={styles.markerText}>{this.theme.icon}</Text>
+                <Text style={styles.positionMarkerText}>
+                    {this.theme.icon}
+                </Text>
             </Marker>
         )
     }

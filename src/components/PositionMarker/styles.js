@@ -10,9 +10,23 @@ import { NavigationIconsFont } from '../../constants/NavigationIcons';
  */
 export default props => StyleSheet.create({
 
-    markerText: {
+    positionMarkerText: {
         ...NavigationIconsFont,
-        fontSize: props.fontSize || 30,
-        color: props.color || '#000000',
+        fontSize: props.fontSize,
+        color: props.color,
+
     },
+
+    positionMarkerArrow: {
+        backgroundColor: props.backgroundColor,
+        width: props.size,
+        height: props.size,
+        borderRadius: props.size,
+        justifyContent: 'center',
+        alignItems: 'center',
+        transform: [
+            { perspective: props.angle },
+            { rotateX: props.angle + 'deg'}
+        ]
+    }
 });

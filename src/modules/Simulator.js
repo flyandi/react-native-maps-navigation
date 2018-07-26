@@ -83,24 +83,30 @@ export default class Simulator {
 
             let allowPositionUpdate = true;
 
+
             if(this.lastBearing != point.bearing) {
 
                 // check if it's just a small bump
                 if(point.bearing > this.lastBearing - 10 && point.bearing  < this.lastBearing + 10) {
 
-                    this.instance.updateBearing(point.bearing, this.turnSpeed);
+                    //this.instance.updateBearing(point.bearing, this.turnSpeed);
 
                 } else {
                     allowPositionUpdate = false;
                     speed = this.turnSpeed;
-                    this.instance.updateBearing(point.bearing, this.turnSpeed);
+                    //this.instance.updateBearing(point.bearing, this.turnSpeed);
                 }
 
                 this.lastBearing = point.bearing;
             }
 
             if(allowPositionUpdate) {
-                this.instance.updatePosition(point, this.speed);
+
+                this.instance.setPosition({
+                    ...point,
+                    heading: point.bearing,
+                });
+
                 this.pointIndex++;
             }
         }
