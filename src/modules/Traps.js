@@ -1,7 +1,7 @@
 /**
  * @imports
  */
-import {toQueryParams, toLatLng, toCoordinate} from './Tools';
+import {toQueryParams, toLatLng, toCoordinate, toNameId} from './Tools';
 import GeoLib from 'geolib';
 import TrapTypes from '../constants/TrapTypes';
 
@@ -42,10 +42,13 @@ export default class Traps {
         this.counter++;
         const counter = this.counter;
 
-        trap.index = counter;
-        trap.state = TrapTypes.States.OUTSIDE;
-        trap.callback = callback;
-        this.traps[counter] = trap;
+        this.traps[counter] = Object.assign({}, trap, {
+            index: counter,
+            state: TrapTypes.States.OUTSIDE,
+            callback: callback,
+        });
+
+        Object.keys(TrapTypes.States).forEach(state => this.traps[counter][toNameId(state, "is")] = () => this.traps[counter].state === state);
 
         return this.traps[counter];
     }
@@ -67,6 +70,7 @@ export default class Traps {
      * @param options
      */
     watchRadius(coordinate, radius, options, callback) {
+
         return this.add({
             type: TrapTypes.Types.CIRCLE,
             coordinate,
@@ -79,7 +83,9 @@ export default class Traps {
      * watchStep
      * @param step
      * @param nextStep
-     * @returns {Promise<any>}
+     * @param options
+     * @param callback
+     * @returns {*}
      */
     watchStep(step, nextStep, options, callback)
     {
@@ -92,10 +98,7 @@ export default class Traps {
 
         const distanceToNextPoint =  options.distance || step.distance.value; // in meters
 
-        const coordinate = {
-            latitude: nextStep.start.latitude,
-            longitude: nextStep.end.longitude,
-        };
+        const coordinate = step.start;
 
         return this.add({
             type: TrapTypes.Types.STEP,
@@ -122,7 +125,7 @@ export default class Traps {
 
         // resolve with status
         if(event.constructor == String) {
-            trap.callback && trap.callback(event, state);
+            trap.callback && trap.callback(trap, event, state);
         }
     }
 
@@ -147,9 +150,6 @@ export default class Traps {
 
                         if(GeoLib.isPointInCircle(coordinate, trap.coordinate, trap.radius)) {
 
-                            //this.determinateStatus(trap, true);
-
-                            trap.resolve();
                         }
 
                         break;
@@ -180,7 +180,7 @@ export default class Traps {
 
                             [TrapTypes.States.CENTER] : [TrapTypes.States.LEAVING, () =>
                             {
-                                const isWithinCourse = this.isWithinCourse(trap.nextStep.bearing, heading, trap.courseTolerance);
+                                const isWithinCourse = this.isWithinCourse(trap.nextStep ? trap.nextStep.bearing : trap.step.bearing, heading, trap.courseTolerance);
 
                                 return insideOuter && !insideInner ? (isWithinCourse ? TrapTypes.Events.LEAVING_ON_COURSE : TrapTypes.Events.LEAVING_OFF_COURSE) : false;
                             }],

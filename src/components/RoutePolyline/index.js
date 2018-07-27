@@ -29,6 +29,12 @@ export default class RoutePolyline extends Component {
      */
     render() {
 
+        if(!this.props.coordinates) return null;
+
+        if(!this.theme) {
+            throw new Error("RoutePolyline does not support type " + this.props.type + ".");
+        }
+
         const components = [
             <Polyline
                 key={0}

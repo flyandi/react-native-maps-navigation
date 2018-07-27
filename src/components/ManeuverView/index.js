@@ -8,6 +8,7 @@ import _ from 'lodash';
 import Styles from './styles';
 import ManeuverArrow from '../ManeuverArrow';
 import ManeuverLabel from '../ManeuverLabel';
+import CloseButton from "../CloseButton";
 
 
 /**
@@ -59,7 +60,7 @@ export default class ManeuverView extends Component {
      */
     render()
     {
-            const styles = Styles(this.props);
+        const styles = Styles(this.props);
 
         const step = this.props.step;
 
@@ -82,6 +83,9 @@ export default class ManeuverView extends Component {
                         instructions={step.instructions}
                         fontSize={this.props.fontSize}
                     />
+                </View>
+                <View style={styles.maneuverClose}>
+                    <CloseButton/>
                 </View>
             </View>
         );

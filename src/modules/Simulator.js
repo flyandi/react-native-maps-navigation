@@ -1,10 +1,6 @@
 /**
  * @imports
  */
-import {toQueryParams, toLatLng, toCoordinate} from './Tools';
-import TravelModes from '../constants/TravelModes';
-import * as MarkerTypes from '../constants/MarkerTypes'
-import * as PolylineTypes from '../constants/PolylineTypes';
 import GeoLib from 'geolib';
 
 /**
@@ -43,7 +39,7 @@ export default class Simulator {
 
             const nextPoint = points[index + 1];
 
-            if(nextPoint) {
+            if(nextPoint && !nextPoint.final == true) {
 
                 // calculate distance between each point
                 const distance = Math.round(GeoLib.getDistance(point, nextPoint));
@@ -79,7 +75,7 @@ export default class Simulator {
 
         let speed = this.speed;
 
-        if(point.bearing) {
+        if(point && point.bearing) {
 
             let allowPositionUpdate = true;
 
@@ -89,12 +85,12 @@ export default class Simulator {
                 // check if it's just a small bump
                 if(point.bearing > this.lastBearing - 10 && point.bearing  < this.lastBearing + 10) {
 
-                    //this.instance.updateBearing(point.bearing, this.turnSpeed);
+                    this.instance.updateBearing(point.bearing, this.turnSpeed);
 
                 } else {
                     allowPositionUpdate = false;
                     speed = this.turnSpeed;
-                    //this.instance.updateBearing(point.bearing, this.turnSpeed);
+                    this.instance.updateBearing(point.bearing, this.turnSpeed);
                 }
 
                 this.lastBearing = point.bearing;
@@ -109,8 +105,8 @@ export default class Simulator {
 
                 this.pointIndex++;
             }
-        }
 
-        setTimeout(() => this.drive(), speed);
+            setTimeout(() => this.drive(), speed);
+        }
     }
 }

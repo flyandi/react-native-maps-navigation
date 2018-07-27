@@ -17,7 +17,7 @@ import RouteMarker from '../RouteMarker';
 import RoutePolyline from '../RoutePolyline';
 import PositionMarker from '../PositionMarker';
 import {POSITION_ARROW} from "../../constants/MarkerTypes";
-import {Circle, Polygon} from 'react-native-maps';
+import {Circle, Polygon, Polyline} from 'react-native-maps';
 
 
 /**
@@ -195,33 +195,30 @@ export default class MapViewNavigation extends Component {
      */
     updateStep(stepIndex = 0)
     {
-        const step = this.state.route.steps[stepIndex];
+        const step = this.state.route.steps[stepIndex < 0 ? 0 : stepIndex];
 
         const nextStep = this.state.route.steps[stepIndex + 1];
 
-        // route completed
-        if(!nextStep) {
-            this.setState({
-                mode: Modes.MODE_IDLE,
-                stepIndex: false
-            });
-
-            return;
-        }
+        this.props.onStepChange && this.props.onStepChange(step, nextStep);
 
         this.traps.watchStep(step, nextStep, {
             distance: this.props.routeStepDistance,
             innerRadiusTolerance: this.props.routeStepInnerTolerance,
             centerRadiusTolerance: this.props.routeStepCenterTolerance,
             courseTolerance: this.props.routeStepCourseTolerance,
-        }, (event, state) => {
+        }, (trap, event, state) => {
 
-            console.log('*** STEP UPDATED', event, state);
+            if(!nextStep && trap.isCenter()) {
+                return this.setState({
+                    mode: Modes.MODE_IDLE,
+                    stepIndex: false
+                });
+            }
 
-            //this.updateStep(this.stepIndex); // next step
+            if(trap.isLeaving()) {
+                this.updateStep(this.stepIndex);
+            }
         });
-
-        this.props.onStepChange && this.props.onStepChange(step, nextStep);
 
         this.stepIndex = stepIndex + 1; // ensures that this is a real number
     }
@@ -342,7 +339,7 @@ export default class MapViewNavigation extends Component {
                 mode: Modes.MODE_NAVIGATION,
             });
 
-            this.updateStep();
+            this.updateStep(0);
 
             setTimeout(() => this.simulator.start(route), this.props.animationDuration * 1.5);
 
@@ -399,13 +396,13 @@ export default class MapViewNavigation extends Component {
 
         return route.polylines.map((params, index) => {
 
-            return (
+            return params ? (
                 <RoutePolyline
                     key={index}
                     theme={this.props.theme}
                     {...params}
                 />
-            );
+            ) : null;
         });
     }
 
@@ -427,21 +424,14 @@ export default class MapViewNavigation extends Component {
 
         steps.forEach((step, index) => {
 
-            const nextStep = steps[index + 1];
-
-            if(!nextStep) return false;
-
-            const coordinate = {
-                latitude: nextStep.start.latitude,
-                longitude: nextStep.end.longitude,
-            };
+            const coordinate = step.start;
 
             [
                 {radius: this.props.routeStepDistance, color: 'blue'},
                 {radius: this.props.routeStepDistance * this.props.routeStepInnerTolerance, color: 'red'},
                 {radius: this.props.routeStepDistance * this.props.routeStepCenterTolerance, color: 'green'}
             ].forEach(d => {
-                result.push(<Circle key={c} strokeColor={d.color} strokeWidth={2} center={nextStep.start} radius={d.radius}/>);
+                result.push(<Circle key={c} strokeColor={d.color} strokeWidth={2} center={step.start} radius={d.radius}/>);
                 c++;
             });
 
@@ -449,7 +439,7 @@ export default class MapViewNavigation extends Component {
                 {radius: this.props.routeStepDistance, color: 'blue'}
             ].forEach(d => {
 
-                let bearing = step.bearing - 180 > 0 ? step.bearing - 180 : 360 - step.bearing - 180;
+                let bearing = step.bearing; // - 180 > 0 ? step.bearing - 180 : 360 - step.bearing - 180;
 
                 let coords = Tools.toArcPolygon(
                     coordinate,
@@ -458,7 +448,7 @@ export default class MapViewNavigation extends Component {
                     this.props.routeStepDistance
                 )
 
-                result.push(<Polygon key={c} strokeColor={d.color} strokeWidth={3} coordinates={coords} />);
+                result.push(<Polyline key={c} strokeColor={d.color} strokeWidth={8} coordinates={coords} />);
                 c++;
             })
 

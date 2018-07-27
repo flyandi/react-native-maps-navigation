@@ -70,3 +70,17 @@ export const toArcPolygon = (coordinate, initialBearing, finalBearing, radius) =
 
     return result;
 };
+
+/**
+ * toNameId
+ * @param str
+ * @param prepend
+ * @param append
+ * @returns {*}
+ */
+export const toNameId = (str, prepend = false, append = false) =>
+{
+    str = str.toLowerCase().replace(/_/g, ' ').replace(/\b[a-z]/g, letter => letter.toUpperCase()).replace(/\s/g, '');
+
+    return (prepend ? prepend : '') + str + (append ? append : '');
+}

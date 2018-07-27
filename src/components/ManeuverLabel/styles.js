@@ -39,6 +39,7 @@ export default props => StyleSheet.create({
         fontSize: props.fontSize * 0.8,
         flexWrap: 'wrap',
         color: '#387bc1',
+        marginTop: 4,
     },
 
     durationDistance: {

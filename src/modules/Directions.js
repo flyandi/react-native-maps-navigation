@@ -7,6 +7,7 @@ import * as MarkerTypes from '../constants/MarkerTypes'
 import * as PolylineTypes from '../constants/PolylineTypes';
 import DirectionTypes, { DEFAULT_DIRECTION_TYPE} from '../constants/DirectionTypes';
 import GeoLib from 'geolib';
+import NavigationIcons from "../constants/NavigationIcons";
 
 /**
  * @class
@@ -89,12 +90,30 @@ export default class Directions {
                 }
             ];
 
+
             const steps = leg.steps.map((step, index) =>
                 this.parseStep(
                     step,
                     leg.steps[index + 1] ? leg.steps[index + 1] : false
                 )
             );
+
+            steps.push({
+                final: true,
+                bearing: steps[steps.length-1].bearing,
+                compass: steps[steps.length-1].compass,
+                start: steps[steps.length-1].end,
+                end: false,
+                maneuver: {
+                    name: 'flag',
+                    type: 'flag',
+                },
+                polyline: {
+                    coordinates: [],
+                    type: PolylineTypes.ROUTE
+                },
+                instructions: leg.end_address,
+            });
 
             const polylines = steps.map(step => step.polyline);
 
@@ -136,7 +155,7 @@ export default class Directions {
      */
     parseStep(step, nextStep) {
 
-        const bearing = nextStep ? GeoLib.getBearing(toCoordinate(step.start_location), toCoordinate(nextStep.start_location)) : -1;
+        const bearing = GeoLib.getBearing(toCoordinate(step.start_location), toCoordinate(nextStep ? nextStep.start_location : step.end_location));
 
         return {
             compass: this.decodeCompass(bearing),

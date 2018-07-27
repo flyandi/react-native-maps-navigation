@@ -14,25 +14,29 @@ export default props => StyleSheet.create({
      * @maneuverView
      */
     maneuverView: {
-        padding: 25,
+        padding: 20,
         backgroundColor: '#f7f7f4',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        minHeight: 120,
+        alignItems: 'center',
     },
 
     maneuverViewArrow: {
         flex: 0,
-        width: 80,
+        width: 100,
         justifyContent: 'center',
         alignItems: 'center',
-        borderColor: 'red',
-        borderWidth: 1,
-
     },
 
     maneuverViewDirection: {
         flex: 1,
-        borderColor: 'red',
-        borderWidth: 1,
+    },
+
+    maneuverClose: {
+        flex: 0,
+        width: 50,
+        justifyContent: 'flex-end',
+        alignItems: 'top',
     }
 
 });
