@@ -42,6 +42,8 @@ export default class MapViewNavigation extends Component {
         directionZoomQuantifier: PropTypes.number,
         onRouteChange: PropTypes.func,
         onStepChange: PropTypes.func,
+        onNavigationStarted: PropTypes.func,
+        onNavigationCompleted: PropTypes.func,
         routeStepDistance: PropTypes.number,
         routeStepInnerTolerance: PropTypes.number,
         routeStepCenterTolerance: PropTypes.number,
@@ -66,9 +68,11 @@ export default class MapViewNavigation extends Component {
         directionZoomQuantifier: 1.5,
         onRouteChange: undefined,
         onStepChange: undefined,
+        onNavigationStarted: undefined,
+        onNavigationCompleted: undefined,
         routeStepDistance: 15,
         routeStepInnerTolerance: 0.75,
-        routeStepCenterTolerance: 0.5,
+        routeStepCenterTolerance: 0.1,
         routeStepCourseTolerance: 30, // in degress
         displayDebugMarkers: false,
     }
@@ -213,6 +217,9 @@ export default class MapViewNavigation extends Component {
         }, (trap, event, state) => {
 
             if(!nextStep && trap.isCenter()) {
+
+                this.props.onNavigationCompleted && this.props.onNavigationCompleted();
+
                 return this.setState({
                     mode: Modes.MODE_IDLE,
                     stepIndex: false
@@ -350,6 +357,8 @@ export default class MapViewNavigation extends Component {
 
             this.updateStep(0);
 
+            this.props.onNavigationStarted && this.props.onNavigationStarted();
+
             setTimeout(() => this.simulator.start(route), this.props.animationDuration * 1.5);
 
             return Promise.resolve(route);
@@ -382,13 +391,15 @@ export default class MapViewNavigation extends Component {
      * @param position
      * @returns {*}
      */
-    getPositionMarker(position)
+    getPositionMarker(position, mode)
     {
+        const type = mode == Modes.MODE_NAVIGATION ? POSITION_ARROW : undefined;
+
         return (
             <PositionMarker
                 key={'position'}
                 theme={this.props.theme}
-                type={this.state.mode == Modes.MODE_NAVIGATION ? POSITION_ARROW : undefined}
+                type={type}
                 {...position}
             />
         )
@@ -480,7 +491,7 @@ export default class MapViewNavigation extends Component {
         const result = [
             this.getRouteMarkers(this.state.route),
             this.getRoutePolylines(this.state.route),
-            this.getPositionMarker(this.state.position),
+            this.getPositionMarker(this.state.position, this.state.mode),
             this.getDebugShapes(this.state.route)
         ];
 

@@ -39,7 +39,7 @@ export default class PositionMarker extends Component {
         coordinate: undefined,
         size: 40,
         fontSize: 30,
-        type: POSITION_ARROW,
+        type: POSITION_DOT,
         color: '#252525',
         angle: 60,
         borderWidth: 0,
@@ -55,8 +55,6 @@ export default class PositionMarker extends Component {
     constructor(props)
     {
         super(props);
-
-        this.theme = connectTheme(props.theme).Markers[this.props.type];
     }
 
     /**
@@ -66,11 +64,15 @@ export default class PositionMarker extends Component {
      */
     render()
     {
-        const styles = Styles(Object.assign({}, this.props, this.theme));
-
         if(!this.props.coordinate) return null;
 
-        return this.props.type === POSITION_ARROW ? this.renderArrow(styles) : this.renderDot(styles);
+        const type = this.props.type;
+
+        this.theme = connectTheme(this.props.theme).Markers[type];
+
+        const styles = Styles(Object.assign({}, this.props, this.theme));
+
+        return (type == POSITION_ARROW) ? this.renderArrow(styles) : this.renderDot(styles);
     }
 
     /**
