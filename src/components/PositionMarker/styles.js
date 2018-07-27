@@ -14,7 +14,6 @@ export default props => StyleSheet.create({
         ...NavigationIconsFont,
         fontSize: props.fontSize,
         color: props.color,
-
     },
 
     positionMarkerArrow: {
@@ -25,7 +24,6 @@ export default props => StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         transform: [
-            { perspective: props.angle },
             { rotateX: props.angle + 'deg'}
         ]
     }

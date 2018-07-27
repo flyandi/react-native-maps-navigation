@@ -27,6 +27,9 @@ export default class ManeuverView extends Component {
         fontSize: PropTypes.number,
         arrowSize: PropTypes.number,
         arrowColor: PropTypes.string,
+        withCloseButton: PropTypes.bool,
+        onClose: PropTypes.func,
+        onPress: PropTypes.func,
     }
 
     /**
@@ -40,6 +43,9 @@ export default class ManeuverView extends Component {
         fontSize: 20,
         arrowSize: 50,
         arrowColor: '#545455',
+        withCloseButton: false,
+        onClose: undefined,
+        onPress: undefined,
     }
 
 
@@ -69,7 +75,7 @@ export default class ManeuverView extends Component {
         const maneuver = step.maneuver;
 
         return (
-            <View style={styles.maneuverView}>
+            <TouchableOpacity style={styles.maneuverView}>
                 <View style={styles.maneuverViewArrow}>
                     <ManeuverArrow
                         size={this.props.arrowSize}
@@ -84,10 +90,12 @@ export default class ManeuverView extends Component {
                         fontSize={this.props.fontSize}
                     />
                 </View>
-                <View style={styles.maneuverClose}>
-                    <CloseButton/>
-                </View>
-            </View>
+                {!this.props.withCloseButton ? null : (
+                    <View style={styles.maneuverClose}>
+                        <CloseButton onPress={() => this.props.onClose && this.props.onClose()} />
+                    </View>
+                )}
+            </TouchableOpacity>
         );
     }
 }

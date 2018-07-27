@@ -39,7 +39,7 @@ export default class PositionMarker extends Component {
         coordinate: undefined,
         size: 40,
         fontSize: 30,
-        type: POSITION_DOT,
+        type: POSITION_ARROW,
         color: '#252525',
         angle: 60,
         borderWidth: 0,

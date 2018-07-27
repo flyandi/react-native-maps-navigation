@@ -36,6 +36,7 @@ export default class MapViewNavigation extends Component {
         maxZoom: PropTypes.number,
         minZoom: PropTypes.number,
         animationDuration: PropTypes.number,
+        navigationMode: PropTypes.string,
         navigationViewingAngle: PropTypes.number,
         navigationZoomLevel: PropTypes.number,
         directionZoomQuantifier: PropTypes.number,
@@ -45,6 +46,7 @@ export default class MapViewNavigation extends Component {
         routeStepInnerTolerance: PropTypes.number,
         routeStepCenterTolerance: PropTypes.number,
         routeStepCourseTolerance: PropTypes.number,
+        displayDebugMarkers: PropTypes.bool,
     }
 
     /**
@@ -58,6 +60,7 @@ export default class MapViewNavigation extends Component {
         maxZoom: 21,
         minZoom: 5,
         animationDuration: 750,
+        navigationMode: TravelModes.DRIVING,
         navigationViewingAngle: 60,
         navigationZoomLevel: 14,
         directionZoomQuantifier: 1.5,
@@ -67,6 +70,7 @@ export default class MapViewNavigation extends Component {
         routeStepInnerTolerance: 0.75,
         routeStepCenterTolerance: 0.5,
         routeStepCourseTolerance: 30, // in degress
+        displayDebugMarkers: false,
     }
 
     /**
@@ -229,7 +233,7 @@ export default class MapViewNavigation extends Component {
      */
     setPosition(position)
     {
-        const {latitude, longitude} = position;
+        const {latitude, longitude, heading} = position;
 
         position.coordinate = {latitude, longitude};
 
@@ -238,7 +242,10 @@ export default class MapViewNavigation extends Component {
 
         // update position on map
         if(this.state.mode == Modes.MODE_NAVIGATION) {
+
             this.updatePosition(position);
+
+            this.updateBearing(heading);
         }
 
         this.setState({position});
@@ -266,6 +273,8 @@ export default class MapViewNavigation extends Component {
         if(testForRoute && this.state.route) {
             return Promise.resolve(this.state.route);
         }
+
+        options = Object.assign({}, {mode: this.props.navigationMode}, options);
 
         return this.directionsCoder.fetch(origin, destination, options).then(routes => {
 
@@ -415,7 +424,7 @@ export default class MapViewNavigation extends Component {
     {
         let result = [];
 
-        if(!route) return result;
+        if(!route || !this.props.displayDebugMarkers) return result;
 
 
         const steps = this.state.route.steps;
