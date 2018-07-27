@@ -11,9 +11,25 @@ import { IconFont } from '../../constants/NavigationIcons';
 export default props => StyleSheet.create({
 
     /**
-     * @directionDetailHeader
+     * @maneuverView
      */
+    durationDistanceView: {
+        padding: 15,
+        backgroundColor: '#f7f7f4',
+        flexDirection: 'row',
+        minHeight: 120,
+        alignItems: 'center',
+    },
 
+    durationDistanceContent: {
+        flex: 1,
+    },
 
+    durationDistanceClose: {
+        flex: 0,
+        width: 30,
+        justifyContent: 'flex-end',
+        alignItems: 'flex-end',
+    }
 
 });

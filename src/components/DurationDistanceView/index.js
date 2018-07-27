@@ -6,22 +6,29 @@ import PropTypes from 'prop-types';
 import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
 import _ from 'lodash';
 import Styles from './styles';
+import CloseButton from "../CloseButton";
+import DurationDistanceLabel from "../DurationDistanceLabel";
 
 
 /**
  * @component
  */
-export default class DurationDistanceView extends Component {
+export default class ManeuverView extends Component {
 
     /**
      * propTypes
      * @type {}
      */
     static propTypes = {
-        route: PropTypes.any.isRequired,
+        step: PropTypes.any.isRequired,
         fontFamily: PropTypes.string,
         fontFamilyBold: PropTypes.string,
-        showOriginDestinationHeader: PropTypes.bool,
+        fontSize: PropTypes.number,
+        arrowSize: PropTypes.number,
+        arrowColor: PropTypes.string,
+        withCloseButton: PropTypes.bool,
+        onClose: PropTypes.func,
+        onPress: PropTypes.func,
     }
 
     /**
@@ -29,10 +36,15 @@ export default class DurationDistanceView extends Component {
      * @type {}
      */
     static defaultProps = {
-        route: undefined,
+        step: undefined,
         fontFamily: undefined,
         fontFamilyBold: undefined,
-        showOriginDestinationHeader: true
+        fontSize: 20,
+        arrowSize: 50,
+        arrowColor: '#545455',
+        withCloseButton: false,
+        onClose: undefined,
+        onPress: undefined,
     }
 
 
@@ -53,9 +65,31 @@ export default class DurationDistanceView extends Component {
      */
     render()
     {
+        const styles = Styles(this.props);
+
+        const step = this.props.step;
+
+        if(!step) return null;
 
         return (
-            <View></View>
+            <TouchableOpacity style={styles.durationDistanceView}>
+                <View style={styles.durationDistanceContent}>
+
+                    <Text>
+                        {step.distance ? step.distance.text : ''}
+                    </Text>
+
+                    <Text>
+                        {step.duration ? step.duration.text : ''}
+                    </Text>
+
+                </View>
+                {!this.props.withCloseButton ? null : (
+                    <View style={styles.durationDistanceClose}>
+                        <CloseButton onPress={() => this.props.onClose && this.props.onClose()} />
+                    </View>
+                )}
+            </TouchableOpacity>
         );
     }
 }
