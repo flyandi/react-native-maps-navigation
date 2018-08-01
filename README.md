@@ -2,6 +2,11 @@
 
 Enhances React Native Maps with Realtime Navigation.
 
+`Please note that this module is usable but still under heavy development. Some properties and/or component names might change without notice.`
+
+![alt text](https://github.com/flyandi/react-native-maps-navigation/raw/master/docs/preview.gif "react-native-maps-navigation")
+
+
 ## Installation
 
 **React Native >= 0.49**
