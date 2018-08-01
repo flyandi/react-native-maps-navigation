@@ -34,7 +34,6 @@ export default class ManeuverLabel extends Component {
         fontSize: 15,
     }
 
-
     /**
      * @constructor
      * @param props
@@ -42,11 +41,12 @@ export default class ManeuverLabel extends Component {
     constructor(props)
     {
         super(props);
-
     }
 
     /**
-     *
+     * getParsedInstructions
+     * @param styles
+     * @returns {*}
      */
     getParsedInstructions(styles)
     {

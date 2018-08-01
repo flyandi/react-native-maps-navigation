@@ -2,7 +2,7 @@
  * @imports
  */
 import { StyleSheet} from 'react-native';
-import { IconFont } from '../../constants/NavigationIcons';
+import { NavigationIconsFont } from '../../constants/NavigationIcons';
 
 
 /**
@@ -18,6 +18,13 @@ export default props => StyleSheet.create({
         fontSize: props.fontSize * 0.8,
         opacity: props.opacity,
         flexWrap: 'wrap',
+    },
+
+    durationDistanceTravelModeIcon: {
+        ...NavigationIconsFont,
+        fontSize: props.fontSize * 0.8,
+        opacity: props.opacity,
+        marginRight: 8,
     },
 
 });

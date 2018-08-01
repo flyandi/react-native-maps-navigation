@@ -4,7 +4,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, TouchableOpacity, Text } from 'react-native';
-import _ from 'lodash';
 import Styles from './styles';
 import ManeuverArrow from '../ManeuverArrow';
 import ManeuverLabel from '../ManeuverLabel';
@@ -27,6 +26,7 @@ export default class DirectionListViewItem extends Component {
         fontFamily: PropTypes.string,
         fontFamilyBold: PropTypes.string,
         fontSize: PropTypes.number,
+        displayTravelMode: PropTypes.bool,
     }
 
     /**
@@ -41,6 +41,7 @@ export default class DirectionListViewItem extends Component {
         duration: undefined,
         maneuver: undefined,
         fontSize: undefined,
+        displayTravelMode: false,
     }
 
 
@@ -76,6 +77,7 @@ export default class DirectionListViewItem extends Component {
                     <DurationDistanceLabel
                         {...this.props}
                         style={{marginTop: 4}}
+                        withTravelModeIcon={this.props.displayTravelMode}
                     />
                 </View>
             </View>

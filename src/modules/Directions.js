@@ -45,6 +45,8 @@ export default class Directions {
             ...options,
         };
 
+        if(queryParams.mode) queryParams.mode = queryParams.mode.toLowerCase();
+
         const url = `https://maps.google.com/maps/api/directions/json?${toQueryParams(queryParams)}`;
 
         return fetch(url)

@@ -3,16 +3,16 @@
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import {CoordinatePropType} from '../../constants/PropTypes';
 import { View, TouchableOpacity, Text, Dimensions, Geolocation } from 'react-native';
 import connectTheme from '../../themes';
 import Geocoder from '../../modules/Geocoder';
 import Directions from '../../modules/Directions';
 import TravelModes from '../../constants/TravelModes';
-import Modes from '../../constants/ModeTypes';
+import NavigationModes from '../../constants/NavigationModes';
 import * as Tools from '../../modules/Tools';
 import Simulator from '../../modules/Simulator';
 import Traps from '../../modules/Traps';
-import _ from 'lodash';
 import RouteMarker from '../RouteMarker';
 import RoutePolyline from '../RoutePolyline';
 import PositionMarker from '../PositionMarker';
@@ -30,9 +30,13 @@ export default class MapViewNavigation extends Component {
      * @type {}
      */
     static propTypes = {
+        origin: PropTypes.oneOfType([PropTypes.string, CoordinatePropType, PropTypes.bool]),
+        destination: PropTypes.oneOfType([PropTypes.string, CoordinatePropType, PropTypes.bool]),
         apiKey: PropTypes.string.isRequired,
         language: PropTypes.string,
         map: PropTypes.func,
+        navigationMode: PropTypes.string,
+        travelMode: PropTypes.string,
         maxZoom: PropTypes.number,
         minZoom: PropTypes.number,
         animationDuration: PropTypes.number,
@@ -56,13 +60,16 @@ export default class MapViewNavigation extends Component {
      * @type {}
      */
     static defaultProps = {
+        origin: false,
+        destination: false,
         apiKey: undefined,
         language: undefined,
         map: undefined,
+        navigationMode: NavigationModes.IDLE,
+        travelMode: TravelModes.DRIVING,
         maxZoom: 21,
         minZoom: 5,
         animationDuration: 750,
-        navigationMode: TravelModes.DRIVING,
         navigationViewingAngle: 60,
         navigationZoomLevel: 14,
         directionZoomQuantifier: 1.5,
@@ -100,7 +107,8 @@ export default class MapViewNavigation extends Component {
             route: false,
             markers: [],
             position: {},
-            mode: Modes.MODE_IDLE,
+            navigationMode: NavigationModes.IDLE,
+            travelMode: TravelModes.DRIVING,
             stepIndex: false,
         };
 
@@ -129,6 +137,25 @@ export default class MapViewNavigation extends Component {
     componentWillUnmount()
     {
         navigator.geolocation.clearWatch(this.watchId);
+    }
+
+    /**
+     * @componentDidUpdate
+     * @param prevProps
+     * @param prevState
+     */
+    componentDidUpdate(prevProps, prevState)
+    {
+        if(this.props.origin && this.props.destination) {
+
+            if(
+                (prevProps.navigationMode != this.props.navigationMode) ||
+                (prevProps.travelMode != this.props.travelMode) ||
+                (prevProps.origin != this.props.origin || prevProps.destination != this.props.destination)
+            ) {
+                this.updateRoute();
+            }
+        }
     }
 
     /**
@@ -221,7 +248,7 @@ export default class MapViewNavigation extends Component {
                 this.props.onNavigationCompleted && this.props.onNavigationCompleted();
 
                 return this.setState({
-                    mode: Modes.MODE_IDLE,
+                    navigationMode: NavigationModes.IDLE,
                     stepIndex: false
                 });
             }
@@ -248,7 +275,7 @@ export default class MapViewNavigation extends Component {
         this.traps.execute(position);
 
         // update position on map
-        if(this.state.mode == Modes.MODE_NAVIGATION) {
+        if(this.state.navigationMode == NavigationModes.NAVIGATION) {
 
             this.updatePosition(position);
 
@@ -268,6 +295,31 @@ export default class MapViewNavigation extends Component {
     }
 
     /**
+     * updateRoute
+     * @param origin
+     * @param destination
+     * @param navigationMode
+     */
+    updateRoute(origin = false, destination = false, navigationMode = false)
+    {
+        origin = origin || this.props.origin;
+        destination = destination || this.props.destination;
+        navigationMode = navigationMode || this.props.navigationMode;
+
+        switch(navigationMode) {
+
+            case NavigationModes.ROUTE:
+                console.log('*** ROUTE', origin, destination);
+                this.displayRoute(origin, destination);
+                break;
+
+            case NavigationModes.NAVIGATION:
+                this.navigateRoute(origin, destination);
+                break;
+        }
+    }
+
+    /**
      * Prepares the route
      * @param origin
      * @param destination
@@ -281,7 +333,7 @@ export default class MapViewNavigation extends Component {
             return Promise.resolve(this.state.route);
         }
 
-        options = Object.assign({}, {mode: this.props.navigationMode}, options);
+        options = Object.assign({}, {mode: this.state.travelMode}, {mode: this.props.travelMode}, options.constructor == Object ? options : {});
 
         return this.directionsCoder.fetch(origin, destination, options).then(routes => {
 
@@ -321,9 +373,11 @@ export default class MapViewNavigation extends Component {
 
             this.props.map().animateToRegion(region, this.props.animationDuration);
 
-            this.setState({
-                mode: Modes.MODE_ROUTE,
-            });
+            if(!this.state.navigationMode == NavigationModes.ROUTE) {
+                this.setState({
+                    navigationMode: NavigationModes.ROUTE,
+                });
+            }
 
             return Promise.resolve(route);
         });
@@ -352,7 +406,7 @@ export default class MapViewNavigation extends Component {
             this.updateBearing(route.initialBearing);
 
             this.setState({
-                mode: Modes.MODE_NAVIGATION,
+                navigationMode: NavigationModes.NAVIGATION,
             });
 
             this.updateStep(0);
@@ -389,11 +443,12 @@ export default class MapViewNavigation extends Component {
     /**
      * getPositionMarker
      * @param position
+     * @param navigationMode
      * @returns {*}
      */
-    getPositionMarker(position, mode)
+    getPositionMarker(position, navigationMode)
     {
-        const type = mode == Modes.MODE_NAVIGATION ? POSITION_ARROW : undefined;
+        const type = navigationMode == NavigationModes.NAVIGATION ? POSITION_ARROW : undefined;
 
         return (
             <PositionMarker
@@ -491,7 +546,7 @@ export default class MapViewNavigation extends Component {
         const result = [
             this.getRouteMarkers(this.state.route),
             this.getRoutePolylines(this.state.route),
-            this.getPositionMarker(this.state.position, this.state.mode),
+            this.getPositionMarker(this.state.position, this.state.navigationMode),
             this.getDebugShapes(this.state.route)
         ];
 

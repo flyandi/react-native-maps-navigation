@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, TouchableOpacity, Text } from 'react-native';
 import Styles from './styles';
+import {MODE_MAPPING} from "../../constants/TravelModes";
 
 /**
  * @component
@@ -23,6 +24,7 @@ export default class DurationDistanceLabel extends Component {
         distance: PropTypes.object,
         duration: PropTypes.object,
         opacity: PropTypes.number,
+        withTravelModeIcon: PropTypes.bool,
     }
 
     /**
@@ -36,6 +38,7 @@ export default class DurationDistanceLabel extends Component {
         distance: undefined,
         duration: undefined,
         opacity: 0.8,
+        withTravelModeIcon: false,
     }
 
 
@@ -56,10 +59,15 @@ export default class DurationDistanceLabel extends Component {
     {
         const styles = Styles(this.props);
 
+        const travelMode = MODE_MAPPING[this.props.mode];
+
         return (
             <Text style={[styles.durationDistanceText, this.props.style]}>
+                {!this.props.withTravelModeIcon || !travelMode ? null : (
+                    <Text style={styles.durationDistanceTravelModeIcon}>{travelMode.icon}{' '}</Text>
+                )}
                 {this.props.distance ? this.props.distance.text : ''}
-                {this.props.duration ? ['(', this.props.duration.text, ')'].join("") : ''}
+                {this.props.duration ? ['  (', this.props.duration.text, ')'].join("") : ''}
             </Text>
         );
     }

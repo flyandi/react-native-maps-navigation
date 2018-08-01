@@ -4,7 +4,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
-import _ from 'lodash';
 import Styles from './styles';
 import DirectionListViewItem from './item';
 
@@ -22,6 +21,7 @@ export default class DirectionsListView extends Component {
         fontFamily: PropTypes.string,
         fontFamilyBold: PropTypes.string,
         showOriginDestinationHeader: PropTypes.bool,
+        displayTravelMode: PropTypes.bool,
     }
 
     /**
@@ -32,7 +32,8 @@ export default class DirectionsListView extends Component {
         route: undefined,
         fontFamily: undefined,
         fontFamilyBold: undefined,
-        showOriginDestinationHeader: true
+        showOriginDestinationHeader: true,
+        displayTravelMode: false,
     }
 
 

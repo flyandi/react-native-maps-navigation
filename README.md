@@ -42,8 +42,6 @@ The library also ships with various UI components:
 
 [`<DurationDistanceView />` Component API](docs/DurationDistanceView.md)
 
-[`<ManeuverArrow />` Component API](docs/ManeuverArrow.md)
-
 [`<ManeuverView />` Component API](docs/ManeuverView.md)
 
 [`<ManeuverLabel />` Component API](docs/ManeuverLabel.md)
@@ -51,6 +49,8 @@ The library also ships with various UI components:
 [`<TravelModeBox />` Component API](docs/TravelModeBox.md)
 
 These are internal components used by the library:
+
+[`<ManeuverArrow />` Component API](docs/ManeuverArrow.md)
 
 [`<CloseButton />` Component API](docs/CloseButton.md)
 

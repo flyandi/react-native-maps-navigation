@@ -4,7 +4,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
-import _ from 'lodash';
 import Styles from './styles';
 import CloseButton from "../CloseButton";
 import DurationDistanceLabel from "../DurationDistanceLabel";
