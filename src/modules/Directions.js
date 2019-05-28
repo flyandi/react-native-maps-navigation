@@ -6,7 +6,7 @@ import TravelModes from '../constants/TravelModes';
 import * as MarkerTypes from '../constants/MarkerTypes'
 import * as PolylineTypes from '../constants/PolylineTypes';
 import DirectionTypes, { DEFAULT_DIRECTION_TYPE} from '../constants/DirectionTypes';
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 import NavigationIcons from "../constants/NavigationIcons";
 
 /**

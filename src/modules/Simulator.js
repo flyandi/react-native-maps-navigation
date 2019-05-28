@@ -1,7 +1,7 @@
 /**
  * @imports
  */
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 
 /**
  * @class

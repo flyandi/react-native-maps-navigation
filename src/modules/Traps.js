@@ -2,7 +2,7 @@
  * @imports
  */
 import {toQueryParams, toLatLng, toCoordinate, toNameId} from './Tools';
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 import TrapTypes from '../constants/TrapTypes';
 
 /**
