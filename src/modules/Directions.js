@@ -157,7 +157,7 @@ export default class Directions {
      */
     parseStep(step, nextStep) {
 
-        const bearing = GeoLib.getBearing(toCoordinate(step.start_location), toCoordinate(nextStep ? nextStep.start_location : step.end_location));
+        const bearing = GeoLib.getGreatCircleBearing(toCoordinate(step.start_location), toCoordinate(nextStep ? nextStep.start_location : step.end_location));
 
         return {
             compass: this.decodeCompass(bearing),
