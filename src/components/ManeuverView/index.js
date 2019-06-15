@@ -87,6 +87,7 @@ export default class ManeuverView extends Component {
                         {...this.props}
                         instructions={step.instructions}
                         fontSize={this.props.fontSize}
+                        color={this.props.fontColor}
                     />
                 </View>
                 {!this.props.withCloseButton ? null : (
