@@ -6,7 +6,7 @@ import TravelModes from '../constants/TravelModes';
 import * as MarkerTypes from '../constants/MarkerTypes'
 import * as PolylineTypes from '../constants/PolylineTypes';
 import DirectionTypes, { DEFAULT_DIRECTION_TYPE} from '../constants/DirectionTypes';
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 import NavigationIcons from "../constants/NavigationIcons";
 
 /**
@@ -157,7 +157,7 @@ export default class Directions {
      */
     parseStep(step, nextStep) {
 
-        const bearing = GeoLib.getBearing(toCoordinate(step.start_location), toCoordinate(nextStep ? nextStep.start_location : step.end_location));
+        const bearing = GeoLib.getGreatCircleBearing(toCoordinate(step.start_location), toCoordinate(nextStep ? nextStep.start_location : step.end_location));
 
         return {
             compass: this.decodeCompass(bearing),

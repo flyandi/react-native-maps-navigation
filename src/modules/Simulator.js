@@ -1,7 +1,7 @@
 /**
  * @imports
  */
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 
 /**
  * @class
@@ -43,7 +43,7 @@ export default class Simulator {
 
                 // calculate distance between each point
                 const distance = Math.round(GeoLib.getDistance(point, nextPoint));
-                const bearing =  GeoLib.getBearing(point, nextPoint);
+                const bearing =  GeoLib.getGreatCircleBearing(point, nextPoint);
 
                 if(bearing !== 0) {
 

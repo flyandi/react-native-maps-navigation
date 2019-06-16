@@ -2,7 +2,7 @@
  * @imports
  */
 import {toQueryParams, toLatLng, toCoordinate, toNameId} from './Tools';
-import GeoLib from 'geolib';
+import * as GeoLib from 'geolib';
 import TrapTypes from '../constants/TrapTypes';
 
 /**
@@ -148,7 +148,7 @@ export default class Traps {
 
                     case TrapTypes.Types.CIRCLE:
 
-                        if(GeoLib.isPointInCircle(coordinate, trap.coordinate, trap.radius)) {
+                        if(GeoLib.isPointWithinRadius(coordinate, trap.coordinate, trap.radius)) {
 
                         }
 
@@ -156,9 +156,9 @@ export default class Traps {
 
                     case TrapTypes.Types.STEP:
 
-                        const insideOuter = GeoLib.isPointInCircle(coordinate, trap.coordinate, trap.outerRadius);
+                        const insideOuter = GeoLib.isPointWithinRadius(coordinate, trap.coordinate, trap.outerRadius);
 
-                        const insideInner = GeoLib.isPointInCircle(coordinate, trap.coordinate, trap.innerRadius);
+                        const insideInner = GeoLib.isPointWithinRadius(coordinate, trap.coordinate, trap.innerRadius);
 
                         const stateMap = {
                             [TrapTypes.States.OUTSIDE]: [TrapTypes.States.ENTERED, () =>
