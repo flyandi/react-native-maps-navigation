@@ -53,7 +53,8 @@ export default class MapViewNavigation extends Component {
         routeStepCenterTolerance: PropTypes.number,
         routeStepCourseTolerance: PropTypes.number,
         displayDebugMarkers: PropTypes.bool,
-        simulate: PropTypes.bool
+        simulate: PropTypes.bool,
+        options: PropTypes.object
     }
 
     /**
@@ -83,7 +84,8 @@ export default class MapViewNavigation extends Component {
         routeStepCenterTolerance: 0.1,
         routeStepCourseTolerance: 30, // in degress
         displayDebugMarkers: false,
-        simulate: false
+        simulate: false,
+        options: {}
     }
 
     /**
@@ -302,21 +304,21 @@ export default class MapViewNavigation extends Component {
      * @param destination
      * @param navigationMode
      */
-    updateRoute(origin = false, destination = false, navigationMode = false)
+    updateRoute(origin = false, destination = false, navigationMode = false, options = null)
     {
         origin = origin || this.props.origin;
         destination = destination || this.props.destination;
         navigationMode = navigationMode || this.props.navigationMode;
+        options = options || this.props.options
 
         switch(navigationMode) {
 
             case NavigationModes.ROUTE:
-                console.log('*** ROUTE', origin, destination);
-                this.displayRoute(origin, destination);
+                this.displayRoute(origin, destination, options);
                 break;
 
             case NavigationModes.NAVIGATION:
-                this.navigateRoute(origin, destination);
+                this.navigateRoute(origin, destination, options);
                 break;
         }
     }
@@ -334,9 +336,8 @@ export default class MapViewNavigation extends Component {
         if(testForRoute && this.state.route) {
             return Promise.resolve(this.state.route);
         }
-
         options = Object.assign({}, {mode: this.state.travelMode}, {mode: this.props.travelMode}, options.constructor == Object ? options : {});
-
+        
         return this.directionsCoder.fetch(origin, destination, options).then(routes => {
 
             if(routes.length) {
@@ -382,7 +383,7 @@ export default class MapViewNavigation extends Component {
             }
 
             return Promise.resolve(route);
-        });
+        }).catch((err) => console.log(err));
     }
 
     /**
