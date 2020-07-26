@@ -128,13 +128,20 @@ export default class MapViewNavigation extends Component {
      */
     componentDidMount()
     {
-        this.watchId = navigator.geolocation.watchPosition(position => {
+        if (!this.props.simulate) {
+            this.watchId = geolocation.watchPosition(position => {
+                this.setPosition(position.coords);
+            },
+            (err) => {console.error(err)},
+            { enableHighAccuracy: true, timeout: 10, maximumAge: 0, distanceFilter: 0 });  
 
-            this.setPosition(position.coords);
-
-        });
+        } else {
+            this.watchId = navigator.geolocation.watchPosition(position => {
+                this.setPosition(position.coords);
+            });
+        }
     }
-
+    
     /**
      * @componentWillUnmount
      */
