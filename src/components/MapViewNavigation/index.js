@@ -212,9 +212,9 @@ export default class MapViewNavigation extends Component {
      * @param coordinate
      * @param duration
      */
-    updatePosition(coordinate, duration = 0) {
+    /*updatePosition(coordinate, duration = 0) {
         this.props.map().animateToCoordinate(coordinate, duration);
-    }
+    }*/
 
     /**
      * updateBearing
@@ -287,7 +287,7 @@ export default class MapViewNavigation extends Component {
         // update position on map
         if (this.state.navigationMode == NavigationModes.NAVIGATION) {
 
-            this.updatePosition(position);
+            //this.updatePosition(position);
 
             this.updateBearing(heading, longitude, latitude);
             if (this.props.onPositionChanged) {
