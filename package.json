@@ -1,11 +1,11 @@
 {
-  "name": "react-native-maps-navigation",
-  "version": "0.0.14",
+  "name": "@alirehman7141/react-native-maps-navigation",
+  "version": "0.0.16",
   "description": "A helper and component library for react-native-maps that enables navigation support",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flyandi/react-native-maps-navigation.git"
+    "url": "https://github.com/alirehman7141/react-native-maps-navigation.git"
   },
   "keywords": [
     "react",
@@ -19,13 +19,13 @@
     "android",
     "react-component"
   ],
-  "author": "Andy Schwarz <flyandi@yahoo.com> (http://flyandi.net)",
+  "author": "Ali Rehman <ali.rehman7141@gmail.com>",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/flyandi/react-native-maps-navigation/blob/master/LICENSE"
+    "url": "https://github.com/alirehman7141/react-native-maps-navigation/blob/master/LICENSE"
   },
   "bugs": {
-    "url": "https://github.com/flyandi/react-native-maps-navigation/issues"
+    "url": "https://github.com/alirehman7141/react-native-maps-navigation/issues"
   },
   "scripts": {
     "test": "jest"
@@ -33,7 +33,7 @@
   "jest": {
     "preset": "react-native"
   },
-  "homepage": "https://github.com/flyandi/react-native-maps-navigation#readme",
+  "homepage": "https://github.com/alirehman7141/react-native-maps-navigation#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
