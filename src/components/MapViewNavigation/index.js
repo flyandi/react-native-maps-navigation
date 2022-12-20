@@ -4,7 +4,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {CoordinatePropType} from '../../constants/PropTypes';
-import { View, TouchableOpacity, Text, Dimensions, Geolocation } from 'react-native';
+import { View, TouchableOpacity, Text, Dimensions } from 'react-native';
+import geolocation from '@react-native-community/geolocation';
 import connectTheme from '../../themes';
 import Geocoder from '../../modules/Geocoder';
 import Directions from '../../modules/Directions';
@@ -128,7 +129,7 @@ export default class MapViewNavigation extends Component {
      */
     componentDidMount()
     {
-        this.watchId = navigator.geolocation.watchPosition(position => {
+        this.watchId = geolocation.watchPosition(position => {
 
             this.setPosition(position.coords);
 
@@ -140,7 +141,7 @@ export default class MapViewNavigation extends Component {
      */
     componentWillUnmount()
     {
-        navigator.geolocation.clearWatch(this.watchId);
+        geolocation.clearWatch(this.watchId);
     }
 
     /**
