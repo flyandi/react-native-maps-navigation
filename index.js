@@ -16,10 +16,6 @@ import NavigationModes from './src/constants/NavigationModes';
 
 import Geocoder from './src/modules/Geocoder';
 
-
-
-
-
 /**
  * @exports
  */

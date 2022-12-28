@@ -1,10 +1,10 @@
-# react-native-maps-navigation
+# @alirehman7141/react-native-maps-navigation
 
 Enhances React Native Maps with Realtime Navigation.
 
 `Please note that this module is usable but still under heavy development. Some properties and/or component names might change without notice.`
 
-![alt text](https://github.com/flyandi/react-native-maps-navigation/raw/master/docs/preview.gif "react-native-maps-navigation")
+![alt text](https://github.com/flyandi/react-native-maps-navigation/raw/master/docs/preview.gif "react-native-maps-navigation-next")
 
 
 ## Installation
@@ -12,13 +12,7 @@ Enhances React Native Maps with Realtime Navigation.
 **React Native >= 0.49**
 
 ```bash
-yarn add react-native-maps-navigation
-```
-
-Make sure you link the module before building:
-
-```bash
-react-native link react-native-maps-navigation
+yarn add @alirehman7141/react-native-maps-navigation
 ```
 
 ## Example
